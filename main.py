@@ -3,7 +3,10 @@ import spacy
 import networkx as nx
 import pandas as pd
 import matplotlib.pyplot as plt
-
+from pathlib import Path
+import numpy as np
+import pandas as pd
+import community.community_louvain as community_louvain
 # CONFIGURAÇÕES
 ARQUIVO_PDF = "tcc_final.pdf"
 MODELO_SPACY = "pt_core_news_lg"
@@ -69,10 +72,81 @@ def top_entidades_por_grau(G, top_n=10, mostrar=True):
     
     return top_grau
 
-# EXTRAÇÃO DE TEXTO
+def contar_caminhos_n_passos(G, origem, destino, n=2):
+
+    # 1. Verificar se os nós existem no grafo
+    if origem not in G or destino not in G:
+        print(f"Erro: Um dos nós ('{origem}' ou '{destino}') não foi encontrado.")
+        return 0
+
+    # 2. Obter a matriz de adjacência e a lista de nós (para indexação)
+    # Usamos weight=None para contar apenas a existência de caminhos. 
+    # Se quiser considerar a frequência do NER, use weight='weight'.
+    adj_matrix = nx.to_numpy_array(G, weight=None)
+    nos = list(G.nodes())
+    
+    # 3. Mapear os nomes para os índices numéricos do array NumPy
+    idx_origem = nos.index(origem)
+    idx_destino = nos.index(destino)
+    
+    # 4. Elevar a matriz à potência N
+    # Isso calcula todas as combinações de caminhos de comprimento N
+    matriz_n = np.linalg.matrix_power(adj_matrix, n)
+    
+    # 5. Extrair o valor específico
+    quantidade = matriz_n[idx_origem, idx_destino]
+    
+    print(f"--- Análise de Caminhos (N={n}) ---")
+    print(f"Origem: {origem}")
+    print(f"Destino: {destino}")
+    print(f"Quantidade de caminhos encontrados: {int(quantidade)}")
+    
+    return int(quantidade)
+
+def menor_caminho_medio(G):
+    # Verifica se o grafo está conectado
+    if not nx.is_connected(G):
+        print("Grafo desconectado! Calculando para o maior componente...")
+        # Pega o maior subgrafo conectado
+        G_componente = G.subgraph(max(nx.connected_components(G), key=len))
+    else:
+        G_componente = G
+
+    caminho_medio = nx.average_shortest_path_length(G_componente, weight='weight')
+    print(f"Caminho médio do maior componente: {caminho_medio}")
+    return caminho_medio
+    
+def detectar_clusters_tematicos(G):
+    # O algoritmo de Louvain funciona melhor em grafos não-direcionados
+    if G.is_directed():
+        G_undirected = G.to_undirected()
+    else:
+        G_undirected = G
+
+    # 1. Calcula a melhor partição (clusters)
+    # O parâmetro weight='weight' garante que a frequência do NER seja levada em conta
+    clusters = community_louvain.best_partition(G_undirected, weight='weight')
+
+    # 2. Organiza os resultados para visualização
+    grupos = {}
+    for no, cluster_id in clusters.items():
+        if cluster_id not in grupos:
+            grupos[cluster_id] = []
+        grupos[cluster_id].append(no)
+
+    print(f"--- Foram detectados {len(grupos)} clusters temáticos ---")
+
+    # 3. Exibe os termos de cada cluster (limitando aos 5 primeiros por grupo)
+    for cluster_id, termos in grupos.items():
+        print(f"\nCluster {cluster_id} (Principais termos):")
+        print(", ".join(termos[:10])) # Mostra até 10 termos para dar contexto
+
+    return clusters # Retorna um dicionário {nó: id_do_cluster}
+# EXTRAÇÃO DE TEXTO 
 def extrair_texto_pdf(caminho_pdf):
     doc_pdf = fitz.open(caminho_pdf)
     return "".join([pagina.get_text() for pagina in doc_pdf])
+
 
 print("Lendo PDF...")
 texto_tcc = extrair_texto_pdf(ARQUIVO_PDF)
@@ -152,6 +226,8 @@ ego = analisar_ego_network(G, "Xgboost")
 for node, data in G.nodes(data=True):
     print(node, data)
     break
+
+
 # Visualização rápida (apenas das conexões fortes)
 plt.figure(figsize=(12, 12))
 # Filtramos apenas arestas com peso > 1 para diminuir o "ruído" visual no gráfico
@@ -159,3 +235,10 @@ subgrafo = nx.Graph([(u, v, d) for u, v, d in G.edges(data=True) if d['weight'] 
 pos = nx.spring_layout(subgrafo, k=0.3)
 nx.draw(subgrafo, pos, with_labels=True, node_size=1000, node_color="lightsalmon", font_size=8)
 plt.show()
+
+print()
+contar_caminhos_n_passos(G,"Xgboost","Random Forest",2)
+print()
+menor_caminho_medio(G)
+
+detectar_clusters_tematicos(G)
