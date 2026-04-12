@@ -1,75 +1,92 @@
 import fitz  # PyMuPDF
 import spacy
 import networkx as nx
+import pandas as pd
 import matplotlib.pyplot as plt
 
+# --- CONFIGURAÇÕES ---
+ARQUIVO_PDF = "tcc_final.pdf"
+MODELO_SPACY = "pt_core_news_lg"
+TERMOS_LIXO = ['Figura', 'Tabela', 'Capítulo', 'Pdf', 'Http', 'Https', 'E-Mail', 'Referência', 'Anexo', 'Equação', 'Art.']
+LABELS_INTERESSANTES = ["PER", "ORG", "LOC", "GPE", "MISC"]
 
+
+# --- 1. EXTRAÇÃO DE TEXTO ---
 def extrair_texto_pdf(caminho_pdf):
-    documento = fitz.open(caminho_pdf)
-    texto_completo = ""
-    
-    for pagina in documento:
-        texto_completo += pagina.get_text()
-    
-    return texto_completo
+    doc_pdf = fitz.open(caminho_pdf)
+    return "".join([pagina.get_text() for pagina in doc_pdf])
 
-# Uso
-texto_tcc = extrair_texto_pdf("tcc_final.pdf")
+print("Lendo PDF...")
+texto_tcc = extrair_texto_pdf(ARQUIVO_PDF)
 
-# Carrega o modelo de português
-# Certifica-te de ter corrido: python -m spacy download pt_core_news_lg
-nlp = spacy.load("pt_core_news_lg")
-
-
-# O texto_tcc veio da tua função com PyMuPDF
+# --- 2. PROCESSAMENTO NATURAL DE LINGUAGEM ---
+print("Carregando NLP e processando entidades...")
+nlp = spacy.load(MODELO_SPACY)
 doc = nlp(texto_tcc)
 
-# Criar uma lista para armazenar as entidades encontradas
-entidades = []
-
-for ent in doc.ents:
-    # No teu caso, PER (Pessoas) e ORG (Organizações) são as mais ricas para grafos
-    #if ent.label_ in ["PER", "ORG", "LOC"]:
-    entidades.append((ent.text, ent.label_))
-
-# Remover duplicados para ver o que foi encontrado
-#print(set(entidades))
-
-
+# --- 3. CONSTRUÇÃO DO GRAFO E COLETA DE DADOS ---
 G = nx.Graph()
+entidades_para_df = []
 
-# Exemplo simplificado por sentenças
-
-
+print("Construindo grafo de co-ocorrência...")
 for sent in doc.sents:
-    # Extrai entidades daquela sentença específica
-    ents_na_sentenca = [ent.text for ent in sent.ents]
+    # Extrair, normalizar e filtrar entidades da sentença atual
+    ents_validas = []
+    for ent in sent.ents:
+        texto_normalizado = ent.text.strip().title()
+        
+        # Filtros de qualidade
+        if (ent.label_ in LABELS_INTERESSANTES and 
+            texto_normalizado not in TERMOS_LIXO and 
+            len(texto_normalizado) > 2):
+            
+            ents_validas.append(texto_normalizado)
+            
+            # Guardar para o nosso CSV de métricas
+            entidades_para_df.append({
+                "Texto": texto_normalizado,
+                "Label": ent.label_
+            })
     
-    # Se houver mais de uma entidade, elas estão relacionadas (co-ocorrência)
-    if len(ents_na_sentenca) > 1:
-        for i in range(len(ents_na_sentenca)):
-            for j in range(i + 1, len(ents_na_sentenca)):
-                # Adiciona ou aumenta o peso da ligação
-                u, v = ents_na_sentenca[i], ents_na_sentenca[j]
+    # Remover duplicatas dentro da mesma sentença (evita self-loops)
+    ents_unicas = list(set(ents_validas))
+    
+    # Criar as relações (Arestas)
+    if len(ents_unicas) > 1:
+        for i in range(len(ents_unicas)):
+            for j in range(i + 1, len(ents_unicas)):
+                u, v = ents_unicas[i], ents_unicas[j]
                 if G.has_edge(u, v):
                     G[u][v]['weight'] += 1
                 else:
                     G.add_edge(u, v, weight=1)
 
-nx.write_graphml(G, "meu_grafo_tcc.graphml")
+# --- 4. TRATAMENTO DA BASE DE DADOS (PANDAS) ---
+print("Gerando CSV de métricas...")
+df_bruto = pd.DataFrame(entidades_para_df)
+df_limpo = df_bruto.groupby(['Texto', 'Label']).size().reset_index(name='Frequencia')
+df_limpo = df_limpo.sort_values(by='Frequencia', ascending=False)
 
-# Configura o tamanho da imagem
+# Adicionando uma métrica de relevância simples
+total_ents = df_limpo['Frequencia'].sum()
+df_limpo['Relevancia_%'] = (df_limpo['Frequencia'] / total_ents * 100).round(2)
+
+# Salvar CSV final
+df_limpo.to_csv("entidades_tcc_final.csv", index=False, encoding='utf-8-sig')
+
+# --- 5. EXPORTAÇÃO E VISUALIZAÇÃO ---
+# Salvar grafo para abrir no Gephi (Recomendado para o TCC)
+nx.write_graphml(G, "grafo_final.graphml")
+
+print(f"\n--- RELATÓRIO FINAL ---")
+print(f"Total de entidades únicas: {len(df_limpo)}")
+print(f"Total de conexões criadas: {G.number_of_edges()}")
+print(f"Arquivos gerados: 'entidades_tcc_final.csv' e 'grafo_final.graphml'")
+
+# Visualização rápida (apenas das conexões fortes)
 plt.figure(figsize=(12, 12))
-
-# Define o layout (o modo como os nós se espalham)
-pos = nx.spring_layout(G, k=0.5) 
-
-# Desenha o grafo
-nx.draw(G, pos, with_labels=True, 
-        node_color='skyblue', 
-        node_size=2000, 
-        edge_color='gray', 
-        font_size=10, 
-        width=[G[u][v]['weight'] for u, v in G.edges()])
-
+# Filtramos apenas arestas com peso > 1 para diminuir o "ruído" visual no gráfico
+subgrafo = nx.Graph([(u, v, d) for u, v, d in G.edges(data=True) if d['weight'] > 1])
+pos = nx.spring_layout(subgrafo, k=0.3)
+nx.draw(subgrafo, pos, with_labels=True, node_size=1000, node_color="lightsalmon", font_size=8)
 plt.show()
