@@ -1,0 +1,7 @@
+pymupdf
+spacy
+networkx
+pandas
+matplotlib
+numpy
+python-louvain
