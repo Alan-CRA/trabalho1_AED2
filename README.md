@@ -2,21 +2,38 @@
 
 Ferramenta para análise de entidades nomeadas (NER) em documentos PDF acadêmicos, com construção de grafos de co-ocorrência por frase e por parágrafo. Possui interface gráfica via Streamlit e exportação para o Gephi.
 
+### Alunos:
+- Alan César Rebouças de Araújo Carvalho
+- Erick Henrique da Silva Paz
+- Matheus Silva Mendes 
 ---
-
 ## 🚀 Instalação
+
+### 📦 Dependências
+
+| Biblioteca | Uso |
+|---|---|
+| `streamlit` | Interface gráfica |
+| `pymupdf (fitz)` | Leitura do PDF |
+| `spacy` | NER — reconhecimento de entidades |
+| `networkx` | Construção e análise dos grafos |
+| `pandas` | Manipulação dos dados |
+| `matplotlib` | Visualização dos grafos |
+| `numpy` | Cálculo matricial para caminhos |
+| `python-louvain` | Detecção de clusters temáticos |
+
 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Alan-CRA/trabalho1_AED2.git
+cd trabalho1_AED2
 ```
 
 ### 2. Instale as dependências Python
 
 ```bash
-pip install streamlit pymupdf spacy networkx pandas matplotlib numpy python-louvain
+pip install -r requirements.txt
 ```
 
 ### 3. Instale o modelo de linguagem em português
@@ -24,7 +41,10 @@ pip install streamlit pymupdf spacy networkx pandas matplotlib numpy python-louv
 ```bash
 python -m spacy download pt_core_news_lg
 ```
-
+### 3.1 Caso o comando anterior não der certo por qualquer motivo, tente:
+```bash
+pip install https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0-py3-none-any.whl
+```
 ---
 
 ## ▶️ Como usar
@@ -77,6 +97,28 @@ Todas as análises são feitas duas vezes: uma com **co-ocorrência por frase** 
 
 ---
 
+## Resultados obtidos
+
+É possível ver os resultados na página gerada pelo streamlit
+### Resultados por frase
+![](images/top%20entidades%20frase.png)
+![](images/frequencia%20entidades%20frase.png)
+![](images/clusters%20frase.png)
+![](images/grafo%20por%20frase.svg)
+![](images/grafo%20xgboost%20por%20frase.svg)
+
+### Resultados por paragrafo
+![](images/top%20entidades%20paragrafo.png)
+![](images/frequencia%20entidades%20paragrafo.png)
+![](images/clusters%20paragrafo.png)
+![](images/grafo%20por%20paragrafo.svg)
+![](images/grafo%20xgboost%20por%20paragrafo.svg)
+
+## Analises feitas
+
+
+
+
 ## 📁 Arquivos gerados
 
 | Arquivo | Descrição |
@@ -112,15 +154,3 @@ TERMOS_LIXO = ['Capítulo', 'Pdf', 'Http', ...]  # Termos a ignorar
 
 ---
 
-## 📦 Dependências
-
-| Biblioteca | Uso |
-|---|---|
-| `streamlit` | Interface gráfica |
-| `pymupdf (fitz)` | Leitura do PDF |
-| `spacy` | NER — reconhecimento de entidades |
-| `networkx` | Construção e análise dos grafos |
-| `pandas` | Manipulação dos dados |
-| `matplotlib` | Visualização dos grafos |
-| `numpy` | Cálculo matricial para caminhos |
-| `python-louvain` | Detecção de clusters temáticos |

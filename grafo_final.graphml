@@ -1,40 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="long"/>
 <key id="d0" for="node" attr.name="tipo" attr.type="string"/>
-<graph edgedefault="undirected"><node id="Rodrigues&#10;Predição">
-  <data key="d0">PER</data>
-</node>
-<node id="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
-  <data key="d0">LOC</data>
-</node>
-<node id="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição">
-  <data key="d0">LOC</data>
-</node>
-<node id="Terra Da Universidade&#10;Federal Do">
-  <data key="d0">LOC</data>
-</node>
-<node id="Estatística">
-  <data key="d0">LOC</data>
-</node>
-<node id="Makson">
-  <data key="d0">PER</data>
-</node>
-<node id="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
-  <data key="d0">ORG</data>
-</node>
-<node id="Monografia De Graduação">
-  <data key="d0">MISC</data>
-</node>
-<node id="Rio Grande Do Norte">
+<graph edgedefault="undirected"><node id="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição">
   <data key="d0">LOC</data>
 </node>
 <node id="Makson Pedro">
   <data key="d0">PER</data>
 </node>
+<node id="Rodrigues&#10;Predição">
+  <data key="d0">PER</data>
+</node>
+<node id="Terra Da Universidade&#10;Federal Do">
+  <data key="d0">LOC</data>
+</node>
+<node id="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
+  <data key="d0">ORG</data>
+</node>
+<node id="Estatística">
+  <data key="d0">LOC</data>
+</node>
+<node id="Rio Grande Do Norte">
+  <data key="d0">LOC</data>
+</node>
+<node id="Makson">
+  <data key="d0">PER</data>
+</node>
 <node id="Natal">
   <data key="d0">LOC</data>
 </node>
+<node id="Monografia De Graduação">
+  <data key="d0">MISC</data>
+</node>
+<node id="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
+  <data key="d0">LOC</data>
+</node>
 <node id="Ufrn">
+  <data key="d0">LOC</data>
+</node>
+<node id="Natal-Rn">
   <data key="d0">LOC</data>
 </node>
 <node id="Departamento De Estatística">
@@ -42,9 +45,6 @@
 </node>
 <node id="Dr. Marcelo Bourguignon Pereira&#10;Universidade Federal Do Rio Grande Do Norte">
   <data key="d0">PER</data>
-</node>
-<node id="Natal-Rn">
-  <data key="d0">LOC</data>
 </node>
 <node id="Rodrigues">
   <data key="d0">LOC</data>
@@ -70,10 +70,13 @@
 <node id="I. Pereira">
   <data key="d0">PER</data>
 </node>
+<node id="Ccet">
+  <data key="d0">LOC</data>
+</node>
 <node id="Cdu">
   <data key="d0">ORG</data>
 </node>
-<node id="Ccet">
+<node id="Universidade Federal Do Rio Grande Do Norte">
   <data key="d0">LOC</data>
 </node>
 <node id="Sisbi">
@@ -82,11 +85,14 @@
 <node id="Sistema De Bibliotecas">
   <data key="d0">ORG</data>
 </node>
-<node id="Universidade Federal Do Rio Grande Do Norte">
-  <data key="d0">LOC</data>
-</node>
 <node id="Biblioteca Setorial Prof">
   <data key="d0">LOC</data>
+</node>
+<node id="Ronaldo Xavier De Arruda">
+  <data key="d0">PER</data>
+</node>
+<node id="Estatístico">
+  <data key="d0">MISC</data>
 </node>
 <node id="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis">
   <data key="d0">MISC</data>
@@ -94,20 +100,14 @@
 <node id="Ccet&#10;Elaborado Por">
   <data key="d0">LOC</data>
 </node>
-<node id="Joseneide Ferreira Dantas - Crb-15/324">
-  <data key="d0">PER</data>
+<node id="Universidade Federal Do Rio &#10;Grande Do Norte">
+  <data key="d0">LOC</data>
 </node>
 <node id="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
   <data key="d0">MISC</data>
 </node>
-<node id="Estatístico">
-  <data key="d0">MISC</data>
-</node>
-<node id="Ronaldo Xavier De Arruda">
+<node id="Joseneide Ferreira Dantas - Crb-15/324">
   <data key="d0">PER</data>
-</node>
-<node id="Universidade Federal Do Rio &#10;Grande Do Norte">
-  <data key="d0">LOC</data>
 </node>
 <node id="Banca">
   <data key="d0">ORG</data>
@@ -121,10 +121,10 @@
 <node id="Do Rio Grande Do Norte">
   <data key="d0">MISC</data>
 </node>
-<node id="Dr. Lutemberg">
+<node id="Araújo Florêncio">
   <data key="d0">PER</data>
 </node>
-<node id="Araújo Florêncio">
+<node id="Dr. Lutemberg">
   <data key="d0">PER</data>
 </node>
 <node id="Agradeço">
@@ -136,41 +136,59 @@
 <node id="Iraci De Fátima Bonfim">
   <data key="d0">PER</data>
 </node>
-<node id="Marcelo Bourguignon">
+<node id="Marcus Nunes">
   <data key="d0">PER</data>
 </node>
-<node id="Marcus Nunes">
+<node id="Marcelo Bourguignon">
   <data key="d0">PER</data>
 </node>
 <node id="Iniciação Científica">
   <data key="d0">MISC</data>
 </node>
-<node id="Estephany Duarte">
-  <data key="d0">PER</data>
-</node>
 <node id="Lucas Gabriel">
   <data key="d0">PER</data>
 </node>
-<node id="Marcus&#10;Nunes">
+<node id="Estephany Duarte">
   <data key="d0">PER</data>
 </node>
 <node id="Mariana">
   <data key="d0">PER</data>
 </node>
+<node id="Eliardo">
+  <data key="d0">PER</data>
+</node>
 <node id="Damião">
   <data key="d0">PER</data>
 </node>
-<node id="Eliardo">
+<node id="Marcus&#10;Nunes">
   <data key="d0">PER</data>
 </node>
 <node id="Mikhail Tal&#10;Predição De Preços De Imóveis">
   <data key="d0">PER</data>
 </node>
+<node id="Erro&#10;Absoluto Médio">
+  <data key="d0">MISC</data>
+</node>
+<node id="Raíz Do Erro Quadrático Médio">
+  <data key="d0">MISC</data>
+</node>
+<node id="Svm">
+  <data key="d0">ORG</data>
+</node>
 <node id="Rmse">
   <data key="d0">ORG</data>
 </node>
-<node id="Mae">
-  <data key="d0">PER</data>
+<node id="Mape">
+  <data key="d0">ORG</data>
+</node>
+<node id="Random Forest">
+  <data key="d0">LOC</data>
+</node>
+<node id="Xgboost">
+  <data key="d0">MISC</data>
+</node>
+<node id="Coeficiente De Determinação">
+  <data key="d0">MISC</data>
 </node>
 <node id="Erro Percentual Absoluto&#10;Médio">
   <data key="d0">MISC</data>
@@ -178,26 +196,8 @@
 <node id="Cubist">
   <data key="d0">LOC</data>
 </node>
-<node id="Random Forest">
-  <data key="d0">LOC</data>
-</node>
-<node id="Svm">
-  <data key="d0">ORG</data>
-</node>
-<node id="Erro&#10;Absoluto Médio">
-  <data key="d0">MISC</data>
-</node>
-<node id="Xgboost">
-  <data key="d0">MISC</data>
-</node>
-<node id="Raíz Do Erro Quadrático Médio">
-  <data key="d0">MISC</data>
-</node>
-<node id="Mape">
-  <data key="d0">ORG</data>
-</node>
-<node id="Coeficiente De Determinação">
-  <data key="d0">MISC</data>
+<node id="Mae">
+  <data key="d0">PER</data>
 </node>
 <node id="Shiny">
   <data key="d0">MISC</data>
@@ -208,11 +208,11 @@
 <node id="Inteligência Artificial">
   <data key="d0">MISC</data>
 </node>
-<node id="Prediction Of Real Estate Prices In Natal">
-  <data key="d0">MISC</data>
-</node>
 <node id="Abstract">
   <data key="d0">LOC</data>
+</node>
+<node id="Prediction Of Real Estate Prices In Natal">
+  <data key="d0">MISC</data>
 </node>
 <node id="Because Of The Complexity Of The Topic">
   <data key="d0">ORG</data>
@@ -226,22 +226,22 @@
 <node id="This Work Aims To Develop">
   <data key="d0">MISC</data>
 </node>
-<node id="Mean Absolute&#10;Error">
+<node id="Coefficient Of Determination">
   <data key="d0">MISC</data>
 </node>
 <node id="Mean Absolute Percentage Error">
   <data key="d0">MISC</data>
 </node>
-<node id="Coefficient Of Determination">
-  <data key="d0">MISC</data>
-</node>
 <node id="Root Mean Squared Error">
   <data key="d0">MISC</data>
 </node>
-<node id="Keywords: Machine Learning">
+<node id="Mean Absolute&#10;Error">
   <data key="d0">MISC</data>
 </node>
 <node id="Artificial Intelligence">
+  <data key="d0">MISC</data>
+</node>
+<node id="Keywords: Machine Learning">
   <data key="d0">MISC</data>
 </node>
 <node id="Leaflet">
@@ -268,34 +268,34 @@
 <node id="Apêndice D -- Código R">
   <data key="d0">MISC</data>
 </node>
-<node id="Engenharia&#10;De Avaliações">
-  <data key="d0">ORG</data>
-</node>
 <node id="Brasil">
   <data key="d0">LOC</data>
 </node>
-<node id="Abnt Nbr">
-  <data key="d0">MISC</data>
+<node id="Engenharia&#10;De Avaliações">
+  <data key="d0">ORG</data>
 </node>
 <node id="Abnt">
   <data key="d0">ORG</data>
 </node>
+<node id="Abnt Nbr">
+  <data key="d0">MISC</data>
+</node>
 <node id="Modelos Aditivos Generalizados Para Local">
-  <data key="d0">MISC</data>
-</node>
-<node id="Florêncio">
-  <data key="d0">MISC</data>
-</node>
-<node id="Escala E Forma">
   <data key="d0">MISC</data>
 </node>
 <node id="Scale And Shape">
   <data key="d0">MISC</data>
 </node>
-<node id="Gamlss">
+<node id="Escala E Forma">
+  <data key="d0">MISC</data>
+</node>
+<node id="Florêncio">
   <data key="d0">MISC</data>
 </node>
 <node id="Generalized Additive Models For Location">
+  <data key="d0">MISC</data>
+</node>
+<node id="Gamlss">
   <data key="d0">MISC</data>
 </node>
 <node id="Bandeira">
@@ -310,11 +310,11 @@
 <node id="Ferreira">
   <data key="d0">ORG</data>
 </node>
-<node id="Zilli">
-  <data key="d0">MISC</data>
-</node>
 <node id="Bastos E Silva">
   <data key="d0">PER</data>
+</node>
+<node id="Zilli">
+  <data key="d0">MISC</data>
 </node>
 <node id="Sinduscon">
   <data key="d0">LOC</data>
@@ -325,22 +325,22 @@
 <node id="Sebrae-Rn">
   <data key="d0">PER</data>
 </node>
-<node id="Lei Complementar">
-  <data key="d0">MISC</data>
-</node>
 <node id="Plano Diretor Do Município Do Natal">
   <data key="d0">MISC</data>
 </node>
-<node id="Pereira">
-  <data key="d0">LOC</data>
+<node id="Lei Complementar">
+  <data key="d0">MISC</data>
 </node>
 <node id="João Pessoa">
   <data key="d0">LOC</data>
 </node>
-<node id="Rio&#10;Grande Do Norte">
+<node id="Pereira">
   <data key="d0">LOC</data>
 </node>
 <node id="Estado Do">
+  <data key="d0">LOC</data>
+</node>
+<node id="Rio&#10;Grande Do Norte">
   <data key="d0">LOC</data>
 </node>
 <node id="Objetivo Geral">
@@ -376,14 +376,14 @@
 <node id="Breiman">
   <data key="d0">LOC</data>
 </node>
-<node id="B&#10;B&#10;X">
-  <data key="d0">MISC</data>
-</node>
 <node id="Dom Forest">
   <data key="d0">LOC</data>
 </node>
 <node id="Ran-">
   <data key="d0">LOC</data>
+</node>
+<node id="B&#10;B&#10;X">
+  <data key="d0">MISC</data>
 </node>
 <node id="Boosting">
   <data key="d0">MISC</data>
@@ -394,16 +394,16 @@
 <node id="L(Y">
   <data key="d0">ORG</data>
 </node>
-<node id="I(Xi">
-  <data key="d0">LOC</data>
-</node>
 <node id="Jm&#10;X">
   <data key="d0">MISC</data>
 </node>
-<node id="Região Rjm">
+<node id="I(Xi">
   <data key="d0">LOC</data>
 </node>
 <node id="I(X ∈Rjm">
+  <data key="d0">LOC</data>
+</node>
+<node id="Região Rjm">
   <data key="d0">LOC</data>
 </node>
 <node id="Support Vector&#10;Machine">
@@ -412,19 +412,19 @@
 <node id="Drucker">
   <data key="d0">ORG</data>
 </node>
-<node id="N&#10;X">
+<node id="K(Xi">
   <data key="d0">MISC</data>
-</node>
-<node id="Patranabis">
-  <data key="d0">ORG</data>
-</node>
-<node id="Basak">
-  <data key="d0">PER</data>
 </node>
 <node id="Pal">
   <data key="d0">MISC</data>
 </node>
-<node id="K(Xi">
+<node id="Basak">
+  <data key="d0">PER</data>
+</node>
+<node id="Patranabis">
+  <data key="d0">ORG</data>
+</node>
+<node id="N&#10;X">
   <data key="d0">MISC</data>
 </node>
 <node id="Lagrange">
@@ -433,14 +433,14 @@
 <node id="Máquinas De Vetores De Suporte">
   <data key="d0">MISC</data>
 </node>
-<node id="Rbf">
-  <data key="d0">MISC</data>
-</node>
 <node id="Radial Basis Function">
   <data key="d0">MISC</data>
 </node>
-<node id="K(X">
-  <data key="d0">PER</data>
+<node id="Rbf">
+  <data key="d0">MISC</data>
+</node>
+<node id="Schölkopf">
+  <data key="d0">MISC</data>
 </node>
 <node id="Vert">
   <data key="d0">MISC</data>
@@ -448,14 +448,14 @@
 <node id="Tsuda">
   <data key="d0">LOC</data>
 </node>
-<node id="Schölkopf">
+<node id="K(X">
+  <data key="d0">PER</data>
+</node>
+<node id="Exp">
   <data key="d0">MISC</data>
 </node>
 <node id="−X′∥2">
   <data key="d0">ORG</data>
-</node>
-<node id="Exp">
-  <data key="d0">MISC</data>
 </node>
 <node id="Kernel Rbf">
   <data key="d0">MISC</data>
@@ -463,28 +463,28 @@
 <node id="Quinlan">
   <data key="d0">MISC</data>
 </node>
-<node id="Kuhn">
-  <data key="d0">MISC</data>
-</node>
 <node id="Johnson">
   <data key="d0">PER</data>
 </node>
-<node id="Banheiro">
-  <data key="d0">LOC</data>
+<node id="Kuhn">
+  <data key="d0">MISC</data>
 </node>
 <node id="Iptu">
-  <data key="d0">PER</data>
+  <data key="d0">LOC</data>
 </node>
 <node id="Vaga">
   <data key="d0">LOC</data>
 </node>
-<node id="Padgham Et Al">
+<node id="Banheiro">
+  <data key="d0">LOC</data>
+</node>
+<node id="Zap Imóveis">
   <data key="d0">MISC</data>
 </node>
 <node id="Openstreetmap">
   <data key="d0">MISC</data>
 </node>
-<node id="Zap Imóveis">
+<node id="Padgham Et Al">
   <data key="d0">MISC</data>
 </node>
 <node id="Distância">
@@ -526,11 +526,11 @@
 <node id="Médio Absoluto">
   <data key="d0">LOC</data>
 </node>
-<node id="Min_N">
-  <data key="d0">PER</data>
-</node>
 <node id="Hiperparâmetro">
   <data key="d0">LOC</data>
+</node>
+<node id="Min_N">
+  <data key="d0">PER</data>
 </node>
 <node id="Apêndice A.">
   <data key="d0">MISC</data>
@@ -547,11 +547,17 @@
 <node id="Committees">
   <data key="d0">LOC</data>
 </node>
-<node id="Quartil">
+<node id="Variável Valor">
+  <data key="d0">MISC</data>
+</node>
+<node id="Figura">
   <data key="d0">MISC</data>
 </node>
 <node id="Média">
   <data key="d0">LOC</data>
+</node>
+<node id="Quartil">
+  <data key="d0">MISC</data>
 </node>
 <node id="Quarto">
   <data key="d0">LOC</data>
@@ -568,16 +574,19 @@
 <node id="Pela Tabela 7">
   <data key="d0">MISC</data>
 </node>
+<node id="Boehmke">
+  <data key="d0">LOC</data>
+</node>
 <node id="Figuras 13">
   <data key="d0">MISC</data>
 </node>
 <node id="Greenwell">
   <data key="d0">ORG</data>
 </node>
-<node id="Boehmke">
+<node id="Vagas">
   <data key="d0">LOC</data>
 </node>
-<node id="Vagas">
+<node id="Granjon">
   <data key="d0">LOC</data>
 </node>
 <node id="Css">
@@ -588,9 +597,6 @@
 </node>
 <node id="Html">
   <data key="d0">MISC</data>
-</node>
-<node id="Granjon">
-  <data key="d0">LOC</data>
 </node>
 <node id="Biblioteca Shinyjs">
   <data key="d0">LOC</data>
@@ -610,11 +616,11 @@
 <node id="Rio Grande&#10;Do Norte">
   <data key="d0">LOC</data>
 </node>
-<node id="Nbr">
-  <data key="d0">PER</data>
-</node>
 <node id="Avaliação De Bens">
   <data key="d0">MISC</data>
+</node>
+<node id="Nbr">
+  <data key="d0">PER</data>
 </node>
 <node id="Abreu">
   <data key="d0">ORG</data>
@@ -643,11 +649,11 @@
 <node id="Guestrin">
   <data key="d0">ORG</data>
 </node>
-<node id="Leaflet’&#10;Library">
-  <data key="d0">MISC</data>
-</node>
 <node id="C. Leaflet: Create Interactive Web Maps With The Javascript ’">
   <data key="d0">PER</data>
+</node>
+<node id="Leaflet’&#10;Library">
+  <data key="d0">MISC</data>
 </node>
 <node id="Neurips">
   <data key="d0">ORG</data>
@@ -661,17 +667,20 @@
 <node id="A. A. Avaliação">
   <data key="d0">PER</data>
 </node>
-<node id="Mestrado">
+<node id="Universidade Federal Do Ceará">
   <data key="d0">LOC</data>
 </node>
 <node id="Ufc">
   <data key="d0">LOC</data>
 </node>
-<node id="Universidade Federal Do Ceará">
+<node id="Mestrado">
   <data key="d0">LOC</data>
 </node>
 <node id="L. De A. Engenharia De Avaliações Com Base Em Modelos Gamlss">
   <data key="d0">PER</data>
+</node>
+<node id="Recife">
+  <data key="d0">LOC</data>
 </node>
 <node id="Dissertação De Mestrado Em Estatística">
   <data key="d0">MISC</data>
@@ -682,11 +691,11 @@
 <node id="Universidade Federal De&#10;Pernambuco">
   <data key="d0">LOC</data>
 </node>
-<node id="Recife">
-  <data key="d0">LOC</data>
-</node>
 <node id="D. Shinydashboard: Create Dashboards With ’Shiny">
   <data key="d0">PER</data>
+</node>
+<node id="An Introduction&#10;To The Vip Package">
+  <data key="d0">MISC</data>
 </node>
 <node id="B. C. Variable">
   <data key="d0">PER</data>
@@ -694,20 +703,17 @@
 <node id="B. M.; Boehmke">
   <data key="d0">PER</data>
 </node>
-<node id="An Introduction&#10;To The Vip Package">
-  <data key="d0">MISC</data>
-</node>
 <node id="Https://Doi.Org/10.32614/Rj-2020-013">
   <data key="d0">LOC</data>
 </node>
 <node id="T. M.">
   <data key="d0">PER</data>
 </node>
-<node id="São Carlos">
-  <data key="d0">LOC</data>
-</node>
 <node id="Rafael Izbicki">
   <data key="d0">PER</data>
+</node>
+<node id="São Carlos">
+  <data key="d0">LOC</data>
 </node>
 <node id="K. Applied Predictive Modeling">
   <data key="d0">PER</data>
@@ -730,11 +736,11 @@
 <node id="W. D. O. Estatística Básica">
   <data key="d0">PER</data>
 </node>
-<node id="Editora&#10;Saraiva">
-  <data key="d0">PER</data>
-</node>
 <node id="São Paulo">
   <data key="d0">LOC</data>
+</node>
+<node id="Editora&#10;Saraiva">
+  <data key="d0">PER</data>
 </node>
 <node id="S. R. V.; Silva">
   <data key="d0">PER</data>
@@ -754,10 +760,10 @@
 <node id="Collaborative Project To Create A Free&#10;Editable Map Of The World">
   <data key="d0">MISC</data>
 </node>
-<node id="Under The Open Database License">
+<node id="Odbl">
   <data key="d0">MISC</data>
 </node>
-<node id="Odbl">
+<node id="Under The Open Database License">
   <data key="d0">MISC</data>
 </node>
 <node id="Padgham">
@@ -778,11 +784,11 @@
 <node id="G. D. J.">
   <data key="d0">PER</data>
 </node>
-<node id="Universidade Federal Da Paraíba">
-  <data key="d0">LOC</data>
-</node>
 <node id="Trabalho De Conclusão De Curso">
   <data key="d0">MISC</data>
+</node>
+<node id="Universidade Federal Da Paraíba">
+  <data key="d0">LOC</data>
 </node>
 <node id="Graduação Em Estatística">
   <data key="d0">MISC</data>
@@ -799,26 +805,26 @@
 <node id="Censo Imobiliário&#10;2024">
   <data key="d0">MISC</data>
 </node>
-<node id="L. T.">
-  <data key="d0">PER</data>
-</node>
 <node id="Veloso">
   <data key="d0">MISC</data>
 </node>
-<node id="Universidade De São Paulo">
-  <data key="d0">LOC</data>
+<node id="L. T.">
+  <data key="d0">PER</data>
 </node>
 <node id="São&#10;Paulo">
+  <data key="d0">LOC</data>
+</node>
+<node id="Universidade De São Paulo">
   <data key="d0">LOC</data>
 </node>
 <node id="B. A">
   <data key="d0">PER</data>
 </node>
-<node id="Using Support Vector Regression">
-  <data key="d0">MISC</data>
-</node>
 <node id="J. Y. Housing Price">
   <data key="d0">PER</data>
+</node>
+<node id="Using Support Vector Regression">
+  <data key="d0">MISC</data>
 </node>
 <node id="Master’S&#10;Project">
   <data key="d0">MISC</data>
@@ -826,29 +832,29 @@
 <node id="Computer Science">
   <data key="d0">MISC</data>
 </node>
+<node id="M.S.">
+  <data key="d0">PER</data>
+</node>
 <node id="San José State University">
   <data key="d0">LOC</data>
 </node>
 <node id="Usa">
   <data key="d0">MISC</data>
 </node>
-<node id="M.S.">
-  <data key="d0">PER</data>
-</node>
-<node id="C. A.">
+<node id="L. C.; Silva">
   <data key="d0">PER</data>
 </node>
 <node id="L. R.">
   <data key="d0">PER</data>
 </node>
-<node id="L. C.; Silva">
+<node id="C. A.">
   <data key="d0">PER</data>
-</node>
-<node id="Tune">
-  <data key="d0">MISC</data>
 </node>
 <node id="Random&#10;Forest&#10;1&#10;Set.Seed(392">
   <data key="d0">MISC</data>
+</node>
+<node id="Tune">
+  <data key="d0">LOC</data>
 </node>
 <node id="Apêndice B -- Código R">
   <data key="d0">MISC</data>
@@ -859,125 +865,149 @@
 <node id="Svm_Rbf">
   <data key="d0">LOC</data>
 </node>
-<edge source="Rodrigues&#10;Predição" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
+<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Makson Pedro">
   <data key="d1">1</data>
 </edge>
-<edge source="Rodrigues&#10;Predição" target="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rodrigues&#10;Predição" target="Terra Da Universidade&#10;Federal Do">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rodrigues&#10;Predição" target="Estatística">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rodrigues&#10;Predição" target="Makson">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rodrigues&#10;Predição" target="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rodrigues&#10;Predição" target="Monografia De Graduação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rodrigues&#10;Predição" target="Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rodrigues&#10;Predição" target="Makson Pedro">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rodrigues&#10;Predição" target="Natal">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Terra Da Universidade&#10;Federal Do">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Estatística">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Makson">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Monografia De Graduação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Makson Pedro">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas" target="Natal">
+<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Rodrigues&#10;Predição">
   <data key="d1">1</data>
 </edge>
 <edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Terra Da Universidade&#10;Federal Do">
   <data key="d1">1</data>
 </edge>
-<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Estatística">
-  <data key="d1">1</data>
-</edge>
-<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Makson">
-  <data key="d1">1</data>
-</edge>
 <edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
   <data key="d1">1</data>
 </edge>
-<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Monografia De Graduação">
+<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Estatística">
   <data key="d1">1</data>
 </edge>
 <edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Makson Pedro">
+<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Makson">
   <data key="d1">1</data>
 </edge>
 <edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Natal">
   <data key="d1">1</data>
 </edge>
-<edge source="Terra Da Universidade&#10;Federal Do" target="Estatística">
+<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Monografia De Graduação">
   <data key="d1">1</data>
 </edge>
-<edge source="Terra Da Universidade&#10;Federal Do" target="Makson">
+<edge source="Terra&#10;Departamento De Estatística&#10;Bacharelado Em Estatística&#10;Predição" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Rodrigues&#10;Predição">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Terra Da Universidade&#10;Federal Do">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Estatística">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Rio Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Makson">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Natal">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Monografia De Graduação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson Pedro" target="Rodrigues">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rodrigues&#10;Predição" target="Terra Da Universidade&#10;Federal Do">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rodrigues&#10;Predição" target="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rodrigues&#10;Predição" target="Estatística">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rodrigues&#10;Predição" target="Rio Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rodrigues&#10;Predição" target="Makson">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rodrigues&#10;Predição" target="Natal">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rodrigues&#10;Predição" target="Monografia De Graduação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rodrigues&#10;Predição" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
   <data key="d1">1</data>
 </edge>
 <edge source="Terra Da Universidade&#10;Federal Do" target="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
   <data key="d1">1</data>
 </edge>
-<edge source="Terra Da Universidade&#10;Federal Do" target="Monografia De Graduação">
+<edge source="Terra Da Universidade&#10;Federal Do" target="Estatística">
   <data key="d1">1</data>
 </edge>
 <edge source="Terra Da Universidade&#10;Federal Do" target="Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Terra Da Universidade&#10;Federal Do" target="Makson Pedro">
+<edge source="Terra Da Universidade&#10;Federal Do" target="Makson">
   <data key="d1">1</data>
 </edge>
 <edge source="Terra Da Universidade&#10;Federal Do" target="Natal">
   <data key="d1">1</data>
 </edge>
-<edge source="Estatística" target="Makson">
+<edge source="Terra Da Universidade&#10;Federal Do" target="Monografia De Graduação">
   <data key="d1">1</data>
 </edge>
-<edge source="Estatística" target="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
+<edge source="Terra Da Universidade&#10;Federal Do" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
   <data key="d1">1</data>
 </edge>
-<edge source="Estatística" target="Monografia De Graduação">
+<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Estatística">
+  <data key="d1">1</data>
+</edge>
+<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Rio Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Makson">
+  <data key="d1">1</data>
+</edge>
+<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Natal">
+  <data key="d1">1</data>
+</edge>
+<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Monografia De Graduação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
   <data key="d1">1</data>
 </edge>
 <edge source="Estatística" target="Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Estatística" target="Makson Pedro">
+<edge source="Estatística" target="Makson">
   <data key="d1">1</data>
 </edge>
 <edge source="Estatística" target="Natal">
   <data key="d1">2</data>
+</edge>
+<edge source="Estatística" target="Monografia De Graduação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Estatística" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Estatística" target="Ronaldo Xavier De Arruda">
+  <data key="d1">1</data>
+</edge>
+<edge source="Estatística" target="Estatístico">
+  <data key="d1">1</data>
 </edge>
 <edge source="Estatística" target="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis">
   <data key="d1">1</data>
@@ -985,70 +1015,49 @@
 <edge source="Estatística" target="Ccet&#10;Elaborado Por">
   <data key="d1">1</data>
 </edge>
-<edge source="Estatística" target="Joseneide Ferreira Dantas - Crb-15/324">
+<edge source="Estatística" target="Universidade Federal Do Rio &#10;Grande Do Norte">
   <data key="d1">1</data>
 </edge>
 <edge source="Estatística" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Estatística" target="Estatístico">
+<edge source="Estatística" target="Joseneide Ferreira Dantas - Crb-15/324">
   <data key="d1">1</data>
 </edge>
-<edge source="Estatística" target="Ronaldo Xavier De Arruda">
-  <data key="d1">1</data>
-</edge>
-<edge source="Estatística" target="Universidade Federal Do Rio &#10;Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Makson" target="Departamento De Estatística Do Centro De&#10;Ciências Exatas">
-  <data key="d1">1</data>
-</edge>
-<edge source="Makson" target="Monografia De Graduação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Makson" target="Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Makson" target="Makson Pedro">
-  <data key="d1">1</data>
-</edge>
-<edge source="Makson" target="Natal">
-  <data key="d1">1</data>
-</edge>
-<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Monografia De Graduação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Makson Pedro">
-  <data key="d1">1</data>
-</edge>
-<edge source="Departamento De Estatística Do Centro De&#10;Ciências Exatas" target="Natal">
-  <data key="d1">1</data>
-</edge>
-<edge source="Monografia De Graduação" target="Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Monografia De Graduação" target="Makson Pedro">
-  <data key="d1">1</data>
-</edge>
-<edge source="Monografia De Graduação" target="Natal">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rio Grande Do Norte" target="Makson Pedro">
+<edge source="Rio Grande Do Norte" target="Makson">
   <data key="d1">1</data>
 </edge>
 <edge source="Rio Grande Do Norte" target="Natal">
   <data key="d1">2</data>
 </edge>
-<edge source="Makson Pedro" target="Natal">
+<edge source="Rio Grande Do Norte" target="Monografia De Graduação">
   <data key="d1">1</data>
 </edge>
-<edge source="Makson Pedro" target="Rodrigues">
+<edge source="Rio Grande Do Norte" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson" target="Natal">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson" target="Monografia De Graduação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Makson" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Natal" target="Monografia De Graduação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Natal" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
   <data key="d1">1</data>
 </edge>
 <edge source="Natal" target="Makson Pedro Rodrigues">
+  <data key="d1">1</data>
+</edge>
+<edge source="Natal" target="Ronaldo Xavier De Arruda">
+  <data key="d1">1</data>
+</edge>
+<edge source="Natal" target="Estatístico">
   <data key="d1">1</data>
 </edge>
 <edge source="Natal" target="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis">
@@ -1057,19 +1066,13 @@
 <edge source="Natal" target="Ccet&#10;Elaborado Por">
   <data key="d1">1</data>
 </edge>
-<edge source="Natal" target="Joseneide Ferreira Dantas - Crb-15/324">
+<edge source="Natal" target="Universidade Federal Do Rio &#10;Grande Do Norte">
   <data key="d1">1</data>
 </edge>
 <edge source="Natal" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Natal" target="Estatístico">
-  <data key="d1">1</data>
-</edge>
-<edge source="Natal" target="Ronaldo Xavier De Arruda">
-  <data key="d1">1</data>
-</edge>
-<edge source="Natal" target="Universidade Federal Do Rio &#10;Grande Do Norte">
+<edge source="Natal" target="Joseneide Ferreira Dantas - Crb-15/324">
   <data key="d1">1</data>
 </edge>
 <edge source="Natal" target="Agradeço">
@@ -1090,28 +1093,31 @@
 <edge source="Natal" target="Inteligência Artificial">
   <data key="d1">1</data>
 </edge>
-<edge source="Natal" target="Keywords: Machine Learning">
+<edge source="Natal" target="Artificial Intelligence">
   <data key="d1">1</data>
 </edge>
-<edge source="Natal" target="Artificial Intelligence">
+<edge source="Natal" target="Keywords: Machine Learning">
   <data key="d1">1</data>
 </edge>
 <edge source="Natal" target="Leaflet">
   <data key="d1">2</data>
 </edge>
-<edge source="Natal" target="Lei Complementar">
+<edge source="Natal" target="Plano Diretor Do Município Do Natal">
   <data key="d1">1</data>
 </edge>
-<edge source="Natal" target="Plano Diretor Do Município Do Natal">
+<edge source="Natal" target="Lei Complementar">
   <data key="d1">1</data>
 </edge>
 <edge source="Natal" target="Distância">
   <data key="d1">1</data>
 </edge>
+<edge source="Natal" target="Openstreetmap">
+  <data key="d1">1</data>
+</edge>
 <edge source="Natal" target="Pebesma">
   <data key="d1">1</data>
 </edge>
-<edge source="Natal" target="Openstreetmap">
+<edge source="Natal" target="Figura">
   <data key="d1">1</data>
 </edge>
 <edge source="Natal" target="Davidson">
@@ -1123,13 +1129,19 @@
 <edge source="Natal" target="Brasil">
   <data key="d1">1</data>
 </edge>
+<edge source="Monografia De Graduação" target="Universidade Federal Do Rio Grande Do Norte&#10;Centro De Ciências Exatas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ufrn" target="Natal-Rn">
+  <data key="d1">1</data>
+</edge>
 <edge source="Ufrn" target="Departamento De Estatística">
   <data key="d1">1</data>
 </edge>
 <edge source="Ufrn" target="Dr. Marcelo Bourguignon Pereira&#10;Universidade Federal Do Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Ufrn" target="Natal-Rn">
+<edge source="Ufrn" target="Universidade Federal Do Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
 <edge source="Ufrn" target="Sisbi">
@@ -1138,19 +1150,16 @@
 <edge source="Ufrn" target="Sistema De Bibliotecas">
   <data key="d1">1</data>
 </edge>
-<edge source="Ufrn" target="Universidade Federal Do Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
 <edge source="Ufrn" target="Biblioteca Setorial Prof">
   <data key="d1">1</data>
 </edge>
+<edge source="Natal-Rn" target="Departamento De Estatística">
+  <data key="d1">1</data>
+</edge>
+<edge source="Natal-Rn" target="Dr. Marcelo Bourguignon Pereira&#10;Universidade Federal Do Rio Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
 <edge source="Departamento De Estatística" target="Dr. Marcelo Bourguignon Pereira&#10;Universidade Federal Do Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Departamento De Estatística" target="Natal-Rn">
-  <data key="d1">1</data>
-</edge>
-<edge source="Dr. Marcelo Bourguignon Pereira&#10;Universidade Federal Do Rio Grande Do Norte" target="Natal-Rn">
   <data key="d1">1</data>
 </edge>
 <edge source="Universidade Federal Do Rio Grande&#10;Do Norte" target="Centro De Ciências Exatas">
@@ -1174,79 +1183,79 @@
 <edge source="Marcelo&#10;Bourguignon" target="I. Pereira">
   <data key="d1">1</data>
 </edge>
-<edge source="Cdu" target="Ccet">
+<edge source="Ccet" target="Cdu">
+  <data key="d1">1</data>
+</edge>
+<edge source="Universidade Federal Do Rio Grande Do Norte" target="Sisbi">
+  <data key="d1">1</data>
+</edge>
+<edge source="Universidade Federal Do Rio Grande Do Norte" target="Sistema De Bibliotecas">
   <data key="d1">1</data>
 </edge>
 <edge source="Sisbi" target="Sistema De Bibliotecas">
   <data key="d1">1</data>
 </edge>
-<edge source="Sisbi" target="Universidade Federal Do Rio Grande Do Norte">
+<edge source="Ronaldo Xavier De Arruda" target="Estatístico">
   <data key="d1">1</data>
 </edge>
-<edge source="Sistema De Bibliotecas" target="Universidade Federal Do Rio Grande Do Norte">
+<edge source="Ronaldo Xavier De Arruda" target="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis">
   <data key="d1">1</data>
 </edge>
-<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Ccet&#10;Elaborado Por">
+<edge source="Ronaldo Xavier De Arruda" target="Ccet&#10;Elaborado Por">
   <data key="d1">1</data>
 </edge>
-<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Joseneide Ferreira Dantas - Crb-15/324">
+<edge source="Ronaldo Xavier De Arruda" target="Universidade Federal Do Rio &#10;Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
+<edge source="Ronaldo Xavier De Arruda" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Estatístico">
+<edge source="Ronaldo Xavier De Arruda" target="Joseneide Ferreira Dantas - Crb-15/324">
   <data key="d1">1</data>
 </edge>
-<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Ronaldo Xavier De Arruda">
+<edge source="Estatístico" target="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis">
   <data key="d1">1</data>
 </edge>
-<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Universidade Federal Do Rio &#10;Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Ccet&#10;Elaborado Por" target="Joseneide Ferreira Dantas - Crb-15/324">
-  <data key="d1">1</data>
-</edge>
-<edge source="Ccet&#10;Elaborado Por" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Ccet&#10;Elaborado Por" target="Estatístico">
-  <data key="d1">1</data>
-</edge>
-<edge source="Ccet&#10;Elaborado Por" target="Ronaldo Xavier De Arruda">
-  <data key="d1">1</data>
-</edge>
-<edge source="Ccet&#10;Elaborado Por" target="Universidade Federal Do Rio &#10;Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Joseneide Ferreira Dantas - Crb-15/324" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Joseneide Ferreira Dantas - Crb-15/324" target="Estatístico">
-  <data key="d1">1</data>
-</edge>
-<edge source="Joseneide Ferreira Dantas - Crb-15/324" target="Ronaldo Xavier De Arruda">
-  <data key="d1">1</data>
-</edge>
-<edge source="Joseneide Ferreira Dantas - Crb-15/324" target="Universidade Federal Do Rio &#10;Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte" target="Estatístico">
-  <data key="d1">1</data>
-</edge>
-<edge source="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte" target="Ronaldo Xavier De Arruda">
-  <data key="d1">1</data>
-</edge>
-<edge source="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte" target="Universidade Federal Do Rio &#10;Grande Do Norte">
-  <data key="d1">1</data>
-</edge>
-<edge source="Estatístico" target="Ronaldo Xavier De Arruda">
+<edge source="Estatístico" target="Ccet&#10;Elaborado Por">
   <data key="d1">1</data>
 </edge>
 <edge source="Estatístico" target="Universidade Federal Do Rio &#10;Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Ronaldo Xavier De Arruda" target="Universidade Federal Do Rio &#10;Grande Do Norte">
+<edge source="Estatístico" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Estatístico" target="Joseneide Ferreira Dantas - Crb-15/324">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Ccet&#10;Elaborado Por">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Universidade Federal Do Rio &#10;Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ciências Exatas E Da Terra  &#10;Curso De Graduação Em Estatística   &#10;Folha De Aprovação  &#10;Predição De Preços De Imóveis" target="Joseneide Ferreira Dantas - Crb-15/324">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ccet&#10;Elaborado Por" target="Universidade Federal Do Rio &#10;Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ccet&#10;Elaborado Por" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ccet&#10;Elaborado Por" target="Joseneide Ferreira Dantas - Crb-15/324">
+  <data key="d1">1</data>
+</edge>
+<edge source="Universidade Federal Do Rio &#10;Grande Do Norte" target="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte">
+  <data key="d1">1</data>
+</edge>
+<edge source="Universidade Federal Do Rio &#10;Grande Do Norte" target="Joseneide Ferreira Dantas - Crb-15/324">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ministério Da Educação E Do Desporto  &#10;Universidade Federal Do Rio Grande Do Norte" target="Joseneide Ferreira Dantas - Crb-15/324">
   <data key="d1">1</data>
 </edge>
 <edge source="Banca" target="Marcelo Bourguignon Pereira  &#10;Orientador  &#10;Departamento De Estatística">
@@ -1255,13 +1264,13 @@
 <edge source="Dr. Eliardo Guimarães Da Costa" target="Do Rio Grande Do Norte">
   <data key="d1">1</data>
 </edge>
-<edge source="Do Rio Grande Do Norte" target="Dr. Lutemberg">
-  <data key="d1">1</data>
-</edge>
 <edge source="Do Rio Grande Do Norte" target="Araújo Florêncio">
   <data key="d1">1</data>
 </edge>
-<edge source="Dr. Lutemberg" target="Araújo Florêncio">
+<edge source="Do Rio Grande Do Norte" target="Dr. Lutemberg">
+  <data key="d1">1</data>
+</edge>
+<edge source="Araújo Florêncio" target="Dr. Lutemberg">
   <data key="d1">1</data>
 </edge>
 <edge source="Agradeço" target="Edilo Gomes Rodrigues">
@@ -1270,38 +1279,137 @@
 <edge source="Agradeço" target="Iraci De Fátima Bonfim">
   <data key="d1">1</data>
 </edge>
-<edge source="Marcelo Bourguignon" target="Marcus Nunes">
-  <data key="d1">1</data>
-</edge>
-<edge source="Marcelo Bourguignon" target="Iniciação Científica">
+<edge source="Marcus Nunes" target="Marcelo Bourguignon">
   <data key="d1">1</data>
 </edge>
 <edge source="Marcus Nunes" target="Iniciação Científica">
   <data key="d1">1</data>
 </edge>
-<edge source="Estephany Duarte" target="Lucas Gabriel">
+<edge source="Marcelo Bourguignon" target="Iniciação Científica">
   <data key="d1">1</data>
 </edge>
-<edge source="Marcus&#10;Nunes" target="Mariana">
-  <data key="d1">1</data>
-</edge>
-<edge source="Marcus&#10;Nunes" target="Damião">
-  <data key="d1">1</data>
-</edge>
-<edge source="Marcus&#10;Nunes" target="Eliardo">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mariana" target="Damião">
+<edge source="Lucas Gabriel" target="Estephany Duarte">
   <data key="d1">1</data>
 </edge>
 <edge source="Mariana" target="Eliardo">
   <data key="d1">1</data>
 </edge>
-<edge source="Damião" target="Eliardo">
+<edge source="Mariana" target="Damião">
   <data key="d1">1</data>
 </edge>
-<edge source="Rmse" target="Mae">
-  <data key="d1">3</data>
+<edge source="Mariana" target="Marcus&#10;Nunes">
+  <data key="d1">1</data>
+</edge>
+<edge source="Eliardo" target="Damião">
+  <data key="d1">1</data>
+</edge>
+<edge source="Eliardo" target="Marcus&#10;Nunes">
+  <data key="d1">1</data>
+</edge>
+<edge source="Damião" target="Marcus&#10;Nunes">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Raíz Do Erro Quadrático Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Rmse">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Mape">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Xgboost">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Coeficiente De Determinação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Erro Percentual Absoluto&#10;Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Cubist">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro&#10;Absoluto Médio" target="Mae">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Rmse">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Mape">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Xgboost">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Coeficiente De Determinação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Erro Percentual Absoluto&#10;Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Cubist">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Mae">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Rmse">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Mape">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Xgboost">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Coeficiente De Determinação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Erro Percentual Absoluto&#10;Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Cubist">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Mae">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Support Vector&#10;Machine">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Svr">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Drucker">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rmse" target="Mape">
+  <data key="d1">2</data>
+</edge>
+<edge source="Rmse" target="Random Forest">
+  <data key="d1">4</data>
+</edge>
+<edge source="Rmse" target="Xgboost">
+  <data key="d1">5</data>
+</edge>
+<edge source="Rmse" target="Coeficiente De Determinação">
+  <data key="d1">1</data>
 </edge>
 <edge source="Rmse" target="Erro Percentual Absoluto&#10;Médio">
   <data key="d1">1</data>
@@ -1309,37 +1417,19 @@
 <edge source="Rmse" target="Cubist">
   <data key="d1">2</data>
 </edge>
-<edge source="Rmse" target="Random Forest">
-  <data key="d1">4</data>
+<edge source="Rmse" target="Mae">
+  <data key="d1">3</data>
 </edge>
-<edge source="Rmse" target="Svm">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rmse" target="Erro&#10;Absoluto Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rmse" target="Xgboost">
-  <data key="d1">5</data>
-</edge>
-<edge source="Rmse" target="Raíz Do Erro Quadrático Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rmse" target="Mape">
-  <data key="d1">2</data>
-</edge>
-<edge source="Rmse" target="Coeficiente De Determinação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Rmse" target="Mean Absolute&#10;Error">
+<edge source="Rmse" target="Coefficient Of Determination">
   <data key="d1">1</data>
 </edge>
 <edge source="Rmse" target="Mean Absolute Percentage Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Rmse" target="Coefficient Of Determination">
+<edge source="Rmse" target="Root Mean Squared Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Rmse" target="Root Mean Squared Error">
+<edge source="Rmse" target="Mean Absolute&#10;Error">
   <data key="d1">1</data>
 </edge>
 <edge source="Rmse" target="Svr">
@@ -1357,169 +1447,70 @@
 <edge source="Rmse" target="Tabela 7">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Erro Percentual Absoluto&#10;Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mae" target="Cubist">
+<edge source="Mape" target="Random Forest">
   <data key="d1">2</data>
 </edge>
-<edge source="Mae" target="Random Forest">
+<edge source="Mape" target="Xgboost">
   <data key="d1">2</data>
 </edge>
-<edge source="Mae" target="Svm">
+<edge source="Mape" target="Coeficiente De Determinação">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Erro&#10;Absoluto Médio">
+<edge source="Mape" target="Erro Percentual Absoluto&#10;Médio">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Xgboost">
+<edge source="Mape" target="Cubist">
+  <data key="d1">2</data>
+</edge>
+<edge source="Mape" target="Mae">
   <data key="d1">3</data>
 </edge>
-<edge source="Mae" target="Raíz Do Erro Quadrático Médio">
+<edge source="Mape" target="Coefficient Of Determination">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Mape">
-  <data key="d1">3</data>
-</edge>
-<edge source="Mae" target="Coeficiente De Determinação">
+<edge source="Mape" target="Mean Absolute Percentage Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Mean Absolute&#10;Error">
+<edge source="Mape" target="Root Mean Squared Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Mean Absolute Percentage Error">
+<edge source="Mape" target="Mean Absolute&#10;Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Coefficient Of Determination">
+<edge source="Mape" target="Erro Percentual Absoluto Médio">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Root Mean Squared Error">
+<edge source="Mape" target="Coeficiente&#10;De Determinação">
   <data key="d1">1</data>
 </edge>
-<edge source="Mae" target="Erro Percentual Absoluto Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mae" target="Coeficiente&#10;De Determinação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mae" target="Médio Absoluto">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mae" target="Apêndice B -- Código R">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mae" target="Rsq">
-  <data key="d1">4</data>
-</edge>
-<edge source="Erro Percentual Absoluto&#10;Médio" target="Cubist">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro Percentual Absoluto&#10;Médio" target="Random Forest">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro Percentual Absoluto&#10;Médio" target="Svm">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro Percentual Absoluto&#10;Médio" target="Erro&#10;Absoluto Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro Percentual Absoluto&#10;Médio" target="Xgboost">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro Percentual Absoluto&#10;Médio" target="Raíz Do Erro Quadrático Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro Percentual Absoluto&#10;Médio" target="Mape">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro Percentual Absoluto&#10;Médio" target="Coeficiente De Determinação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Random Forest">
-  <data key="d1">5</data>
-</edge>
-<edge source="Cubist" target="Svm">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Erro&#10;Absoluto Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Xgboost">
-  <data key="d1">4</data>
-</edge>
-<edge source="Cubist" target="Raíz Do Erro Quadrático Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Mape">
-  <data key="d1">2</data>
-</edge>
-<edge source="Cubist" target="Coeficiente De Determinação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Mean Absolute&#10;Error">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Mean Absolute Percentage Error">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Coefficient Of Determination">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Root Mean Squared Error">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Apêndice D -- Código R">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Svr">
-  <data key="d1">2</data>
-</edge>
-<edge source="Cubist" target="Quinlan">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Committees">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="H. Tidymodels">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Kuhn">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Wickham">
-  <data key="d1">1</data>
-</edge>
-<edge source="Cubist" target="Tune">
-  <data key="d1">2</data>
-</edge>
-<edge source="Random Forest" target="Svm">
-  <data key="d1">1</data>
-</edge>
-<edge source="Random Forest" target="Erro&#10;Absoluto Médio">
+<edge source="Mape" target="Médio Absoluto">
   <data key="d1">1</data>
 </edge>
 <edge source="Random Forest" target="Xgboost">
   <data key="d1">6</data>
 </edge>
-<edge source="Random Forest" target="Raíz Do Erro Quadrático Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Random Forest" target="Mape">
-  <data key="d1">2</data>
-</edge>
 <edge source="Random Forest" target="Coeficiente De Determinação">
   <data key="d1">1</data>
 </edge>
-<edge source="Random Forest" target="Mean Absolute&#10;Error">
+<edge source="Random Forest" target="Erro Percentual Absoluto&#10;Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Random Forest" target="Cubist">
+  <data key="d1">5</data>
+</edge>
+<edge source="Random Forest" target="Mae">
+  <data key="d1">2</data>
+</edge>
+<edge source="Random Forest" target="Coefficient Of Determination">
   <data key="d1">1</data>
 </edge>
 <edge source="Random Forest" target="Mean Absolute Percentage Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Random Forest" target="Coefficient Of Determination">
+<edge source="Random Forest" target="Root Mean Squared Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Random Forest" target="Root Mean Squared Error">
+<edge source="Random Forest" target="Mean Absolute&#10;Error">
   <data key="d1">1</data>
 </edge>
 <edge source="Random Forest" target="Código R">
@@ -1534,61 +1525,28 @@
 <edge source="Random Forest" target="Mae&#10;Mape">
   <data key="d1">1</data>
 </edge>
-<edge source="Svm" target="Erro&#10;Absoluto Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svm" target="Xgboost">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svm" target="Raíz Do Erro Quadrático Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svm" target="Mape">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svm" target="Coeficiente De Determinação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svm" target="Svr">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svm" target="Support Vector&#10;Machine">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svm" target="Drucker">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro&#10;Absoluto Médio" target="Xgboost">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro&#10;Absoluto Médio" target="Raíz Do Erro Quadrático Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro&#10;Absoluto Médio" target="Mape">
-  <data key="d1">1</data>
-</edge>
-<edge source="Erro&#10;Absoluto Médio" target="Coeficiente De Determinação">
-  <data key="d1">1</data>
-</edge>
-<edge source="Xgboost" target="Raíz Do Erro Quadrático Médio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Xgboost" target="Mape">
-  <data key="d1">2</data>
-</edge>
 <edge source="Xgboost" target="Coeficiente De Determinação">
   <data key="d1">1</data>
 </edge>
-<edge source="Xgboost" target="Mean Absolute&#10;Error">
+<edge source="Xgboost" target="Erro Percentual Absoluto&#10;Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Cubist">
+  <data key="d1">4</data>
+</edge>
+<edge source="Xgboost" target="Mae">
+  <data key="d1">3</data>
+</edge>
+<edge source="Xgboost" target="Coefficient Of Determination">
   <data key="d1">1</data>
 </edge>
 <edge source="Xgboost" target="Mean Absolute Percentage Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Xgboost" target="Coefficient Of Determination">
+<edge source="Xgboost" target="Root Mean Squared Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Xgboost" target="Root Mean Squared Error">
+<edge source="Xgboost" target="Mean Absolute&#10;Error">
   <data key="d1">1</data>
 </edge>
 <edge source="Xgboost" target="Hiperparâmetros">
@@ -1612,10 +1570,13 @@
 <edge source="Xgboost" target="Pela Tabela 7">
   <data key="d1">1</data>
 </edge>
-<edge source="Xgboost" target="Banheiro">
+<edge source="Xgboost" target="Área">
   <data key="d1">1</data>
 </edge>
-<edge source="Xgboost" target="Área">
+<edge source="Xgboost" target="Figura">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Banheiro">
   <data key="d1">1</data>
 </edge>
 <edge source="Xgboost" target="Vagas">
@@ -1624,40 +1585,91 @@
 <edge source="Xgboost" target="Tune">
   <data key="d1">1</data>
 </edge>
-<edge source="Raíz Do Erro Quadrático Médio" target="Mape">
+<edge source="Coeficiente De Determinação" target="Erro Percentual Absoluto&#10;Médio">
   <data key="d1">1</data>
 </edge>
-<edge source="Raíz Do Erro Quadrático Médio" target="Coeficiente De Determinação">
+<edge source="Coeficiente De Determinação" target="Cubist">
   <data key="d1">1</data>
 </edge>
-<edge source="Mape" target="Coeficiente De Determinação">
+<edge source="Coeficiente De Determinação" target="Mae">
   <data key="d1">1</data>
 </edge>
-<edge source="Mape" target="Mean Absolute&#10;Error">
+<edge source="Erro Percentual Absoluto&#10;Médio" target="Cubist">
   <data key="d1">1</data>
 </edge>
-<edge source="Mape" target="Mean Absolute Percentage Error">
+<edge source="Erro Percentual Absoluto&#10;Médio" target="Mae">
   <data key="d1">1</data>
 </edge>
-<edge source="Mape" target="Coefficient Of Determination">
+<edge source="Cubist" target="Mae">
+  <data key="d1">2</data>
+</edge>
+<edge source="Cubist" target="Coefficient Of Determination">
   <data key="d1">1</data>
 </edge>
-<edge source="Mape" target="Root Mean Squared Error">
+<edge source="Cubist" target="Mean Absolute Percentage Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Mape" target="Erro Percentual Absoluto Médio">
+<edge source="Cubist" target="Root Mean Squared Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Mape" target="Coeficiente&#10;De Determinação">
+<edge source="Cubist" target="Mean Absolute&#10;Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Mape" target="Médio Absoluto">
+<edge source="Cubist" target="Apêndice D -- Código R">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Svr">
+  <data key="d1">2</data>
+</edge>
+<edge source="Cubist" target="Quinlan">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Committees">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Kuhn">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="H. Tidymodels">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Wickham">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Tune">
+  <data key="d1">2</data>
+</edge>
+<edge source="Mae" target="Coefficient Of Determination">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mae" target="Mean Absolute Percentage Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mae" target="Root Mean Squared Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mae" target="Mean Absolute&#10;Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mae" target="Erro Percentual Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mae" target="Coeficiente&#10;De Determinação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mae" target="Médio Absoluto">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mae" target="Apêndice B -- Código R">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mae" target="Rsq">
+  <data key="d1">4</data>
+</edge>
+<edge source="Shiny" target="Artificial Intelligence">
   <data key="d1">1</data>
 </edge>
 <edge source="Shiny" target="Keywords: Machine Learning">
-  <data key="d1">1</data>
-</edge>
-<edge source="Shiny" target="Artificial Intelligence">
   <data key="d1">1</data>
 </edge>
 <edge source="Shiny" target="Considerações Finais">
@@ -1666,7 +1678,7 @@
 <edge source="Aprendizado&#10;Supervisionado" target="Inteligência Artificial">
   <data key="d1">1</data>
 </edge>
-<edge source="Prediction Of Real Estate Prices In Natal" target="Abstract">
+<edge source="Abstract" target="Prediction Of Real Estate Prices In Natal">
   <data key="d1">1</data>
 </edge>
 <edge source="Because Of The Complexity Of The Topic" target="Accurately Estimating Property Prices In A Specific Region Is A Challenging&#10;Process">
@@ -1675,29 +1687,35 @@
 <edge source="Apply" target="This Work Aims To Develop">
   <data key="d1">1</data>
 </edge>
-<edge source="Mean Absolute&#10;Error" target="Mean Absolute Percentage Error">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mean Absolute&#10;Error" target="Coefficient Of Determination">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mean Absolute&#10;Error" target="Root Mean Squared Error">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mean Absolute Percentage Error" target="Coefficient Of Determination">
-  <data key="d1">1</data>
-</edge>
-<edge source="Mean Absolute Percentage Error" target="Root Mean Squared Error">
+<edge source="Coefficient Of Determination" target="Mean Absolute Percentage Error">
   <data key="d1">1</data>
 </edge>
 <edge source="Coefficient Of Determination" target="Root Mean Squared Error">
   <data key="d1">1</data>
 </edge>
-<edge source="Keywords: Machine Learning" target="Artificial Intelligence">
+<edge source="Coefficient Of Determination" target="Mean Absolute&#10;Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mean Absolute Percentage Error" target="Root Mean Squared Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mean Absolute Percentage Error" target="Mean Absolute&#10;Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Root Mean Squared Error" target="Mean Absolute&#10;Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Artificial Intelligence" target="Keywords: Machine Learning">
   <data key="d1">1</data>
 </edge>
 <edge source="Valor" target="Área">
   <data key="d1">2</data>
+</edge>
+<edge source="Valor" target="Figura">
+  <data key="d1">2</data>
+</edge>
+<edge source="Área" target="Figura">
+  <data key="d1">1</data>
 </edge>
 <edge source="Área" target="Banheiro">
   <data key="d1">1</data>
@@ -1714,19 +1732,19 @@
 <edge source="Svr" target="Drucker">
   <data key="d1">1</data>
 </edge>
-<edge source="Svr" target="N&#10;X">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svr" target="Patranabis">
-  <data key="d1">1</data>
-</edge>
-<edge source="Svr" target="Basak">
+<edge source="Svr" target="K(Xi">
   <data key="d1">1</data>
 </edge>
 <edge source="Svr" target="Pal">
   <data key="d1">1</data>
 </edge>
-<edge source="Svr" target="K(Xi">
+<edge source="Svr" target="Basak">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svr" target="Patranabis">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svr" target="N&#10;X">
   <data key="d1">1</data>
 </edge>
 <edge source="Svr" target="Kernel Rbf">
@@ -1744,19 +1762,22 @@
 <edge source="Svr" target="Svm_Rbf">
   <data key="d1">1</data>
 </edge>
-<edge source="Código R" target="Tune">
-  <data key="d1">2</data>
-</edge>
 <edge source="Código R" target="Random&#10;Forest&#10;1&#10;Set.Seed(392">
   <data key="d1">1</data>
 </edge>
-<edge source="Engenharia&#10;De Avaliações" target="Brasil">
+<edge source="Código R" target="Tune">
+  <data key="d1">2</data>
+</edge>
+<edge source="Brasil" target="Engenharia&#10;De Avaliações">
+  <data key="d1">1</data>
+</edge>
+<edge source="Brasil" target="João Pessoa">
   <data key="d1">1</data>
 </edge>
 <edge source="Brasil" target="Pereira">
   <data key="d1">1</data>
 </edge>
-<edge source="Brasil" target="João Pessoa">
+<edge source="Brasil" target="Recife">
   <data key="d1">1</data>
 </edge>
 <edge source="Brasil" target="Dissertação De Mestrado Em Estatística">
@@ -1768,7 +1789,13 @@
 <edge source="Brasil" target="Universidade Federal De&#10;Pernambuco">
   <data key="d1">1</data>
 </edge>
-<edge source="Brasil" target="Recife">
+<edge source="Brasil" target="Fortaleza">
+  <data key="d1">2</data>
+</edge>
+<edge source="Brasil" target="Oliveira">
+  <data key="d1">1</data>
+</edge>
+<edge source="Brasil" target="Bandeira">
   <data key="d1">1</data>
 </edge>
 <edge source="Brasil" target="S. R. V.; Silva">
@@ -1777,16 +1804,7 @@
 <edge source="Brasil" target="A. A. F. D.">
   <data key="d1">1</data>
 </edge>
-<edge source="Brasil" target="Bandeira">
-  <data key="d1">1</data>
-</edge>
 <edge source="Brasil" target="C. V. A. Estimativa">
-  <data key="d1">1</data>
-</edge>
-<edge source="Brasil" target="Fortaleza">
-  <data key="d1">2</data>
-</edge>
-<edge source="Brasil" target="Oliveira">
   <data key="d1">1</data>
 </edge>
 <edge source="Brasil" target="Revista Da Sociedade Brasileira&#10;De Engenharia De Avaliações">
@@ -1795,59 +1813,62 @@
 <edge source="Brasil" target="Jun">
   <data key="d1">1</data>
 </edge>
-<edge source="Abnt Nbr" target="Abnt">
-  <data key="d1">1</data>
-</edge>
-<edge source="Modelos Aditivos Generalizados Para Local" target="Florêncio">
-  <data key="d1">1</data>
-</edge>
-<edge source="Modelos Aditivos Generalizados Para Local" target="Escala E Forma">
+<edge source="Abnt" target="Abnt Nbr">
   <data key="d1">1</data>
 </edge>
 <edge source="Modelos Aditivos Generalizados Para Local" target="Scale And Shape">
   <data key="d1">1</data>
 </edge>
-<edge source="Modelos Aditivos Generalizados Para Local" target="Gamlss">
+<edge source="Modelos Aditivos Generalizados Para Local" target="Escala E Forma">
+  <data key="d1">1</data>
+</edge>
+<edge source="Modelos Aditivos Generalizados Para Local" target="Florêncio">
   <data key="d1">1</data>
 </edge>
 <edge source="Modelos Aditivos Generalizados Para Local" target="Generalized Additive Models For Location">
   <data key="d1">1</data>
 </edge>
-<edge source="Florêncio" target="Escala E Forma">
+<edge source="Modelos Aditivos Generalizados Para Local" target="Gamlss">
   <data key="d1">1</data>
 </edge>
-<edge source="Florêncio" target="Scale And Shape">
+<edge source="Scale And Shape" target="Escala E Forma">
   <data key="d1">1</data>
 </edge>
-<edge source="Florêncio" target="Gamlss">
-  <data key="d1">1</data>
-</edge>
-<edge source="Florêncio" target="Generalized Additive Models For Location">
-  <data key="d1">1</data>
-</edge>
-<edge source="Florêncio" target="L. De A. Engenharia De Avaliações Com Base Em Modelos Gamlss">
-  <data key="d1">1</data>
-</edge>
-<edge source="Escala E Forma" target="Scale And Shape">
-  <data key="d1">1</data>
-</edge>
-<edge source="Escala E Forma" target="Gamlss">
-  <data key="d1">1</data>
-</edge>
-<edge source="Escala E Forma" target="Generalized Additive Models For Location">
-  <data key="d1">1</data>
-</edge>
-<edge source="Scale And Shape" target="Gamlss">
+<edge source="Scale And Shape" target="Florêncio">
   <data key="d1">1</data>
 </edge>
 <edge source="Scale And Shape" target="Generalized Additive Models For Location">
   <data key="d1">1</data>
 </edge>
-<edge source="Gamlss" target="Generalized Additive Models For Location">
+<edge source="Scale And Shape" target="Gamlss">
+  <data key="d1">1</data>
+</edge>
+<edge source="Escala E Forma" target="Florêncio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Escala E Forma" target="Generalized Additive Models For Location">
+  <data key="d1">1</data>
+</edge>
+<edge source="Escala E Forma" target="Gamlss">
+  <data key="d1">1</data>
+</edge>
+<edge source="Florêncio" target="Generalized Additive Models For Location">
+  <data key="d1">1</data>
+</edge>
+<edge source="Florêncio" target="Gamlss">
+  <data key="d1">1</data>
+</edge>
+<edge source="Florêncio" target="L. De A. Engenharia De Avaliações Com Base Em Modelos Gamlss">
+  <data key="d1">1</data>
+</edge>
+<edge source="Generalized Additive Models For Location" target="Gamlss">
   <data key="d1">1</data>
 </edge>
 <edge source="Bandeira" target="Oliveira">
   <data key="d1">2</data>
+</edge>
+<edge source="Bandeira" target="Fortaleza">
+  <data key="d1">1</data>
 </edge>
 <edge source="Bandeira" target="S. R. V.; Silva">
   <data key="d1">1</data>
@@ -1858,7 +1879,7 @@
 <edge source="Bandeira" target="C. V. A. Estimativa">
   <data key="d1">1</data>
 </edge>
-<edge source="Bandeira" target="Fortaleza">
+<edge source="Oliveira" target="Fortaleza">
   <data key="d1">1</data>
 </edge>
 <edge source="Oliveira" target="S. R. V.; Silva">
@@ -1870,9 +1891,6 @@
 <edge source="Oliveira" target="C. V. A. Estimativa">
   <data key="d1">1</data>
 </edge>
-<edge source="Oliveira" target="Fortaleza">
-  <data key="d1">1</data>
-</edge>
 <edge source="Pos-" target="Ferreira">
   <data key="d1">1</data>
 </edge>
@@ -1882,16 +1900,16 @@
 <edge source="Ferreira" target="A. A. Avaliação">
   <data key="d1">1</data>
 </edge>
-<edge source="Zilli" target="Bastos E Silva">
+<edge source="Bastos E Silva" target="Zilli">
   <data key="d1">1</data>
 </edge>
-<edge source="Zilli" target="C. A.">
+<edge source="Zilli" target="L. C.; Silva">
   <data key="d1">1</data>
 </edge>
 <edge source="Zilli" target="L. R.">
   <data key="d1">1</data>
 </edge>
-<edge source="Zilli" target="L. C.; Silva">
+<edge source="Zilli" target="C. A.">
   <data key="d1">1</data>
 </edge>
 <edge source="Sinduscon" target="Sebrae">
@@ -1909,28 +1927,28 @@
 <edge source="Sebrae" target="Censo Imobiliário&#10;2024">
   <data key="d1">1</data>
 </edge>
-<edge source="Lei Complementar" target="Plano Diretor Do Município Do Natal">
+<edge source="Plano Diretor Do Município Do Natal" target="Lei Complementar">
   <data key="d1">1</data>
 </edge>
-<edge source="Pereira" target="João Pessoa">
+<edge source="João Pessoa" target="Pereira">
   <data key="d1">2</data>
 </edge>
-<edge source="Pereira" target="G. D. J.">
-  <data key="d1">1</data>
-</edge>
 <edge source="João Pessoa" target="G. D. J.">
-  <data key="d1">1</data>
-</edge>
-<edge source="João Pessoa" target="Universidade Federal Da Paraíba">
   <data key="d1">1</data>
 </edge>
 <edge source="João Pessoa" target="Trabalho De Conclusão De Curso">
   <data key="d1">1</data>
 </edge>
+<edge source="João Pessoa" target="Universidade Federal Da Paraíba">
+  <data key="d1">1</data>
+</edge>
 <edge source="João Pessoa" target="Graduação Em Estatística">
   <data key="d1">1</data>
 </edge>
-<edge source="Rio&#10;Grande Do Norte" target="Estado Do">
+<edge source="Pereira" target="G. D. J.">
+  <data key="d1">1</data>
+</edge>
+<edge source="Estado Do" target="Rio&#10;Grande Do Norte">
   <data key="d1">1</data>
 </edge>
 <edge source="Objetivo Geral" target="Objetivos">
@@ -1981,103 +1999,103 @@
 <edge source="Breiman" target="L. Random Forests">
   <data key="d1">1</data>
 </edge>
-<edge source="B&#10;B&#10;X" target="Dom Forest">
-  <data key="d1">1</data>
-</edge>
-<edge source="B&#10;B&#10;X" target="Ran-">
-  <data key="d1">1</data>
-</edge>
 <edge source="Dom Forest" target="Ran-">
   <data key="d1">1</data>
 </edge>
-<edge source="I(Xi" target="Jm&#10;X">
+<edge source="Dom Forest" target="B&#10;B&#10;X">
   <data key="d1">1</data>
 </edge>
-<edge source="Região Rjm" target="I(X ∈Rjm">
+<edge source="Ran-" target="B&#10;B&#10;X">
+  <data key="d1">1</data>
+</edge>
+<edge source="Jm&#10;X" target="I(Xi">
+  <data key="d1">1</data>
+</edge>
+<edge source="I(X ∈Rjm" target="Região Rjm">
   <data key="d1">1</data>
 </edge>
 <edge source="Support Vector&#10;Machine" target="Drucker">
   <data key="d1">1</data>
 </edge>
-<edge source="N&#10;X" target="Patranabis">
+<edge source="K(Xi" target="Pal">
   <data key="d1">1</data>
 </edge>
-<edge source="N&#10;X" target="Basak">
+<edge source="K(Xi" target="Basak">
   <data key="d1">1</data>
 </edge>
-<edge source="N&#10;X" target="Pal">
+<edge source="K(Xi" target="Patranabis">
   <data key="d1">1</data>
 </edge>
-<edge source="N&#10;X" target="K(Xi">
-  <data key="d1">1</data>
-</edge>
-<edge source="Patranabis" target="Basak">
-  <data key="d1">2</data>
-</edge>
-<edge source="Patranabis" target="Pal">
-  <data key="d1">2</data>
-</edge>
-<edge source="Patranabis" target="K(Xi">
-  <data key="d1">1</data>
-</edge>
-<edge source="Patranabis" target="D. Support">
-  <data key="d1">1</data>
-</edge>
-<edge source="Basak" target="Pal">
-  <data key="d1">2</data>
-</edge>
-<edge source="Basak" target="K(Xi">
-  <data key="d1">1</data>
-</edge>
-<edge source="Basak" target="D. Support">
-  <data key="d1">1</data>
-</edge>
-<edge source="Pal" target="K(Xi">
-  <data key="d1">1</data>
-</edge>
-<edge source="Pal" target="D. Support">
+<edge source="K(Xi" target="N&#10;X">
   <data key="d1">1</data>
 </edge>
 <edge source="K(Xi" target="Lagrange">
   <data key="d1">1</data>
 </edge>
-<edge source="Máquinas De Vetores De Suporte" target="Rbf">
+<edge source="Pal" target="Basak">
+  <data key="d1">2</data>
+</edge>
+<edge source="Pal" target="Patranabis">
+  <data key="d1">2</data>
+</edge>
+<edge source="Pal" target="N&#10;X">
+  <data key="d1">1</data>
+</edge>
+<edge source="Pal" target="D. Support">
+  <data key="d1">1</data>
+</edge>
+<edge source="Basak" target="Patranabis">
+  <data key="d1">2</data>
+</edge>
+<edge source="Basak" target="N&#10;X">
+  <data key="d1">1</data>
+</edge>
+<edge source="Basak" target="D. Support">
+  <data key="d1">1</data>
+</edge>
+<edge source="Patranabis" target="N&#10;X">
+  <data key="d1">1</data>
+</edge>
+<edge source="Patranabis" target="D. Support">
   <data key="d1">1</data>
 </edge>
 <edge source="Máquinas De Vetores De Suporte" target="Radial Basis Function">
   <data key="d1">1</data>
 </edge>
-<edge source="Rbf" target="Radial Basis Function">
+<edge source="Máquinas De Vetores De Suporte" target="Rbf">
   <data key="d1">1</data>
 </edge>
-<edge source="K(X" target="Vert">
+<edge source="Radial Basis Function" target="Rbf">
   <data key="d1">1</data>
 </edge>
-<edge source="K(X" target="Tsuda">
-  <data key="d1">1</data>
-</edge>
-<edge source="K(X" target="Schölkopf">
-  <data key="d1">1</data>
-</edge>
-<edge source="Vert" target="Tsuda">
+<edge source="Schölkopf" target="Vert">
   <data key="d1">2</data>
 </edge>
-<edge source="Vert" target="Schölkopf">
+<edge source="Schölkopf" target="Tsuda">
   <data key="d1">2</data>
 </edge>
-<edge source="Vert" target="B. A">
-  <data key="d1">1</data>
-</edge>
-<edge source="Tsuda" target="Schölkopf">
-  <data key="d1">2</data>
-</edge>
-<edge source="Tsuda" target="B. A">
+<edge source="Schölkopf" target="K(X">
   <data key="d1">1</data>
 </edge>
 <edge source="Schölkopf" target="B. A">
   <data key="d1">1</data>
 </edge>
-<edge source="−X′∥2" target="Exp">
+<edge source="Vert" target="Tsuda">
+  <data key="d1">2</data>
+</edge>
+<edge source="Vert" target="K(X">
+  <data key="d1">1</data>
+</edge>
+<edge source="Vert" target="B. A">
+  <data key="d1">1</data>
+</edge>
+<edge source="Tsuda" target="K(X">
+  <data key="d1">1</data>
+</edge>
+<edge source="Tsuda" target="B. A">
+  <data key="d1">1</data>
+</edge>
+<edge source="Exp" target="−X′∥2">
   <data key="d1">1</data>
 </edge>
 <edge source="Quinlan" target="Kuhn">
@@ -2089,8 +2107,11 @@
 <edge source="Quinlan" target="R. Learning With">
   <data key="d1">1</data>
 </edge>
-<edge source="Kuhn" target="Johnson">
+<edge source="Johnson" target="Kuhn">
   <data key="d1">2</data>
+</edge>
+<edge source="Johnson" target="K. Applied Predictive Modeling">
+  <data key="d1">1</data>
 </edge>
 <edge source="Kuhn" target="Wickham">
   <data key="d1">2</data>
@@ -2104,34 +2125,34 @@
 <edge source="Kuhn" target="H. Tidymodels">
   <data key="d1">1</data>
 </edge>
-<edge source="Johnson" target="K. Applied Predictive Modeling">
-  <data key="d1">1</data>
-</edge>
-<edge source="Banheiro" target="Iptu">
+<edge source="Iptu" target="Vaga">
   <data key="d1">2</data>
 </edge>
-<edge source="Banheiro" target="Vaga">
+<edge source="Iptu" target="Banheiro">
+  <data key="d1">2</data>
+</edge>
+<edge source="Iptu" target="Iptu">
+  <data key="d1">1</data>
+</edge>
+<edge source="Vaga" target="Banheiro">
+  <data key="d1">1</data>
+</edge>
+<edge source="Vaga" target="Quarto">
+  <data key="d1">1</data>
+</edge>
+<edge source="Banheiro" target="Figura">
   <data key="d1">1</data>
 </edge>
 <edge source="Banheiro" target="Vagas">
   <data key="d1">1</data>
 </edge>
-<edge source="Iptu" target="Iptu">
+<edge source="Zap Imóveis" target="Openstreetmap">
   <data key="d1">1</data>
 </edge>
-<edge source="Iptu" target="Vaga">
-  <data key="d1">2</data>
-</edge>
-<edge source="Vaga" target="Quarto">
+<edge source="Zap Imóveis" target="Padgham Et Al">
   <data key="d1">1</data>
 </edge>
-<edge source="Padgham Et Al" target="Openstreetmap">
-  <data key="d1">1</data>
-</edge>
-<edge source="Padgham Et Al" target="Zap Imóveis">
-  <data key="d1">1</data>
-</edge>
-<edge source="Openstreetmap" target="Zap Imóveis">
+<edge source="Openstreetmap" target="Padgham Et Al">
   <data key="d1">1</data>
 </edge>
 <edge source="Openstreetmap" target="Pebesma">
@@ -2176,22 +2197,34 @@
 <edge source="Coeficiente&#10;De Determinação" target="Médio Absoluto">
   <data key="d1">1</data>
 </edge>
-<edge source="Min_N" target="Hiperparâmetro">
+<edge source="Hiperparâmetro" target="Min_N">
   <data key="d1">1</data>
 </edge>
 <edge source="Svm_Rbf Do Tidymodels" target="Kernlab">
   <data key="d1">1</data>
 </edge>
-<edge source="Quartil" target="Média">
+<edge source="Variável Valor" target="Figura">
   <data key="d1">1</data>
+</edge>
+<edge source="Figura" target="Vagas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Figura" target="Davidson">
+  <data key="d1">1</data>
+</edge>
+<edge source="Média" target="Quartil">
+  <data key="d1">1</data>
+</edge>
+<edge source="Boehmke" target="Figuras 13">
+  <data key="d1">1</data>
+</edge>
+<edge source="Boehmke" target="Greenwell">
+  <data key="d1">2</data>
 </edge>
 <edge source="Figuras 13" target="Greenwell">
   <data key="d1">1</data>
 </edge>
-<edge source="Figuras 13" target="Boehmke">
-  <data key="d1">1</data>
-</edge>
-<edge source="Greenwell" target="Boehmke">
+<edge source="Greenwell" target="An Introduction&#10;To The Vip Package">
   <data key="d1">2</data>
 </edge>
 <edge source="Greenwell" target="B. C. Variable">
@@ -2200,10 +2233,19 @@
 <edge source="Greenwell" target="B. M.; Boehmke">
   <data key="d1">2</data>
 </edge>
-<edge source="Greenwell" target="An Introduction&#10;To The Vip Package">
-  <data key="d1">2</data>
-</edge>
 <edge source="Greenwell" target="Https://Doi.Org/10.32614/Rj-2020-013">
+  <data key="d1">1</data>
+</edge>
+<edge source="Granjon" target="Css">
+  <data key="d1">1</data>
+</edge>
+<edge source="Granjon" target="Biblioteca&#10;Shinydashboard">
+  <data key="d1">1</data>
+</edge>
+<edge source="Granjon" target="Html">
+  <data key="d1">1</data>
+</edge>
+<edge source="Granjon" target="D. Shinydashboard: Create Dashboards With ’Shiny">
   <data key="d1">1</data>
 </edge>
 <edge source="Css" target="Biblioteca&#10;Shinydashboard">
@@ -2212,19 +2254,7 @@
 <edge source="Css" target="Html">
   <data key="d1">1</data>
 </edge>
-<edge source="Css" target="Granjon">
-  <data key="d1">1</data>
-</edge>
 <edge source="Biblioteca&#10;Shinydashboard" target="Html">
-  <data key="d1">1</data>
-</edge>
-<edge source="Biblioteca&#10;Shinydashboard" target="Granjon">
-  <data key="d1">1</data>
-</edge>
-<edge source="Html" target="Granjon">
-  <data key="d1">1</data>
-</edge>
-<edge source="Granjon" target="D. Shinydashboard: Create Dashboards With ’Shiny">
   <data key="d1">1</data>
 </edge>
 <edge source="Biblioteca Shinyjs" target="Attali">
@@ -2239,13 +2269,13 @@
 <edge source="Attali" target="D. Shinyjs:">
   <data key="d1">1</data>
 </edge>
-<edge source="Davidson" target="Leaflet’&#10;Library">
-  <data key="d1">1</data>
-</edge>
 <edge source="Davidson" target="C. Leaflet: Create Interactive Web Maps With The Javascript ’">
   <data key="d1">1</data>
 </edge>
-<edge source="Nbr" target="Avaliação De Bens">
+<edge source="Davidson" target="Leaflet’&#10;Library">
+  <data key="d1">1</data>
+</edge>
+<edge source="Avaliação De Bens" target="Nbr">
   <data key="d1">1</data>
 </edge>
 <edge source="Abreu" target="M. A.">
@@ -2257,7 +2287,7 @@
 <edge source="C. Xgboost" target="Guestrin">
   <data key="d1">1</data>
 </edge>
-<edge source="Leaflet’&#10;Library" target="C. Leaflet: Create Interactive Web Maps With The Javascript ’">
+<edge source="C. Leaflet: Create Interactive Web Maps With The Javascript ’" target="Leaflet’&#10;Library">
   <data key="d1">1</data>
 </edge>
 <edge source="Neurips" target="In: Advances In Neural&#10;Information Processing Systems">
@@ -2266,13 +2296,13 @@
 <edge source="Fortaleza" target="A. A. Avaliação">
   <data key="d1">1</data>
 </edge>
-<edge source="Fortaleza" target="Mestrado">
+<edge source="Fortaleza" target="Universidade Federal Do Ceará">
   <data key="d1">1</data>
 </edge>
 <edge source="Fortaleza" target="Ufc">
   <data key="d1">1</data>
 </edge>
-<edge source="Fortaleza" target="Universidade Federal Do Ceará">
+<edge source="Fortaleza" target="Mestrado">
   <data key="d1">1</data>
 </edge>
 <edge source="Fortaleza" target="S. R. V.; Silva">
@@ -2290,13 +2320,22 @@
 <edge source="Fortaleza" target="Jun">
   <data key="d1">1</data>
 </edge>
-<edge source="Mestrado" target="Ufc">
+<edge source="Universidade Federal Do Ceará" target="Ufc">
   <data key="d1">1</data>
 </edge>
-<edge source="Mestrado" target="Universidade Federal Do Ceará">
+<edge source="Universidade Federal Do Ceará" target="Mestrado">
   <data key="d1">1</data>
 </edge>
-<edge source="Ufc" target="Universidade Federal Do Ceará">
+<edge source="Ufc" target="Mestrado">
+  <data key="d1">1</data>
+</edge>
+<edge source="Recife" target="Dissertação De Mestrado Em Estatística">
+  <data key="d1">1</data>
+</edge>
+<edge source="Recife" target="Dissertação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Recife" target="Universidade Federal De&#10;Pernambuco">
   <data key="d1">1</data>
 </edge>
 <edge source="Dissertação De Mestrado Em Estatística" target="Dissertação">
@@ -2305,37 +2344,28 @@
 <edge source="Dissertação De Mestrado Em Estatística" target="Universidade Federal De&#10;Pernambuco">
   <data key="d1">1</data>
 </edge>
-<edge source="Dissertação De Mestrado Em Estatística" target="Recife">
-  <data key="d1">1</data>
-</edge>
 <edge source="Dissertação" target="Universidade Federal De&#10;Pernambuco">
   <data key="d1">1</data>
 </edge>
-<edge source="Dissertação" target="Recife">
-  <data key="d1">1</data>
+<edge source="An Introduction&#10;To The Vip Package" target="B. C. Variable">
+  <data key="d1">2</data>
 </edge>
-<edge source="Universidade Federal De&#10;Pernambuco" target="Recife">
+<edge source="An Introduction&#10;To The Vip Package" target="B. M.; Boehmke">
+  <data key="d1">2</data>
+</edge>
+<edge source="An Introduction&#10;To The Vip Package" target="Https://Doi.Org/10.32614/Rj-2020-013">
   <data key="d1">1</data>
 </edge>
 <edge source="B. C. Variable" target="B. M.; Boehmke">
   <data key="d1">2</data>
 </edge>
-<edge source="B. C. Variable" target="An Introduction&#10;To The Vip Package">
-  <data key="d1">2</data>
-</edge>
 <edge source="B. C. Variable" target="Https://Doi.Org/10.32614/Rj-2020-013">
   <data key="d1">1</data>
-</edge>
-<edge source="B. M.; Boehmke" target="An Introduction&#10;To The Vip Package">
-  <data key="d1">2</data>
 </edge>
 <edge source="B. M.; Boehmke" target="Https://Doi.Org/10.32614/Rj-2020-013">
   <data key="d1">1</data>
 </edge>
-<edge source="An Introduction&#10;To The Vip Package" target="Https://Doi.Org/10.32614/Rj-2020-013">
-  <data key="d1">1</data>
-</edge>
-<edge source="São Carlos" target="Rafael Izbicki">
+<edge source="Rafael Izbicki" target="São Carlos">
   <data key="d1">1</data>
 </edge>
 <edge source="New York" target="Springer">
@@ -2344,7 +2374,7 @@
 <edge source="P. A." target="W. D. O. Estatística Básica">
   <data key="d1">1</data>
 </edge>
-<edge source="Editora&#10;Saraiva" target="São Paulo">
+<edge source="São Paulo" target="Editora&#10;Saraiva">
   <data key="d1">1</data>
 </edge>
 <edge source="S. R. V.; Silva" target="A. A. F. D.">
@@ -2359,7 +2389,7 @@
 <edge source="Revista Da Sociedade Brasileira&#10;De Engenharia De Avaliações" target="Jun">
   <data key="d1">1</data>
 </edge>
-<edge source="Under The Open Database License" target="Odbl">
+<edge source="Odbl" target="Under The Open Database License">
   <data key="d1">1</data>
 </edge>
 <edge source="Padgham" target="M. Et Al">
@@ -2368,28 +2398,31 @@
 <edge source="Simple Features" target="Spatial Objects">
   <data key="d1">1</data>
 </edge>
-<edge source="Universidade Federal Da Paraíba" target="Trabalho De Conclusão De Curso">
-  <data key="d1">1</data>
-</edge>
-<edge source="Universidade Federal Da Paraíba" target="Graduação Em Estatística">
+<edge source="Trabalho De Conclusão De Curso" target="Universidade Federal Da Paraíba">
   <data key="d1">1</data>
 </edge>
 <edge source="Trabalho De Conclusão De Curso" target="Graduação Em Estatística">
   <data key="d1">1</data>
 </edge>
+<edge source="Universidade Federal Da Paraíba" target="Graduação Em Estatística">
+  <data key="d1">1</data>
+</edge>
 <edge source="Austria" target="Vienna">
   <data key="d1">1</data>
 </edge>
-<edge source="L. T." target="Veloso">
+<edge source="Veloso" target="L. T.">
   <data key="d1">1</data>
 </edge>
-<edge source="Universidade De São Paulo" target="São&#10;Paulo">
+<edge source="São&#10;Paulo" target="Universidade De São Paulo">
   <data key="d1">1</data>
 </edge>
-<edge source="Using Support Vector Regression" target="J. Y. Housing Price">
+<edge source="J. Y. Housing Price" target="Using Support Vector Regression">
   <data key="d1">1</data>
 </edge>
 <edge source="Master’S&#10;Project" target="Computer Science">
+  <data key="d1">1</data>
+</edge>
+<edge source="Master’S&#10;Project" target="M.S.">
   <data key="d1">1</data>
 </edge>
 <edge source="Master’S&#10;Project" target="San José State University">
@@ -2398,7 +2431,7 @@
 <edge source="Master’S&#10;Project" target="Usa">
   <data key="d1">1</data>
 </edge>
-<edge source="Master’S&#10;Project" target="M.S.">
+<edge source="Computer Science" target="M.S.">
   <data key="d1">1</data>
 </edge>
 <edge source="Computer Science" target="San José State University">
@@ -2407,28 +2440,25 @@
 <edge source="Computer Science" target="Usa">
   <data key="d1">1</data>
 </edge>
-<edge source="Computer Science" target="M.S.">
+<edge source="M.S." target="San José State University">
+  <data key="d1">1</data>
+</edge>
+<edge source="M.S." target="Usa">
   <data key="d1">1</data>
 </edge>
 <edge source="San José State University" target="Usa">
   <data key="d1">1</data>
 </edge>
-<edge source="San José State University" target="M.S.">
+<edge source="L. C.; Silva" target="L. R.">
   <data key="d1">1</data>
 </edge>
-<edge source="Usa" target="M.S.">
+<edge source="L. C.; Silva" target="C. A.">
   <data key="d1">1</data>
 </edge>
-<edge source="C. A." target="L. R.">
+<edge source="L. R." target="C. A.">
   <data key="d1">1</data>
 </edge>
-<edge source="C. A." target="L. C.; Silva">
-  <data key="d1">1</data>
-</edge>
-<edge source="L. R." target="L. C.; Silva">
-  <data key="d1">1</data>
-</edge>
-<edge source="Tune" target="Random&#10;Forest&#10;1&#10;Set.Seed(392">
+<edge source="Random&#10;Forest&#10;1&#10;Set.Seed(392" target="Tune">
   <data key="d1">2</data>
 </edge>
 <edge source="Tune" target="Tune">

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d0" for="node" attr.name="tipo" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Vagas">
+  <data key="d0">MISC</data>
+</node>
+<node id="Hiperparâmetros">
+  <data key="d0">MISC</data>
+</node>
+<node id="Boosting">
+  <data key="d0">MISC</data>
+</node>
+<node id="Cubist">
+  <data key="d0">LOC</data>
+</node>
+<node id="Xgboost">
+  <data key="d0">MISC</data>
+</node>
+<node id="Svm">
+  <data key="d0">ORG</data>
+</node>
+<node id="Rmse">
+  <data key="d0">ORG</data>
+</node>
+<node id="Apêndice B -- Código R">
+  <data key="d0">MISC</data>
+</node>
+<node id="Tabela 7">
+  <data key="d0">MISC</data>
+</node>
+<node id="Svr">
+  <data key="d0">MISC</data>
+</node>
+<node id="Área">
+  <data key="d0">PER</data>
+</node>
+<node id="Random Forest">
+  <data key="d0">MISC</data>
+</node>
+<edge source="Vagas" target="Área">
+  <data key="d1">1</data>
+</edge>
+<edge source="Vagas" target="Xgboost">
+  <data key="d1">1</data>
+</edge>
+<edge source="Hiperparâmetros" target="Xgboost">
+  <data key="d1">2</data>
+</edge>
+<edge source="Boosting" target="Xgboost">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Xgboost">
+  <data key="d1">2</data>
+</edge>
+<edge source="Cubist" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Random Forest">
+  <data key="d1">2</data>
+</edge>
+<edge source="Cubist" target="Svr">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Random Forest">
+  <data key="d1">4</data>
+</edge>
+<edge source="Xgboost" target="Rmse">
+  <data key="d1">2</data>
+</edge>
+<edge source="Xgboost" target="Apêndice B -- Código R">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Svr">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Tabela 7">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Área">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Rmse" target="Random Forest">
+  <data key="d1">2</data>
+</edge>
+<edge source="Rmse" target="Svr">
+  <data key="d1">2</data>
+</edge>
+<edge source="Svr" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+</graph></graphml>

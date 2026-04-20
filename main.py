@@ -16,7 +16,7 @@ LABELS_INTERESSANTES = ["PER", "ORG", "LOC", "GPE", "MISC"]
 
 # ── FUNÇÕES (sem alteração) ──────────────────────────────────────────────────
 
-def analisar_ego_network(G, entidade):
+def analisar_ego_network(G, entidade = ""):
     if entidade not in G:
         return None, []
     ego = nx.ego_graph(G, entidade, radius=1)
@@ -27,7 +27,7 @@ def top_entidades_por_grau(G, top_n=10):
     graus = dict(G.degree(weight='weight'))
     return sorted(graus.items(), key=lambda x: x[1], reverse=True)[:top_n]
 
-def contar_caminhos_n_passos(G, origem, destino, n=2):
+def contar_caminhos_n_passos(G, origem = "", destino = "", n=2):
     if origem not in G or destino not in G:
         return 0
     adj_matrix = nx.to_numpy_array(G, weight=None)
@@ -111,9 +111,9 @@ st.set_page_config(page_title="Análise de Entidades TCC", layout="wide")
 st.title("📊 Análise de Entidades — TCC")
 
 arquivo = st.file_uploader("Envie o PDF do TCC", type="pdf")
-entidade_ego = st.text_input("Entidade para Ego Network", value="Xgboost")
-origem_caminho = st.text_input("Origem (caminhos)", value="Xgboost")
-destino_caminho = st.text_input("Destino (caminhos)", value="Random Forest")
+entidade_ego = st.text_input("Entidade para Ego Network", value="")
+origem_caminho = st.text_input("Origem (caminhos)", value="")
+destino_caminho = st.text_input("Destino (caminhos)", value="")
 
 if arquivo and st.button("▶ Analisar"):
 
@@ -166,17 +166,28 @@ if arquivo and st.button("▶ Analisar"):
             st.pyplot(plotar_grafo(grafo, f"Co-ocorrência por {label}", cor))
 
             st.subheader(f"Ego Network — {entidade_ego}")
-            ego, vizinhos = analisar_ego_network(grafo, entidade_ego)
-            if ego:
-                st.write(f"Nós: {ego.number_of_nodes()} | Arestas: {ego.number_of_edges()}")
-                st.dataframe(pd.DataFrame(vizinhos, columns=["Vizinho", "Peso"]))
+            if entidade_ego == "":
+                st.warning("Nenhuma entidade selecionada")
             else:
-                st.warning(f"'{entidade_ego}' não encontrada no grafo.")
+                ego, vizinhos = analisar_ego_network(grafo, entidade_ego)
+                if ego:
+                    nome_ego = f"ego{entidade_ego.lower()}{label.lower()}.graphml"
+                    nx.write_graphml(ego, nome_ego)
+
+                    st.write(f"Nós: {ego.number_of_nodes()} | Arestas: {ego.number_of_edges()}")
+                    st.dataframe(pd.DataFrame(vizinhos, columns=["Vizinho", "Peso"]))
+
+                    with open(nome_ego, "rb") as f:
+                        st.download_button("⬇ GraphML Ego Network", f, nome_ego)
+                else:
+                    st.warning(f"'{entidade_ego}' não encontrada no grafo.")
 
             st.subheader("Caminhos de N passos")
-            qtd = contar_caminhos_n_passos(grafo, origem_caminho, destino_caminho, 2)
-            st.write(f"Caminhos de tamanho 2 entre **{origem_caminho}** e **{destino_caminho}**: **{qtd}**")
-
+            if origem_caminho == "" or destino_caminho == "":
+                st.warning("Nenhuma origem ou caminho selecionada")
+            else:
+                qtd = contar_caminhos_n_passos(grafo, origem_caminho, destino_caminho, 2) 
+                st.write(f"Caminhos de tamanho 2 entre **{origem_caminho}** e **{destino_caminho}**: **{qtd}**")
             st.subheader("Caminho médio")
             try:
                 cm = menor_caminho_medio(grafo)
@@ -186,7 +197,8 @@ if arquivo and st.button("▶ Analisar"):
 
             st.subheader("Clusters temáticos")
             _, grupos = detectar_clusters_tematicos(grafo)
-            for cid, termos in grupos.items():
+            grupos_ordenado = dict(sorted(grupos.items()))
+            for cid, termos in grupos_ordenado.items():
                 st.write(f"**Cluster {cid}:** {', '.join(termos[:10])}")
 
             st.subheader("Downloads")
