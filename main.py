@@ -8,13 +8,20 @@ import numpy as np
 import community.community_louvain as community_louvain
 import tempfile
 import os
+import re  
 
 # CONFIGURAÇÕES
 MODELO_SPACY = "pt_core_news_lg"
-TERMOS_LIXO = ['Capítulo', 'Pdf', 'Http', 'Https', 'E-Mail', 'Referência', 'Anexo', 'Equação', 'Art.']
+
+TERMOS_LIXO = [
+    'Capítulo', 'Pdf', 'Http', 'Https', 'E-Mail', 'Referência', 'Anexo', 
+    'Equação', 'Art.', 'Tabela', 'Fig.', 'Figura', 'Abstract', 'Resumo',
+    'Introdução', 'Metodologia', 'Conclusão', 'Resultados', 'Mape', 'Rmse', 
+    'Mae', 'Rsq', 'Value', 'Valor', 'Et', 'Al', 'Https', 'Doi'
+]
 LABELS_INTERESSANTES = ["PER", "ORG", "LOC", "GPE", "MISC"]
 
-# ── FUNÇÕES (sem alteração) ──────────────────────────────────────────────────
+# ── FUNÇÕES ──────────────────────────────────────────────────
 
 def analisar_ego_network(G, entidade):
     if entidade not in G:
@@ -63,18 +70,27 @@ def extrair_paragrafos_pdf(caminho_pdf):
                 paragrafos.append(texto)
     return paragrafos
 
+
+def limpar_texto(texto):
+    texto = texto.replace('\n', ' ').replace('\t', ' ')
+    texto = re.sub(r'\s+', ' ', texto) 
+    texto = re.sub(r'[:;,.]$', '', texto) 
+    return texto.strip().title()
+
 def construir_grafo(unidades):
     G = nx.Graph()
     entidades_para_df = []
     for unidade in unidades:
         ents_validas = []
         for ent in unidade.ents:
-            texto_normalizado = ent.text.strip().title()
+            texto_normalizado = limpar_texto(ent.text)
+            
             if (ent.label_ in LABELS_INTERESSANTES and
                     texto_normalizado not in TERMOS_LIXO and
                     len(texto_normalizado) > 2):
                 ents_validas.append((texto_normalizado, ent.label_))
                 entidades_para_df.append({"Texto": texto_normalizado, "Label": ent.label_})
+        
         ents_unicas = list(set(ents_validas))
         if len(ents_unicas) > 1:
             for i in range(len(ents_unicas)):
