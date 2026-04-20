@@ -28,20 +28,29 @@ Ferramenta para análise de entidades nomeadas (NER) em documentos PDF acadêmic
 ```bash
 git clone https://github.com/Alan-CRA/trabalho1_AED2.git
 cd trabalho1_AED2
+
 ```
 
-### 2. Instale as dependências Python
+### 2. Crie uma venv
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # macOS/Linux
+# .venv\Scripts\activate  # Windows
+```
+
+### 3. Instale as dependências Python
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Instale o modelo de linguagem em português
+### 4. Instale o modelo de linguagem em português
 
 ```bash
 python -m spacy download pt_core_news_lg
 ```
-### 3.1 Caso o comando anterior não der certo por qualquer motivo, tente:
+### 4.1 Caso o comando anterior não der certo por qualquer motivo, tente:
 ```bash
 pip install https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0-py3-none-any.whl
 ```
