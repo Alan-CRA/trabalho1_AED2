@@ -1,0 +1,406 @@
+Texto,Label,Frequencia,Relevancia_%
+Natal,LOC,26,3.95
+Xgboost,MISC,20,3.04
+Svr,MISC,20,3.04
+Cubist,LOC,16,2.43
+Random Forest,MISC,11,1.67
+Random Forest,ORG,8,1.22
+Brasil,LOC,6,0.91
+Kuhn,MISC,6,0.91
+Openstreetmap,MISC,5,0.76
+Cubist,PER,5,0.76
+Mae Mape,LOC,5,0.76
+Rio Grande Do Norte,LOC,4,0.61
+Tune,LOC,4,0.61
+Tune,MISC,4,0.61
+S.L,MISC,4,0.61
+Departamento De Estatística,ORG,4,0.61
+Shiny,MISC,4,0.61
+Fortaleza,LOC,4,0.61
+Agradeço,PER,4,0.61
+Distância,LOC,4,0.61
+Importância,LOC,4,0.61
+Quinlan,MISC,3,0.46
+Breiman,LOC,3,0.46
+R Package,MISC,3,0.46
+Banheiro,LOC,3,0.46
+The R Journal,MISC,3,0.46
+Zap Imóveis,MISC,3,0.46
+Β(T,ORG,3,0.46
+Florêncio,MISC,3,0.46
+Xgboost,ORG,3,0.46
+João Pessoa,LOC,3,0.46
+Leaflet,MISC,3,0.46
+Pereira,LOC,3,0.46
+Natal,MISC,3,0.46
+Vaga,LOC,3,0.46
+Ufrn,LOC,3,0.46
+Universidade Federal Do Rio Grande Do Norte,LOC,3,0.46
+Variável,MISC,2,0.3
+Veloso,MISC,2,0.3
+Tabela 2,MISC,2,0.3
+Tabela 1,MISC,2,0.3
+São Paulo,LOC,2,0.3
+Basak,PER,2,0.3
+Boxplots,LOC,2,0.3
+Área,ORG,2,0.3
+Tsuda,LOC,2,0.3
+Attali,LOC,2,0.3
+Oliveira,ORG,2,0.3
+R Core Team,MISC,2,0.3
+Plano Diretor Do Município Do Natal,MISC,2,0.3
+Prof,PER,2,0.3
+Receita,ORG,2,0.3
+Rbf,MISC,2,0.3
+Bandeira,ORG,2,0.3
+Raíz Do Erro Quadrático Médio,MISC,2,0.3
+Referencial Teórico,MISC,2,0.3
+B. M.; Boehmke,PER,2,0.3
+B. C. Variable,PER,2,0.3
+Sinduscon,LOC,2,0.3
+Apêndice C -- Código R,MISC,2,0.3
+Apêndice B -- Código R,MISC,2,0.3
+Sebrae,ORG,2,0.3
+Sebrae-Rn,PER,2,0.3
+Tabela 3,MISC,2,0.3
+Tabela 7,MISC,2,0.3
+Boehmke,LOC,2,0.3
+Marcus Nunes,PER,2,0.3
+Bussab,PER,2,0.3
+Marcelo Bourguignon,PER,2,0.3
+Makson Pedro,PER,2,0.3
+Makson,PER,2,0.3
+Davidson,PER,2,0.3
+Objetivos,MISC,2,0.3
+Objetivo Geral,MISC,2,0.3
+C(0,LOC,2,0.3
+Considerações Finais,MISC,2,0.3
+Organização,ORG,2,0.3
+Patranabis,ORG,2,0.3
+Pebesma,ORG,2,0.3
+Knn,MISC,2,0.3
+Coeficiente De Determinação,MISC,2,0.3
+Chen,ORG,2,0.3
+Do Rio Grande Do Norte,MISC,2,0.3
+Disponível,MISC,2,0.3
+Divisão,ORG,2,0.3
+K-Folds,MISC,2,0.3
+L(Y,ORG,2,0.3
+Janela,PER,2,0.3
+Código R,MISC,2,0.3
+Johnson,PER,2,0.3
+Izbicki,PER,2,0.3
+Eqm(J,MISC,2,0.3
+Erro Percentual Absoluto Médio,MISC,2,0.3
+Drucker,ORG,2,0.3
+Eqm,MISC,2,0.3
+Greenwell,LOC,2,0.3
+Granjon,LOC,2,0.3
+Iptu,LOC,2,0.3
+Inc,ORG,2,0.3
+K(Xi,MISC,2,0.3
+Hiperparâmetros,MISC,2,0.3
+Greenwell,ORG,2,0.3
+Grids,MISC,2,0.3
+Estatística,LOC,2,0.3
+Ferreira,LOC,2,0.3
+Guestrin,ORG,2,0.3
+An Introduction To The Vip Package,MISC,2,0.3
+Aplicação Shiny,MISC,2,0.3
+Wickham,MISC,2,0.3
+Xgboost,LOC,2,0.3
+−X′∥2,ORG,2,0.3
+Abreu,ORG,1,0.15
+"2,043 Distância",LOC,1,0.15
+A. A. Avaliação,PER,1,0.15
+A. A. F. D,PER,1,0.15
+Abnt,ORG,1,0.15
+Xgb_Tuned <- Tune_Grid,MISC,1,0.15
+Apêndice D. 35 4 Resultados 4.1,MISC,1,0.15
+Araújo Florêncio,PER,1,0.15
+Arg Min J,PER,1,0.15
+Artificial Intelligence,MISC,1,0.15
+Associação Brasileira De Normas Técnicas,ORG,1,0.15
+Austria,LOC,1,0.15
+Avaliação De Bens,MISC,1,0.15
+B B X,MISC,1,0.15
+B. A,PER,1,0.15
+Vagas,LOC,1,0.15
+Variável Valor,MISC,1,0.15
+Ufc,LOC,1,0.15
+Under The Open Database License,MISC,1,0.15
+Universidade De São Paulo,LOC,1,0.15
+Universidade Federal Da Paraíba,LOC,1,0.15
+Universidade Federal De Pernambuco,LOC,1,0.15
+Estatístico,MISC,1,0.15
+Estephany Duarte,PER,1,0.15
+Exp,MISC,1,0.15
+F.: Il,PER,1,0.15
+False,MISC,1,0.15
+Ferreira,ORG,1,0.15
+Fi-,ORG,1,0.15
+Figuras 13,MISC,1,0.15
+G. D. J,PER,1,0.15
+Dom Forest,LOC,1,0.15
+Dr. Eliardo Guimarães Da Costa,PER,1,0.15
+Dr. Lutemberg,PER,1,0.15
+Dr. Marcelo Bourguignon Pereira,PER,1,0.15
+Dr. Marcelo Bourguignon Pereira Universidade Federal Do Rio Grande Do Norte,PER,1,0.15
+Agência Sebrae De Notícias,ORG,1,0.15
+Amorim,PER,1,0.15
+Inteligência Artificial,MISC,1,0.15
+Inteligência Artificial - Monografia,MISC,1,0.15
+Iptu,PER,1,0.15
+Gamlss,MISC,1,0.15
+Generalized Additive Models For Location,MISC,1,0.15
+Graduação Em Estatística,MISC,1,0.15
+Grid_Max_Entropy,PER,1,0.15
+H. Tidymodels,PER,1,0.15
+Hiperparâmetro,LOC,1,0.15
+Html,MISC,1,0.15
+Https://Cran.R-Project.Org/Pac Kage=Shinyjs,LOC,1,0.15
+Https://Cran.R-Project.Org/Package=Shinydashboard,ORG,1,0.15
+Https://Doi.Org/10.32614/Rj-2020-013,LOC,1,0.15
+Erro Quadrático Médio,LOC,1,0.15
+Escala E Forma,MISC,1,0.15
+Estado Do,LOC,1,0.15
+Jm X,MISC,1,0.15
+Joseneide Ferreira Dantas - Crb-15/324,PER,1,0.15
+Jun,MISC,1,0.15
+J∈Nk(Xi,LOC,1,0.15
+K(X,PER,1,0.15
+K-Fold,ORG,1,0.15
+Https://Github.Com/Cowvin0/Tcc_Realestate/Tree/Main/App,MISC,1,0.15
+Https://Www.Researchgate.Net/Publication/389486533,LOC,1,0.15
+I(X ∈Rjm,LOC,1,0.15
+I(Xi,LOC,1,0.15
+I. Pereira,PER,1,0.15
+In The State Of Rio Grande Do Norte,MISC,1,0.15
+In This Scenario,MISC,1,0.15
+In: Advances In Neural Information Processing Systems,MISC,1,0.15
+In: Proceedings Of The 5Th Australian Joint Conference On Artificial Intelligence,MISC,1,0.15
+Iniciação Científica,MISC,1,0.15
+Iqr,MISC,1,0.15
+Iraci De Fátima Bonfim,PER,1,0.15
+Izbicki,ORG,1,0.15
+J. Y. Housing Price,PER,1,0.15
+Dr. Pedro Rafael Diniz Marinho,PER,1,0.15
+Edilo Gomes Rodrigues,PER,1,0.15
+Editora Saraiva,PER,1,0.15
+Eliardo,PER,1,0.15
+Ende-,LOC,1,0.15
+Engenharia De Avaliações,ORG,1,0.15
+Erro Absoluto Médio,MISC,1,0.15
+D. Shinydashboard: Create Dashboards With ’Shiny,PER,1,0.15
+D. Shinyjs,PER,1,0.15
+D. Support,PER,1,0.15
+Damião,PER,1,0.15
+Javascript,MISC,1,0.15
+Departamento De Estatística Do Centro De Ciências Exatas,ORG,1,0.15
+Dissertacao_Luizatulerveloso_Final.Pdf,MISC,1,0.15
+Dissertação,MISC,1,0.15
+Dissertação De Mestrado,MISC,1,0.15
+Dissertação De Mestrado Em Estatística,MISC,1,0.15
+Centro De Ciências Exatas,LOC,1,0.15
+Ciências Exatas E Da Terra Curso De Graduação Em Estatística Folha De Aprovação Predição De Preços De Imóveis,MISC,1,0.15
+Coefficient Of Determination,MISC,1,0.15
+Keywords: Machine Learning,MISC,1,0.15
+Kuhn,PER,1,0.15
+L. C.; Silva,PER,1,0.15
+L. De A. Engenharia De Avaliações Com Base Em Modelos Gamlss,PER,1,0.15
+L. R,PER,1,0.15
+L. Random Forests,MISC,1,0.15
+L. T,PER,1,0.15
+Lagrange,PER,1,0.15
+Morettin,ORG,1,0.15
+Leaflet’ Library,MISC,1,0.15
+Lei Complementar,MISC,1,0.15
+Li ≤Xi,MISC,1,0.15
+Lista De Tabelas 1,MISC,1,0.15
+Lucas Gabriel,PER,1,0.15
+M. A,PER,1,0.15
+M. Et Al,PER,1,0.15
+M.S,PER,1,0.15
+Machine,ORG,1,0.15
+Machine Learning,MISC,1,0.15
+Makson Pedro Rodrigues,PER,1,0.15
+K. Applied Predictive Modeling,PER,1,0.15
+Kernel Methods In Computational Biology,MISC,1,0.15
+Kernel Rbf,MISC,1,0.15
+Kernlab,MISC,1,0.15
+Nfolha,LOC,1,0.15
+Nk(Xi,MISC,1,0.15
+Marcelo Bourguignon Pereira Orientador Departamento De Estatística,PER,1,0.15
+Mariana,PER,1,0.15
+Master’S Project,MISC,1,0.15
+Mean Absolute Error,MISC,1,0.15
+Mean Absolute Percentage Error,MISC,1,0.15
+Mediana,MISC,1,0.15
+Mestrado,LOC,1,0.15
+Mikhail Tal Predição De Preços De Imóveis,PER,1,0.15
+Min_N,PER,1,0.15
+Ministério Da Educação E Do Desporto Universidade Federal Do Rio Grande Do Norte,MISC,1,0.15
+Mit Press,ORG,1,0.15
+Modelos Aditivos Generalizados Para Local,MISC,1,0.15
+Monografia De Graduação,MISC,1,0.15
+Morettin,LOC,1,0.15
+Collaborative Project To Create A Free Editable Map Of The World,MISC,1,0.15
+Committees,LOC,1,0.15
+Committees Neighbors,MISC,1,0.15
+Complementar,ORG,1,0.15
+Computer Science,MISC,1,0.15
+Correlograma,PER,1,0.15
+Css,MISC,1,0.15
+Curso De Bacharelado Em Estatística,MISC,1,0.15
+C. A,PER,1,0.15
+C. Leaflet: Create Interactive Web Maps With The Javascript ’,PER,1,0.15
+Natal - Monografia,MISC,1,0.15
+Natal-Rn,LOC,1,0.15
+Nbr,PER,1,0.15
+Neural Information Processing – Letters And Reviews,MISC,1,0.15
+Neurips,ORG,1,0.15
+New York,LOC,1,0.15
+R Package Version 0.3.0,MISC,1,0.15
+R Package Version 1.38.0,MISC,1,0.15
+Objetivos Específicos,MISC,1,0.15
+Objetivos Específicos •,MISC,1,0.15
+Odbl,MISC,1,0.15
+P. A,PER,1,0.15
+Padgham,MISC,1,0.15
+Padgham Et Al,MISC,1,0.15
+Pal,LOC,1,0.15
+Pal,MISC,1,0.15
+Parameters(Wf_Svr,MISC,1,0.15
+Pela Tabela 7,MISC,1,0.15
+Máquinas De Vetores De Suporte,MISC,1,0.15
+Média,LOC,1,0.15
+Médio Absoluto,LOC,1,0.15
+N X,MISC,1,0.15
+Banco,ORG,1,0.15
+Radial Basis Function,MISC,1,0.15
+Rafael Izbicki,PER,1,0.15
+Ran-,LOC,1,0.15
+Random Forest,LOC,1,0.15
+Random Forest 1 Set.Seed(392,MISC,1,0.15
+Rbf Sigma Degree,ORG,1,0.15
+Piscina,LOC,1,0.15
+Pos-,LOC,1,0.15
+Prediction Of Real Estate Prices In Natal,MISC,1,0.15
+Prefeitura Municipal Do Natal,LOC,1,0.15
+Proceedings Of The 22Nd,MISC,1,0.15
+Q3 −Q1,LOC,1,0.15
+Quartil,MISC,1,0.15
+Quarto,LOC,1,0.15
+Quinlan,PER,1,0.15
+R. Cubist,LOC,1,0.15
+R. Learning With,PER,1,0.15
+R. Shiny,PER,1,0.15
+R: A Language And Environment For Statistical Computing,MISC,1,0.15
+C. V. A. Estimativa,PER,1,0.15
+C. Xgboost,PER,1,0.15
+Capítulo 1,MISC,1,0.15
+Capítulo 2,MISC,1,0.15
+Capítulo 3,MISC,1,0.15
+Capítulo 4,MISC,1,0.15
+Capítulo 5,MISC,1,0.15
+Ccet,LOC,1,0.15
+Ccet Elaborado Por,LOC,1,0.15
+Cdu,ORG,1,0.15
+Censo Imobiliário 2024,MISC,1,0.15
+Banca,ORG,1,0.15
+Shiny Apps Using,MISC,1,0.15
+Recife,LOC,1,0.15
+Referências,MISC,1,0.15
+Referências Abnt,MISC,1,0.15
+Região Rjm,LOC,1,0.15
+Revista Da Sociedade Brasileira De Engenharia De Avaliações,MISC,1,0.15
+Rio De Janeiro,LOC,1,0.15
+Rj-2018-009,LOC,1,0.15
+Rjm,PER,1,0.15
+Rodrigues,LOC,1,0.15
+Rodrigues Predição,PER,1,0.15
+Ronaldo Xavier De Arruda,PER,1,0.15
+Root Mean Squared Error,MISC,1,0.15
+Rule- And Instance-Based Regression Modeling,LOC,1,0.15
+S. R. V.; Silva,PER,1,0.15
+R-Project,MISC,1,0.15
+Svm,LOC,1,0.15
+Svm,ORG,1,0.15
+Svm_Rbf,LOC,1,0.15
+Svm_Rbf Do Tidymodels,LOC,1,0.15
+São Carlos,LOC,1,0.15
+San José State University,LOC,1,0.15
+San- Tos,PER,1,0.15
+Santos,LOC,1,0.15
+Scalable Tree Boosting System,MISC,1,0.15
+Scale And Shape,MISC,1,0.15
+Schölkopf,MISC,1,0.15
+Schölkopf,PER,1,0.15
+Se- Gundo Abreu E Amorim,LOC,1,0.15
+Segundo Quinlan,LOC,1,0.15
+Shiny - Monografia,MISC,1,0.15
+Shiny Application Was Developed,MISC,1,0.15
+Sisbi,MISC,1,0.15
+Sistema De Bibliotecas,ORG,1,0.15
+Bastos E Silva,PER,1,0.15
+Because Of The Complexity Of The Topic,ORG,1,0.15
+Biblioteca Setorial Prof,LOC,1,0.15
+Biblioteca Shinydashboard,LOC,1,0.15
+Biblioteca Shinyjs,LOC,1,0.15
+Boosting,MISC,1,0.15
+Apêndice A,MISC,1,0.15
+Apêndice B,MISC,1,0.15
+Apêndice C,MISC,1,0.15
+Spatial Objects,MISC,1,0.15
+Springer,PER,1,0.15
+Step_Rm,MISC,1,0.15
+Sumário 1,MISC,1,0.15
+Support Vector Machine,MISC,1,0.15
+Universidade Federal Do Ceará,LOC,1,0.15
+Universidade Federal Do Rio Grande Do Norte Centro De Ciências Exatas,LOC,1,0.15
+Usa,MISC,1,0.15
+Using Support Vector Regression,MISC,1,0.15
+T. M,PER,1,0.15
+Tabela 5,MISC,1,0.15
+Tabela 8,MISC,1,0.15
+Tabelas 3,MISC,1,0.15
+Terra,LOC,1,0.15
+Terra Da Universidade Federal Do,LOC,1,0.15
+Terra Departamento De Estatística Bacharelado Em Estatística Predição,LOC,1,0.15
+The Most Important Variables For The Model Were Also Evaluated,MISC,1,0.15
+The Practical Potential Of The Research And Serving,MISC,1,0.15
+This Work Aims To Develop,MISC,1,0.15
+Simple Features,ORG,1,0.15
+Simple Features For R: Standardized Support For Spatial Vector Data,MISC,1,0.15
+X J=0 Βij,MISC,1,0.15
+Accurately Estimating Property Prices In A Specific Region Is A Challenging Process,PER,1,0.15
+Acm,PER,1,0.15
+Aestimum,PER,1,0.15
+Afim,PER,1,0.15
+Zilli,MISC,1,0.15
+Zilli,PER,1,0.15
+Área,PER,1,0.15
+ˆFb(X,LOC,1,0.15
+ˆ¯Yr1,PER,1,0.15
+ˆ¯Yr2,PER,1,0.15
+∂F(Xi,LOC,1,0.15
+Abnt Nbr,MISC,1,0.15
+Trabalho De Conclusão De Curso,MISC,1,0.15
+Uerj,LOC,1,0.15
+Apêndice D -- Código R,MISC,1,0.15
+Análise Exploratória De Dados,MISC,1,0.15
+Análise Exploratória De Dados Com,MISC,1,0.15
+Apply,LOC,1,0.15
+Aprendizado Supervisionado,MISC,1,0.15
+Aprendizado Supervisionado - Monografia,MISC,1,0.15
+Apêndice,MISC,1,0.15
+Xij,MISC,1,0.15
+Xir,MISC,1,0.15
+Xjr,ORG,1,0.15
+Zap Imóveis,LOC,1,0.15
+Vert,MISC,1,0.15
+Vert,PER,1,0.15
+Vienna,LOC,1,0.15
+W. D. O. Estatística Básica,PER,1,0.15
+W. V,PER,1,0.15
+Wickham,ORG,1,0.15

@@ -128,16 +128,24 @@ Aplicando a análise por parágrafo ao TCC, foram identificadas 444 entidades ú
 O grafo por parágrafo captura mais entidades e conexões únicas, pois a janela maior permite que entidades de frases diferentes se conectem. Já o grafo por frase concentra mais peso nas entidades principais, resultando em graus mais altos para os termos centrais, ego networks mais densas e um grafo mais compacto — caminho médio menor. Os dois métodos se complementam: o por parágrafo revela relações temáticas mais amplas, enquanto o por frase destaca as relações mais diretas e recorrentes do texto.
 
 
-## 📁 Arquivos gerados
-
-| Arquivo | Descrição |
-|---|---|
-| `entidades_frase.csv` | Entidades, labels, frequência e relevância (por frase) |
-| `entidades_paragrafo.csv` | Entidades, labels, frequência e relevância (por parágrafo) |
-| `grafo_final.graphml` | Grafo por frase — abre no Gephi |
-| `grafo_final_paragrafo.graphml` | Grafo por parágrafo — abre no Gephi |
-| `grafo_com_foco.graphml` | Ego network da entidade selecionada |
-
+## 📁 Estrutura do repositório
+```text
+├── grafos/                       # Arquivos de grafos estruturados
+│   ├── egoxgboostfrase.graphml   # Ego network de Xgboost (nível frase)
+│   ├── egoxgboostparágrafo.graphml # Ego network Xgboost (nível parágrafo)
+│   ├── grafo_final_paragrafo.graphml # Grafo total por parágrafo
+│   └── grafo_final.graphml       # Grafo total por frase
+├── images/                       # Imagens usadas no Readme
+│   └── ...
+├── .gitignore
+├── entidades_frase.csv       # Base de dados de entidades extraídas por frase
+├── entidades_parágrafo.csv       # Base de dados de entidades extraídas por parágrafo
+├── LICENSE
+├── main.py                       # Script principal de execução do projeto
+├── README.md                     # Documentação principal do repositório
+├── requirements.txt              # Lista de dependências Python para instalação
+└── tcc_final.pdf                 # Documento utilizado para análise
+```
 ---
 
 ## 🔬 Abrindo no Gephi
@@ -146,20 +154,3 @@ O grafo por parágrafo captura mais entidades e conexões únicas, pois a janela
 2. Abra o Gephi
 3. **File → Open** → selecione o arquivo `.graphml`
 4. O grafo será carregado com os pesos das arestas e os tipos das entidades como atributos
-
----
-
-## ⚙️ Configurações
-
-No topo do arquivo `main.py`:
-
-```python
-MODELO_SPACY = "pt_core_news_lg"   # Modelo de linguagem
-
-LABELS_INTERESSANTES = ["PER", "ORG", "LOC", "GPE", "MISC"]  # Tipos de entidade
-
-TERMOS_LIXO = ['Capítulo', 'Pdf', 'Http', ...]  # Termos a ignorar
-```
-
----
-
