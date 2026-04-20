@@ -116,7 +116,16 @@ Todas as análises são feitas duas vezes: uma com **co-ocorrência por frase** 
 
 ## Analises feitas
 
+### Analises por frase
 
+Foram identificadas 405 entidades únicas e 469 conexões. As entidades mais centrais foram Natal (grau 39), XGBoost (33) e Cubist (28). O caminho médio foi de 3,38 e foram detectados 52 clusters. A ego network do XGBoost conecta 23 nós com 65 arestas, ligando-se fortemente a Random Forest (peso 6) e Cubist (peso 4), além das métricas de avaliação MAE, MAPE, RMSE e R².
+
+### Análise por Paragrafo
+
+Aplicando a análise por parágrafo ao TCC, foram identificadas 444 entidades únicas e 527 conexões. As entidades mais centrais foram Natal (grau 29), Brasil (19) e Kuhn (16). Entre os modelos de machine learning, XGBoost (15), Cubist (14), SVR (13) e Random Forest (12) formam o núcleo temático do trabalho. O algoritmo de Louvain detectou 49 clusters, com destaque para o cluster que reúne os quatro modelos principais. O caminho médio do grafo foi de 4,52.
+
+### Comparação entre os dois métodos
+O grafo por parágrafo captura mais entidades e conexões únicas, pois a janela maior permite que entidades de frases diferentes se conectem. Já o grafo por frase concentra mais peso nas entidades principais, resultando em graus mais altos para os termos centrais, ego networks mais densas e um grafo mais compacto — caminho médio menor. Os dois métodos se complementam: o por parágrafo revela relações temáticas mais amplas, enquanto o por frase destaca as relações mais diretas e recorrentes do texto.
 
 
 ## 📁 Arquivos gerados
