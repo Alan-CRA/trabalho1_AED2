@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d0" for="node" attr.name="tipo" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Coefficient Of Determination">
+  <data key="d0">MISC</data>
+</node>
+<node id="Raíz Do Erro Quadrático Médio">
+  <data key="d0">MISC</data>
+</node>
+<node id="Xgboost">
+  <data key="d0">MISC</data>
+</node>
+<node id="Chen">
+  <data key="d0">ORG</data>
+</node>
+<node id="L(Y">
+  <data key="d0">ORG</data>
+</node>
+<node id="Cubist">
+  <data key="d0">LOC</data>
+</node>
+<node id="Erro Percentual Absoluto Médio">
+  <data key="d0">MISC</data>
+</node>
+<node id="Área">
+  <data key="d0">PER</data>
+</node>
+<node id="Hiperparâmetros">
+  <data key="d0">MISC</data>
+</node>
+<node id="Svr">
+  <data key="d0">MISC</data>
+</node>
+<node id="Root Mean Squared Error">
+  <data key="d0">MISC</data>
+</node>
+<node id="Svm">
+  <data key="d0">ORG</data>
+</node>
+<node id="Banheiro">
+  <data key="d0">LOC</data>
+</node>
+<node id="Mean Absolute Error">
+  <data key="d0">MISC</data>
+</node>
+<node id="Mean Absolute Percentage Error">
+  <data key="d0">MISC</data>
+</node>
+<node id="Coeficiente De Determinação">
+  <data key="d0">MISC</data>
+</node>
+<node id="Apêndice A">
+  <data key="d0">MISC</data>
+</node>
+<node id="Random Forest">
+  <data key="d0">LOC</data>
+</node>
+<node id="Pela Tabela 7">
+  <data key="d0">MISC</data>
+</node>
+<node id="Tune">
+  <data key="d0">MISC</data>
+</node>
+<node id="Erro Absoluto Médio">
+  <data key="d0">MISC</data>
+</node>
+<node id="Vagas">
+  <data key="d0">LOC</data>
+</node>
+<node id="Boosting">
+  <data key="d0">MISC</data>
+</node>
+<edge source="Coefficient Of Determination" target="Root Mean Squared Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Coefficient Of Determination" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Coefficient Of Determination" target="Cubist">
+  <data key="d1">1</data>
+</edge>
+<edge source="Coefficient Of Determination" target="Xgboost">
+  <data key="d1">1</data>
+</edge>
+<edge source="Coefficient Of Determination" target="Mean Absolute Percentage Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Coefficient Of Determination" target="Mean Absolute Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Erro Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Coeficiente De Determinação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Cubist">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Erro Percentual Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Xgboost">
+  <data key="d1">1</data>
+</edge>
+<edge source="Raíz Do Erro Quadrático Médio" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Erro Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Coeficiente De Determinação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Random Forest">
+  <data key="d1">6</data>
+</edge>
+<edge source="Xgboost" target="Cubist">
+  <data key="d1">4</data>
+</edge>
+<edge source="Xgboost" target="Erro Percentual Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Root Mean Squared Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Mean Absolute Percentage Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Mean Absolute Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Hiperparâmetros">
+  <data key="d1">2</data>
+</edge>
+<edge source="Xgboost" target="Svr">
+  <data key="d1">3</data>
+</edge>
+<edge source="Xgboost" target="Boosting">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Chen">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="L(Y">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Apêndice A">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Pela Tabela 7">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Banheiro">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Área">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Vagas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Xgboost" target="Tune">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Erro Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Coeficiente De Determinação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Random Forest">
+  <data key="d1">5</data>
+</edge>
+<edge source="Cubist" target="Erro Percentual Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Root Mean Squared Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Mean Absolute Percentage Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Mean Absolute Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Cubist" target="Svr">
+  <data key="d1">2</data>
+</edge>
+<edge source="Cubist" target="Tune">
+  <data key="d1">2</data>
+</edge>
+<edge source="Erro Percentual Absoluto Médio" target="Erro Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro Percentual Absoluto Médio" target="Coeficiente De Determinação">
+  <data key="d1">2</data>
+</edge>
+<edge source="Erro Percentual Absoluto Médio" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Erro Percentual Absoluto Médio" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Área" target="Banheiro">
+  <data key="d1">1</data>
+</edge>
+<edge source="Área" target="Vagas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svr" target="Random Forest">
+  <data key="d1">3</data>
+</edge>
+<edge source="Svr" target="Svm">
+  <data key="d1">1</data>
+</edge>
+<edge source="Root Mean Squared Error" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Root Mean Squared Error" target="Mean Absolute Percentage Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Root Mean Squared Error" target="Mean Absolute Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Erro Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Coeficiente De Determinação">
+  <data key="d1">1</data>
+</edge>
+<edge source="Svm" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Banheiro" target="Vagas">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mean Absolute Error" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mean Absolute Error" target="Mean Absolute Percentage Error">
+  <data key="d1">1</data>
+</edge>
+<edge source="Mean Absolute Percentage Error" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Coeficiente De Determinação" target="Erro Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Coeficiente De Determinação" target="Random Forest">
+  <data key="d1">1</data>
+</edge>
+<edge source="Random Forest" target="Erro Absoluto Médio">
+  <data key="d1">1</data>
+</edge>
+<edge source="Tune" target="Tune">
+  <data key="d1">2</data>
+</edge>
+</graph></graphml>

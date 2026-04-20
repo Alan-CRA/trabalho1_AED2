@@ -1,856 +1,603 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
-<svg contentScriptType="text/ecmascript" width="1494.6714"
+<svg contentScriptType="text/ecmascript" width="1339.3342"
      xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
      contentStyleType="text/css"
-     viewBox="-757.270081 -593.945435 1494.671387 1200.568848"
-     height="1200.5688" preserveAspectRatio="xMidYMid meet"
+     viewBox="-663.773987 -580.486572 1339.334229 1145.225586"
+     height="1145.2256" preserveAspectRatio="xMidYMid meet"
      xmlns="http://www.w3.org/2000/svg" version="1.1">
     <g id="edges">
         <path stroke-linecap="round" fill="none"
-              class="id_Raíz_Do_Erro_Quadrático_Médio id_Erro
-Absoluto_Médio"
-              d="M -352.802948,-123.876717 A 448.101992,448.101992 0,0 1,-92.610878,-575.933899"
+              class="id_Coefficient_Of_Determination id_Root_Mean_Squared_Error"
+              d="M -92.393456,541.870972 A 578.021421,578.021421 0,0 1,513.991882,239.656570"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Raíz_Do_Erro_Quadrático_Médio id_Svm"
-              d="M -341.704712,-114.019989 A 760.165375,760.165375 0,0 1,383.096832,412.946381"
+              class="id_Coefficient_Of_Determination id_Random_Forest"
+              d="M -96.906609,540.770447 A 815.659300,815.659300 0,0 1,479.674286,-230.190201"
               stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Raíz_Do_Erro_Quadrático_Médio id_Rmse"
-              d="M -351.346893,-123.930847 A 210.893432,210.893432 0,0 1,-207.000214,-311.639526"
+              class="id_Coefficient_Of_Determination id_Cubist"
+              d="M -94.796806,541.005859 A 704.620842,704.620842 0,0 1,530.470581,-4.012554"
               stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Raíz_Do_Erro_Quadrático_Médio id_Mape"
-              d="M -342.032684,-116.478592 A 783.517272,783.517272 0,0 1,516.131042,226.447189"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+              class="id_Coefficient_Of_Determination id_Xgboost"
+              d="M -101.285866,541.757141 A 466.780326,466.780326 0,0 1,-1.325117,7.011062"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Raíz_Do_Erro_Quadrático_Médio id_Random_Forest"
-              d="M -342.935577,-118.744362 A 604.029771,604.029771 0,0 1,359.471008,-24.229424"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
+              class="id_Coefficient_Of_Determination id_Mean_Absolute_Percentage_Error"
+              d="M -97.543320,540.787659 A 277.842345,277.842345 0,0 1,72.709335,273.153137"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Raíz_Do_Erro_Quadrático_Médio id_Xgboost"
-              d="M -343.830383,-107.772812 A 197.432154,197.432154 0,0 1,-281.080841,103.735115"
+              class="id_Coefficient_Of_Determination id_Mean_Absolute_Error"
+              d="M -105.023064,544.863098 A 416.306416,416.306416 0,0 1,-251.277740,84.093056"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Raíz_Do_Erro_Quadrático_Médio id_Erro_Absoluto_Médio"
+              d="M -469.713013,248.677124 A 569.336067,569.336067 0,0 1,136.887924,526.266174"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
               class="id_Raíz_Do_Erro_Quadrático_Médio id_Coeficiente_De_Determinação"
-              d="M -358.971161,-107.067451 A 192.481160,192.481160 0,0 1,-571.547852,-77.153671"
+              d="M -470.424225,246.524765 A 705.173058,705.173058 0,0 1,342.538177,414.442505"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Raíz_Do_Erro_Quadrático_Médio id_Erro_Percentual_Absoluto
-Médio"
-              d="M -341.705719,-114.100830 A 362.281912,362.281912 0,0 1,0.575165,126.831039"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+              class="id_Raíz_Do_Erro_Quadrático_Médio id_Random_Forest"
+              d="M -474.976471,241.801102 A 902.362025,902.362025 0,0 1,479.405457,-234.801208"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
               class="id_Raíz_Do_Erro_Quadrático_Médio id_Cubist"
-              d="M -343.105469,-108.832436 A 388.540507,388.540507 0,0 1,-165.998413,304.953827"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Raíz_Do_Erro_Quadrático_Médio id_Mae"
-              d="M -349.506989,-123.692825 A 567.013883,567.013883 0,0 1,152.299011,-559.009460"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mape id_Erro
-Absoluto_Médio"
-              d="M 511.818939,232.049423 A 845.723843,845.723843 0,0 1,-83.455414,-569.976685"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Mape id_Svm"
-              d="M 521.313843,244.953751 A 192.696220,192.696220 0,0 1,395.567841,419.259888"
-              stroke="#68ad36" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Mape id_Rmse"
-              d="M 511.389069,234.795868 A 753.998688,753.998688 0,0 1,-194.658066,-304.944214"
-              stroke="#68ad36" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mape id_Random_Forest"
-              d="M 512.166809,231.084518 A 246.589575,246.589575 0,0 1,365.928162,-7.302020"
-              stroke="#b3903a" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Mape id_Xgboost"
-              d="M 512.546448,239.626328 A 679.045739,679.045739 0,0 1,-277.253113,120.272476"
-              stroke="#9d9482" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mape id_Coeficiente_De_Determinação"
-              d="M 512.023132,238.461563 A 955.358035,955.358035 0,0 1,-574.355469,-73.806366"
+              d="M -473.156311,242.989960 A 876.220261,876.220261 0,0 1,531.197876,-8.640192"
               stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Mape id_Erro_Percentual_Absoluto
-Médio"
-              d="M 512.356445,239.247498 A 439.093000,439.093000 0,0 1,10.613234,143.613297"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Mape id_Cubist"
-              d="M 514.070801,241.770279 A 578.520332,578.520332 0,0 1,-159.561768,319.665558"
-              stroke="#b3903a" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Mape id_Mae"
-              d="M 512.659241,230.074219 A 726.776298,726.776298 0,0 1,160.160797,-550.031799"
-              stroke="#34b288" stroke-width="3.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mape id_Coefficient_Of_Determination"
-              d="M 511.504242,236.475586 A 584.429807,584.429807 0,0 1,-95.580704,-81.275375"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mape id_Mean_Absolute_Percentage_Error"
-              d="M 515.865845,226.616898 A 391.921422,391.921422 0,0 1,536.632874,-227.061996"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mape id_Root_Mean_Squared_Error"
-              d="M 511.404114,234.383423 A 415.020329,415.020329 0,0 1,139.309280,-71.810547"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mape id_Mean_Absolute
-Error"
-              d="M 512.528564,239.592331 A 219.635993,219.635993 0,0 1,267.599762,205.470856"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Vagas id_Área"
-              d="M 297.732391,-272.593536 A 359.449983,359.449983 0,0 1,608.887146,2.274925"
-              stroke="#7f958c" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Vagas id_Figura"
-              d="M 286.841217,-283.488007 A 188.454315,188.454315 0,0 1,391.702942,-465.239685"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Vagas id_Banheiro"
-              d="M 291.047821,-264.082031 A 568.816455,568.816455 0,0 1,93.169418,372.339935"
-              stroke="#ff743e" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Vagas id_Xgboost"
-              d="M 284.426971,-264.109497 A 575.453926,575.453926 0,0 1,-274.327209,113.600037"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Coeficiente_De_Determinação id_Erro
-Absoluto_Médio"
-              d="M -578.942261,-91.640198 A 586.421333,586.421333 0,0 1,-93.349686,-578.465576"
+              class="id_Raíz_Do_Erro_Quadrático_Médio id_Erro_Percentual_Absoluto_Médio"
+              d="M -481.666107,240.955078 A 703.504407,703.504407 0,0 1,-145.269516,-515.762024"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Coeficiente_De_Determinação id_Svm"
-              d="M -570.551514,-83.316193 A 908.460962,908.460962 0,0 1,381.734741,413.488190"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Coeficiente_De_Determinação id_Rmse"
-              d="M -576.584656,-90.983047 A 373.497783,373.497783 0,0 1,-207.398315,-315.389832"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Coeficiente_De_Determinação id_Random_Forest"
-              d="M -572.005005,-87.140877 A 791.064676,791.064676 0,0 1,359.042114,-23.756918"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Coeficiente_De_Determinação id_Xgboost"
-              d="M -570.438110,-82.194511 A 295.434228,295.434228 0,0 1,-287.860413,103.844345"
+              class="id_Raíz_Do_Erro_Quadrático_Médio id_Xgboost"
+              d="M -475.046509,241.765884 A 455.260297,455.260297 0,0 1,-3.908577,-1.383261"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Coeficiente_De_Determinação id_Erro_Percentual_Absoluto
-Médio"
-              d="M -570.808533,-84.482666 A 519.656606,519.656606 0,0 1,-1.683342,127.932426"
+              class="id_Raíz_Do_Erro_Quadrático_Médio id_Svm"
+              d="M -487.227570,244.368149 A 192.473391,192.473391 0,0 1,-543.503113,37.214272"
+              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Xgboost id_Erro_Absoluto_Médio"
+              d="M 13.685122,6.533210 A 459.834932,459.834932 0,0 1,145.489227,525.737000"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Coeficiente_De_Determinação id_Cubist"
-              d="M -570.516479,-80.425827 A 476.584301,476.584301 0,0 1,-169.951294,304.846375"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Coeficiente_De_Determinação id_Mae"
-              d="M -576.885254,-91.102539 A 736.043367,736.043367 0,0 1,152.288101,-560.454895"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Cubist id_Erro
-Absoluto_Médio"
-              d="M -173.402786,306.134094 A 748.902812,748.902812 0,0 1,-90.142891,-572.533630"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Cubist id_Svm"
-              d="M -159.197311,310.432129 A 470.603873,470.603873 0,0 1,379.315735,415.139282"
-              stroke="#b3903a" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Cubist id_Rmse"
-              d="M -174.531799,306.925446 A 524.939249,524.939249 0,0 1,-202.977325,-306.228699"
-              stroke="#b3903a" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Cubist id_Random_Forest"
-              d="M -164.519302,305.417542 A 524.618560,524.618560 0,0 1,356.688049,-18.059792"
-              stroke="#ff743e" stroke-width="5.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Cubist id_Xgboost"
-              d="M -177.328979,310.526093 A 193.787936,193.787936 0,0 1,-285.268280,123.151138"
-              stroke="#e87886" stroke-width="4.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Cubist id_Erro_Percentual_Absoluto
-Médio"
-              d="M -166.767181,304.808319 A 206.530448,206.530448 0,0 1,-6.036330,138.130981"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Cubist id_Mae"
-              d="M -170.963852,305.076813 A 779.065216,779.065216 0,0 1,153.860931,-554.391174"
-              stroke="#7f958c" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Cubist id_Coefficient_Of_Determination"
-              d="M -172.697403,305.746796 A 342.232118,342.232118 0,0 1,-107.108337,-83.267632"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Cubist id_Mean_Absolute_Percentage_Error"
-              d="M -165.515778,305.077637 A 748.947165,748.947165 0,0 1,532.895630,-234.648743"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Cubist id_Root_Mean_Squared_Error"
-              d="M -167.994583,304.702118 A 416.699024,416.699024 0,0 1,127.225616,-78.704170"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Cubist id_Mean_Absolute
-Error"
-              d="M -161.982605,306.899750 A 370.030503,370.030503 0,0 1,251.005859,195.014328"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Cubist id_Svr"
-              d="M -175.734665,321.320923 A 243.062480,243.062480 0,0 1,-449.768005,349.038422"
-              stroke="#e87886" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Cubist id_Tune"
-              d="M -175.611221,307.940094 A 702.418948,702.418948 0,0 1,-333.572662,-503.648346"
-              stroke="#ff743e" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Erro_Percentual_Absoluto
-Médio id_Erro
-Absoluto_Médio"
-              d="M -3.068786,129.025665 A 601.309078,601.309078 0,0 1,-88.380814,-571.268616"
+              class="id_Xgboost id_Coeficiente_De_Determinação"
+              d="M 15.646084,2.695265 A 453.123100,453.123100 0,0 1,348.705292,411.902435"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Erro_Percentual_Absoluto
-Médio id_Svm"
-              d="M 13.793695,136.415207 A 397.964589,397.964589 0,0 1,383.172760,412.922791"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Erro_Percentual_Absoluto
-Médio id_Rmse"
-              d="M -4.885555,131.332947 A 411.432453,411.432453 0,0 1,-199.533295,-304.774261"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Erro_Percentual_Absoluto
-Médio id_Random_Forest"
-              d="M 8.954192,127.732712 A 328.352852,328.352852 0,0 1,356.915802,-19.534763"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Erro_Percentual_Absoluto
-Médio id_Xgboost"
-              d="M -4.768660,141.463440 A 240.865138,240.865138 0,0 1,-276.688416,119.659515"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Erro_Percentual_Absoluto
-Médio id_Mae"
-              d="M -0.203233,127.132507 A 594.930752,594.930752 0,0 1,154.695633,-553.275024"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Rmse id_Erro
-Absoluto_Médio"
-              d="M -199.588028,-324.316467 A 240.715882,240.715882 0,0 1,-92.028770,-574.813965"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Rmse id_Svm"
-              d="M -187.779984,-311.941925 A 783.393117,783.393117 0,0 1,385.776337,412.489502"
-              stroke="#68ad36" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Rmse id_Random_Forest"
-              d="M -187.544449,-316.036591 A 531.357859,531.357859 0,0 1,362.292358,-26.272509"
-              stroke="#b3903a" stroke-width="4.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Rmse id_Xgboost"
-              d="M -193.270660,-305.458984 A 363.735541,363.735541 0,0 1,-276.938721,106.448647"
-              stroke="#9d9482" stroke-width="5.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Rmse id_Mae"
-              d="M -194.073715,-323.970001 A 362.796922,362.796922 0,0 1,152.272018,-560.120300"
-              stroke="#34b288" stroke-width="3.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Rmse id_Coefficient_Of_Determination"
-              d="M -188.866119,-309.393890 A 203.792704,203.792704 0,0 1,-97.888336,-100.046257"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Rmse id_Mean_Absolute_Percentage_Error"
-              d="M -188.796432,-319.591217 A 620.503108,620.503108 0,0 1,535.526794,-241.622375"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Rmse id_Root_Mean_Squared_Error"
-              d="M -187.435516,-314.750488 A 339.571240,339.571240 0,0 1,133.557175,-90.947823"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Rmse id_Mean_Absolute
-Error"
-              d="M -187.648209,-312.490417 A 573.048276,573.048276 0,0 1,259.410278,188.631607"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Rmse id_Svr"
-              d="M -194.884750,-304.881592 A 590.362017,590.362017 0,0 1,-449.954865,338.752411"
-              stroke="#9d9482" stroke-width="3.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Banheiro id_Área"
-              d="M 88.341743,368.803162 A 534.066243,534.066243 0,0 1,601.049866,11.780347"
-              stroke="#7f958c" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Banheiro id_Figura"
-              d="M 82.349319,368.659302 A 753.793508,753.793508 0,0 1,392.411743,-463.954376"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Banheiro id_Xgboost"
-              d="M 75.116867,378.348053 A 378.911169,378.911169 0,0 1,-281.191315,122.694565"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Área id_Figura"
-              d="M 602.403137,7.009861 A 437.800581,437.800581 0,0 1,398.604858,-459.654968"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Área id_Xgboost"
-              d="M 603.725159,18.850605 A 750.884827,750.884827 0,0 1,-275.662506,118.202713"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mean_Absolute_Percentage_Error id_Coefficient_Of_Determination"
-              d="M 536.336060,-227.309860 A 549.098133,549.098133 0,0 1,-90.804634,-86.248924"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mean_Absolute_Percentage_Error id_Random_Forest"
-              d="M 542.306580,-224.876999 A 233.336528,233.336528 0,0 1,376.300415,-19.922825"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mean_Absolute_Percentage_Error id_Root_Mean_Squared_Error"
-              d="M 537.413147,-226.495163 A 361.717973,361.717973 0,0 1,146.469040,-78.844246"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mean_Absolute_Percentage_Error id_Xgboost"
-              d="M 537.788940,-226.260681 A 747.878236,747.878236 0,0 1,-274.602234,115.559166"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mean_Absolute_Percentage_Error id_Mean_Absolute
-Error"
-              d="M 543.435364,-224.874466 A 431.172519,431.172519 0,0 1,269.700287,195.053711"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mean_Absolute_Percentage_Error id_Mae"
-              d="M 532.921631,-235.610428 A 417.055953,417.055953 0,0 1,164.572556,-550.076782"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Figura id_Xgboost"
-              d="M 398.517944,-459.674835 A 749.448263,749.448263 0,0 1,-274.342102,112.517906"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Boosting id_Xgboost"
-              d="M -75.434921,587.749878 A 438.771599,438.771599 0,0 1,-286.365112,122.984734"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_L(Y id_Xgboost"
-              d="M -311.903931,516.123352 A 343.261578,343.261578 0,0 1,-290.628143,120.954872"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Xgboost id_Erro
-Absoluto_Médio"
-              d="M -287.777618,103.813416 A 601.405361,601.405361 0,0 1,-91.403687,-573.896423"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Svm"
-              d="M -274.524658,111.178879 A 615.270514,615.270514 0,0 1,381.279724,413.723663"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
               class="id_Xgboost id_Random_Forest"
-              d="M -277.587067,105.801674 A 553.268716,553.268716 0,0 1,357.595520,-21.504560"
-              stroke="#e87886" stroke-width="6.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Mae"
-              d="M -284.821014,103.208893 A 673.080214,673.080214 0,0 1,152.869507,-556.389099"
-              stroke="#6999d4" stroke-width="3.0" stroke-opacity="1.0"/>
+              d="M 10.665911,-8.657535 A 447.182854,447.182854 0,0 1,479.419464,-234.878769"
+              stroke="#9d9482" stroke-width="6.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Cubist"
+              d="M 13.981201,-5.813619 A 445.409630,445.409630 0,0 1,532.316528,-10.651241"
+              stroke="#9d9482" stroke-width="4.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Xgboost id_Coefficient_Of_Determination"
-              d="M -283.176270,103.261803 A 228.799862,228.799862 0,0 1,-109.737312,-88.150215"
+              class="id_Xgboost id_Erro_Percentual_Absoluto_Médio"
+              d="M -1.860359,-6.048707 A 450.016767,450.016767 0,0 1,-140.143982,-511.356628"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Svm"
+              d="M -1.786119,6.483502 A 455.602297,455.602297 0,0 1,-531.698792,33.324593"
+              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
               class="id_Xgboost id_Root_Mean_Squared_Error"
-              d="M -279.461761,104.455193 A 386.643433,386.643433 0,0 1,127.021973,-83.460251"
+              d="M 15.776207,-1.787237 A 476.074352,476.074352 0,0 1,519.032410,232.606369"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Xgboost id_Mean_Absolute
-Error"
-              d="M -275.435791,108.604179 A 459.431490,459.431490 0,0 1,253.293854,191.497406"
+              class="id_Xgboost id_Mean_Absolute_Percentage_Error"
+              d="M 13.785929,6.408948 A 233.176794,233.176794 0,0 1,85.400322,260.051392"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Xgboost id_Mean_Absolute_Error"
+              d="M -0.200177,8.040833 A 220.620261,220.620261 0,0 1,-238.651398,77.909088"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
               class="id_Xgboost id_Hiperparâmetros"
-              d="M -291.616669,120.033333 A 245.020234,245.020234 0,0 1,-567.065002,155.970001"
+              d="M 5.706381,10.167761 A 485.697562,485.697562 0,0 1,-341.557098,458.021851"
               stroke="#d27cce" stroke-width="2.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_Xgboost id_Svr"
-              d="M -284.553528,123.193542 A 240.962413,240.962413 0,0 1,-448.887726,341.078339"
+              d="M -3.935066,1.546875 A 285.265364,285.265364 0,0 1,-291.984009,-151.345016"
               stroke="#d27cce" stroke-width="3.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Boosting"
+              d="M 7.065545,10.111025 A 279.866602,279.866602 0,0 1,-150.597717,288.147766"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_Xgboost id_Chen"
-              d="M -284.487427,103.197708 A 472.434063,472.434063 0,0 1,33.784328,-346.333130"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+              d="M -3.743011,2.550329 A 488.924846,488.924846 0,0 1,-530.818481,-215.995132"
+              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_L(Y"
+              d="M -2.196603,-5.600151 A 228.864559,228.864559 0,0 1,-86.881035,-249.707352"
+              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Xgboost id_Apêndice_A."
-              d="M -293.232483,108.663002 A 411.519505,411.519505 0,0 1,-509.119019,-317.447388"
+              class="id_Xgboost id_Apêndice_A"
+              d="M 3.979441,-9.628677 A 286.214665,286.214665 0,0 1,139.105469,-307.678680"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
               class="id_Xgboost id_Pela_Tabela_7"
-              d="M -274.409180,114.535851 A 563.430713,563.430713 0,0 1,199.884766,573.512695"
+              d="M 11.380490,-8.238589 A 225.955395,225.955395 0,0 1,248.297516,-102.241882"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Banheiro"
+              d="M -3.752721,-2.167864 A 474.704011,474.704011 0,0 1,-361.071899,-424.904968"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Área"
+              d="M 6.346834,-9.821660 A 477.553387,477.553387 0,0 1,352.520599,-446.107300"
+              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Vagas"
+              d="M 1.534635,-8.791400 A 479.442679,479.442679 0,0 1,98.096054,-559.598389"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_Xgboost id_Tune"
-              d="M -290.804321,105.584358 A 522.905761,522.905761 0,0 1,-334.606476,-504.217438"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
+              d="M 15.845759,-1.399328 A 259.884964,259.884964 0,0 1,279.883820,131.579605"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Svm id_Erro
-Absoluto_Médio"
-              d="M 377.300568,417.736908 A 922.489180,922.489180 0,0 1,-85.451408,-570.176086"
+              class="id_Cubist id_Erro_Absoluto_Médio"
+              d="M 540.422363,5.183022 A 559.246600,559.246600 0,0 1,151.295792,532.052551"
               stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Svm id_Random_Forest"
-              d="M 379.860291,414.671234 A 366.824403,366.824403 0,0 1,361.129547,-8.942057"
+        <path stroke-linecap="round" fill="none"
+              class="id_Cubist id_Coeficiente_De_Determinação"
+              d="M 542.516479,4.964677 A 389.663198,389.663198 0,0 1,357.896149,416.931061"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cubist id_Random_Forest"
+              d="M 533.002075,-11.503107 A 194.928276,194.928276 0,0 1,485.384277,-223.840729"
+              stroke="#68ad36" stroke-width="5.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cubist id_Erro_Percentual_Absoluto_Médio"
+              d="M 530.439270,-4.963784 A 709.300712,709.300712 0,0 1,-133.777588,-511.095276"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Cubist id_Svm"
+              d="M 532.588501,1.378420 A 900.820073,900.820073 0,0 1,-531.843567,33.538513"
               stroke="#b3903a" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Svm id_Mae"
-              d="M 378.513123,415.971863 A 839.559547,839.559547 0,0 1,158.248947,-550.650208"
-              stroke="#34b288" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Svm id_Svr"
-              d="M 377.544525,427.658295 A 706.809766,706.809766 0,0 1,-450.977417,350.712646"
+        <path stroke-linecap="round" fill="none"
+              class="id_Cubist id_Root_Mean_Squared_Error"
+              d="M 545.681030,3.698445 A 205.623822,205.623822 0,0 1,530.181763,233.638199"
               stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Coefficient_Of_Determination id_Random_Forest"
-              d="M -91.073227,-94.842918 A 393.578628,393.578628 0,0 1,359.590118,-24.350439"
+              class="id_Cubist id_Mean_Absolute_Percentage_Error"
+              d="M 536.549744,4.396081 A 445.182884,445.182884 0,0 1,91.957390,270.385620"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cubist id_Mean_Absolute_Error"
+              d="M 533.028748,1.898717 A 660.434595,660.434595 0,0 1,-239.492905,79.716820"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Cubist id_Svr"
+              d="M 531.445557,-0.442794 A 709.298932,709.298932 0,0 1,-289.574371,-153.006790"
+              stroke="#9d9482" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Cubist id_Tune"
+              d="M 536.256409,4.266685 A 245.240774,245.240774 0,0 1,294.444427,141.516251"
+              stroke="#9d9482" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Erro_Percentual_Absoluto_Médio id_Erro_Absoluto_Médio"
+              d="M -128.765076,-514.447693 A 909.812789,909.812789 0,0 1,145.454147,525.722900"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Erro_Percentual_Absoluto_Médio id_Coeficiente_De_Determinação"
+              d="M -127.598534,-516.283569 A 883.669500,883.669500 0,0 1,350.824738,412.020477"
+              stroke="#d27cce" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Erro_Percentual_Absoluto_Médio id_Random_Forest"
+              d="M -126.779282,-522.722534 A 573.966906,573.966906 0,0 1,484.413300,-241.812866"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Erro_Percentual_Absoluto_Médio id_Svm"
+              d="M -136.567108,-510.696899 A 567.448454,567.448454 0,0 1,-530.505188,24.854954"
               stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Coefficient_Of_Determination id_Root_Mean_Squared_Error"
-              d="M -91.605049,-95.753929 A 197.460790,197.460790 0,0 1,128.898117,-87.590721"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Coefficient_Of_Determination id_Mean_Absolute
-Error"
-              d="M -89.973480,-89.811485 A 384.831985,384.831985 0,0 1,257.731079,188.935608"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Coefficient_Of_Determination id_Mae"
-              d="M -101.190269,-100.188316 A 448.172132,448.172132 0,0 1,153.173813,-555.646729"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mae id_Erro
-Absoluto_Médio"
-              d="M 153.676025,-554.689514 A 205.464965,205.464965 0,0 1,-75.822914,-573.526428"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Mae id_Random_Forest"
-              d="M 170.646225,-554.349365 A 483.129508,483.129508 0,0 1,369.352112,-26.905443"
-              stroke="#7f958c" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mae id_Root_Mean_Squared_Error"
-              d="M 167.729263,-551.430969 A 399.154800,399.154800 0,0 1,143.147339,-89.247513"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Mae id_Mean_Absolute
-Error"
-              d="M 169.187180,-552.588501 A 637.259038,637.259038 0,0 1,265.201538,189.845932"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Área id_Banheiro"
+              d="M 354.231842,-442.659393 A 603.381578,603.381578 0,0 1,-353.597382,-429.103058"
+              stroke="#34b288" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Área id_Vagas"
+              d="M 352.350616,-446.834320 A 235.470089,235.470089 0,0 1,110.272308,-557.832764"
+              stroke="#34b288" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Svr id_Random_Forest"
+              d="M -288.931671,-166.974915 A 657.507247,657.507247 0,0 1,480.694366,-238.233994"
+              stroke="#9d9482" stroke-width="3.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Svr id_Svm"
+              d="M -299.247498,-150.734863 A 256.537618,256.537618 0,0 1,-530.058533,27.493017"
+              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
               class="id_Root_Mean_Squared_Error id_Random_Forest"
-              d="M 146.235306,-84.887863 A 198.861699,198.861699 0,0 1,360.369629,-25.051405"
-              stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
+              d="M 517.373352,233.748215 A 396.411905,396.411905 0,0 1,483.957245,-224.579453"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Root_Mean_Squared_Error id_Mean_Absolute
-Error"
-              d="M 145.447708,-76.428970 A 255.093348,255.093348 0,0 1,262.416046,188.804459"
+              class="id_Root_Mean_Squared_Error id_Mean_Absolute_Percentage_Error"
+              d="M 516.152893,247.764694 A 368.945272,368.945272 0,0 1,90.438683,274.822388"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Erro
-Absoluto_Médio id_Random_Forest"
-              d="M -73.802986,-577.396973 A 600.487240,600.487240 0,0 1,366.262085,-27.267597"
+              class="id_Root_Mean_Squared_Error id_Mean_Absolute_Error"
+              d="M 514.725464,245.479279 A 658.119277,658.119277 0,0 1,-241.482971,82.117752"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Svm id_Erro_Absoluto_Médio"
+              d="M -530.052979,27.859694 A 708.126040,708.126040 0,0 1,138.837433,525.440002"
               stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Random_Forest id_Mean_Absolute
-Error"
-              d="M 368.259674,-7.404633 A 200.518549,200.518549 0,0 1,269.147125,193.840912"
+              class="id_Svm id_Coeficiente_De_Determinação"
+              d="M -530.294373,25.644011 A 810.553862,810.553862 0,0 1,344.275116,413.193237"
               stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Random_Forest id_Svr"
-              d="M 361.678070,-8.603147 A 750.617849,750.617849 0,0 1,-448.685608,346.273224"
-              stroke="#e87886" stroke-width="3.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Svm id_Random_Forest"
+              d="M -533.728394,20.082340 A 884.878505,884.878505 0,0 1,480.002502,-236.860367"
+              stroke="#b3903a" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Banheiro id_Vagas"
+              d="M -355.588745,-442.750793 A 404.391463,404.391463 0,0 1,95.944077,-570.007141"
+              stroke="#68ad36" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mean_Absolute_Error id_Random_Forest"
+              d="M -242.955795,66.034126 A 665.803247,665.803247 0,0 1,479.541290,-235.445694"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mean_Absolute_Error id_Mean_Absolute_Percentage_Error"
+              d="M -238.137573,73.669029 A 319.423459,319.423459 0,0 1,78.017181,260.283447"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mean_Absolute_Percentage_Error id_Random_Forest"
+              d="M 82.468925,259.466736 A 539.018279,539.018279 0,0 1,479.577698,-230.534683"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coeficiente_De_Determinação id_Erro_Absoluto_Médio"
+              d="M 344.830841,430.878723 A 196.919802,196.919802 0,0 1,151.672073,536.195190"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coeficiente_De_Determinação id_Random_Forest"
+              d="M 345.098938,412.774658 A 558.130013,558.130013 0,0 1,481.772095,-226.426147"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Random_Forest id_Erro_Absoluto_Médio"
+              d="M 491.352295,-223.284866 A 702.523216,702.523216 0,0 1,150.472458,530.131042"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path fill="none" stroke-width="2.0"
-              d="M -329.275726,-512.678101 C -309.275726,-532.678101 -309.275726,-492.678101 -329.275726,-512.678101"
-              class="id_Tune" stroke-opacity="1.0" stroke="#ff743e"/>
+              d="M 284.501465,140.449631 C 304.501465,120.449631 304.501465,160.449631 284.501465,140.449631"
+              class="id_Tune" stroke-opacity="1.0" stroke="#d27cce"/>
     </g>
     <g id="nodes">
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-351.70438"
-                class="id_Raíz_Do_Erro_Quadrático_Médio" cy="-113.93724"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-96.9543"
+                class="id_Coefficient_Of_Determination" cy="550.7703"
                 stroke="#935690" stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="521.3878"
-                class="id_Mape" cy="234.95403" stroke="#487925"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="287.77652"
-                class="id_Vagas" cy="-273.53183" stroke="#b2512b"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-580.4283"
-                class="id_Coeficiente_De_Determinação" cy="-81.75123"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-479.5025"
+                class="id_Raíz_Do_Erro_Quadrático_Médio" cy="250.71822"
                 stroke="#935690" stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="-168.24127"
-                class="id_Cubist" cy="314.69907" stroke="#b2512b"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="5.969862"
+                class="id_Xgboost" cy="0.171232" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="3.7943745"
-                class="id_Erro_Percentual_Absoluto
-Médio" cy="136.2987" stroke="#935690" stroke-opacity="1.0"
-                stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="-197.43353"
-                class="id_Rmse" cy="-314.55133" stroke="#487925"
+        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="-535.99805"
+                class="id_Chen" cy="-224.5492" stroke="#b2512b"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="85.116554"
-                class="id_Banheiro" cy="378.2688" stroke="#b2512b"
+        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="-84.04328"
+                class="id_L(Y" cy="-259.29626" stroke="#b2512b"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#00b7da" r="9.2" cx="611.0465"
-                class="id_Área" cy="12.039005" stroke="#008098"
+        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="540.4382"
+                class="id_Cubist" cy="-4.8169656" stroke="#487925"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="542.89343"
-                class="id_Mean_Absolute_Percentage_Error" cy="-234.85977"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-136.57198"
+                class="id_Erro_Percentual_Absoluto_Médio" cy="-520.6969"
                 stroke="#935690" stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="400.79037"
-                class="id_Figura" cy="-469.4132" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#00b7da" r="9.2" cx="362.1662"
+                class="id_Área" cy="-448.74594" stroke="#008098"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-66.72042"
-                class="id_Boosting" cy="592.6547" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-351.17307"
+                class="id_Hiperparâmetros" cy="460.7665" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="-306.46436"
-                class="id_L(Y" cy="524.51447" stroke="#487925"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-296.39526"
+                class="id_Svr" cy="-160.31947" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-284.31906"
-                class="id_Xgboost" cy="113.19629" stroke="#935690"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="386.1019"
-                class="id_Svm" cy="422.4842" stroke="#487925"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-99.96324"
-                class="id_Coefficient_Of_Determination" cy="-90.263885"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="523.8435"
+                class="id_Root_Mean_Squared_Error" cy="241.37297"
                 stroke="#935690" stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#00b7da" r="9.2" cx="162.26712"
-                class="id_Mae" cy="-559.80743" stroke="#008098"
+        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="-540.0529"
+                class="id_Svm" cy="27.828323" stroke="#b2512b"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="136.8275"
-                class="id_Root_Mean_Squared_Error" cy="-81.497696"
+        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="-361.75897"
+                class="id_Banheiro" cy="-434.88135" stroke="#487925"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-248.09285"
+                class="id_Mean_Absolute_Error" cy="74.61379" stroke="#935690"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="82.00071"
+                class="id_Mean_Absolute_Percentage_Error" cy="269.45578"
                 stroke="#935690" stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-507.50214"
-                class="id_Apêndice_A." cy="-327.3158" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="349.2121"
+                class="id_Coeficiente_De_Determinação" cy="421.8896"
+                stroke="#935690" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="147.78806"
+                class="id_Apêndice_A" cy="-312.6398" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-83.464516"
-                class="id_Erro
-Absoluto_Médio" cy="-579.9767" stroke="#935690" stroke-opacity="1.0"
-                stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="366.65723"
-                class="id_Random_Forest" cy="-17.275408" stroke="#b2512b"
+        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="489.25305"
+                class="id_Random_Forest" cy="-233.06204" stroke="#487925"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-575.8725"
-                class="id_Hiperparâmetros" cy="151.23412" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="258.00217"
+                class="id_Pela_Tabela_7" cy="-99.82946" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="-329.27573"
-                class="id_Tune" cy="-512.6781" stroke="#b2512b"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="284.50146"
+                class="id_Tune" cy="140.44963" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="201.54881"
-                class="id_Pela_Tabela_7" cy="583.3733" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="141.7427"
+                class="id_Erro_Absoluto_Médio" cy="535.00867" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="43.27101"
-                class="id_Chen" cy="-349.49585" stroke="#487925"
+        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="105.31556"
+                class="id_Vagas" cy="-566.5178" stroke="#487925"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-458.4356"
-                class="id_Svr" cy="344.05118" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-159.69023"
+                class="id_Boosting" cy="292.31024" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="260.34558"
-                class="id_Mean_Absolute
-Error" cy="198.58777" stroke="#935690" stroke-opacity="1.0"
-                stroke-width="1.5999999"/>
     </g>
     <g id="node-labels-outline">
-        <text stroke-linecap="round" font-size="24" x="-351.70438"
-              y="-108.364975" fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Raíz_Do_Erro_Quadrático_Médio"
-              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
-            Raíz Do Erro Quadrático Médio
-        </text>
-        <text stroke-linecap="round" font-size="24" x="521.3878" y="240.57707"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Mape" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Mape
-        </text>
-        <text stroke-linecap="round" font-size="24" x="287.77652" y="-267.90878"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Vagas" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Vagas
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-580.4283" y="-75.930916"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Coeficiente_De_Determinação"
-              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
-            Coeficiente De Determinação
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-168.24127" y="319.3436"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Cubist" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Cubist
-        </text>
-        <text stroke-linecap="round" font-size="24" x="3.7943745" y="141.18347"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Erro_Percentual_Absoluto
-Médio" stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
-            Erro Percentual Absoluto Médio
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-197.43353" y="-310.0904"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Rmse" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Rmse
-        </text>
-        <text stroke-linecap="round" font-size="24" x="85.116554" y="382.91333"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Banheiro" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Banheiro
-        </text>
-        <text stroke-linecap="round" font-size="24" x="611.0465" y="17.689396"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Área" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Área
-        </text>
-        <text stroke-linecap="round" font-size="24" x="542.89343" y="-229.05313"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Mean_Absolute_Percentage_Error"
-              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
-            Mean Absolute Percentage Error
-        </text>
-        <text stroke-linecap="round" font-size="24" x="400.79037" y="-463.60657"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Figura" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Figura
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-66.72042" y="598.46136"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Boosting" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Boosting
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-306.46436" y="529.8582"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_L(Y" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            L(Y
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-284.31906" y="119.00293"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Xgboost" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Xgboost
-        </text>
-        <text stroke-linecap="round" font-size="24" x="386.1019" y="427.02325"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Svm" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Svm
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-99.96324" y="-85.619354"
+        <text stroke-linecap="round" font-size="24" x="-96.9543" y="555.41486"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Coefficient_Of_Determination"
               stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
             Coefficient Of Determination
         </text>
-        <text stroke-linecap="round" font-size="24" x="162.26712" y="-555.3465"
+        <text stroke-linecap="round" font-size="24" x="-479.5025" y="256.29047"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Mae" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Mae
-        </text>
-        <text stroke-linecap="round" font-size="24" x="136.8275" y="-75.691055"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Root_Mean_Squared_Error"
+              font-family="Dialog" class="id_Raíz_Do_Erro_Quadrático_Médio"
               stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
-            Root Mean Squared Error
+            Raíz Do Erro Quadrático Médio
         </text>
-        <text stroke-linecap="round" font-size="24" x="-507.50214"
-              y="-321.26892" fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Apêndice_A." stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Apêndice A.
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-83.464516" y="-575.0919"
+        <text stroke-linecap="round" font-size="24" x="5.969862" y="5.977873"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Erro
-Absoluto_Médio" stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
-            Erro Absoluto Médio
+              font-family="Dialog" class="id_Xgboost" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Xgboost
         </text>
-        <text stroke-linecap="round" font-size="24" x="366.65723" y="-12.630877"
+        <text stroke-linecap="round" font-size="24" x="-535.99805"
+              y="-219.90466" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Chen" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Chen
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-84.04328" y="-253.95251"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Random_Forest" stroke="#ffffff"
+              font-family="Dialog" class="id_L(Y" stroke="#ffffff"
               stroke-opacity="0.8" stroke-width="3.0px">
-            Random Forest
+            L(Y
         </text>
-        <text stroke-linecap="round" font-size="24" x="-575.8725" y="157.28099"
+        <text stroke-linecap="round" font-size="24" x="540.4382" y="-0.17243433"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Cubist" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Cubist
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-136.57198"
+              y="-515.81213" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Erro_Percentual_Absoluto_Médio"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
+            Erro Percentual Absoluto Médio
+        </text>
+        <text stroke-linecap="round" font-size="24" x="362.1662" y="-443.09555"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Área" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Área
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-351.17307" y="466.8134"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Hiperparâmetros" stroke="#ffffff"
               stroke-opacity="0.8" stroke-width="3.0px">
             Hiperparâmetros
         </text>
-        <text stroke-linecap="round" font-size="24" x="-329.27573"
-              y="-508.21716" fill="#000000" stroke-linejoin="round"
+        <text stroke-linecap="round" font-size="24" x="-296.39526"
+              y="-155.78041" fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Tune" stroke="#ffffff"
+              font-family="Dialog" class="id_Svr" stroke="#ffffff"
               stroke-opacity="0.8" stroke-width="3.0px">
-            Tune
+            Svr
         </text>
-        <text stroke-linecap="round" font-size="24" x="201.54881" y="588.0178"
+        <text stroke-linecap="round" font-size="24" x="523.8435" y="247.17961"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Root_Mean_Squared_Error"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
+            Root Mean Squared Error
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-540.0529" y="32.367386"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Svm" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Svm
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-361.75897"
+              y="-430.23682" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Banheiro" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Banheiro
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-248.09285" y="79.25832"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Mean_Absolute_Error"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
+            Mean Absolute Error
+        </text>
+        <text stroke-linecap="round" font-size="24" x="82.00071" y="275.26242"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Mean_Absolute_Percentage_Error"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
+            Mean Absolute Percentage Error
+        </text>
+        <text stroke-linecap="round" font-size="24" x="349.2121" y="427.7099"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Coeficiente_De_Determinação"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
+            Coeficiente De Determinação
+        </text>
+        <text stroke-linecap="round" font-size="24" x="147.78806" y="-306.59293"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Apêndice_A" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Apêndice A
+        </text>
+        <text stroke-linecap="round" font-size="24" x="489.25305" y="-228.41751"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Random_Forest" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Random Forest
+        </text>
+        <text stroke-linecap="round" font-size="24" x="258.00217" y="-95.18493"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Pela_Tabela_7" stroke="#ffffff"
               stroke-opacity="0.8" stroke-width="3.0px">
             Pela Tabela 7
         </text>
-        <text stroke-linecap="round" font-size="24" x="43.27101" y="-344.85132"
+        <text stroke-linecap="round" font-size="24" x="284.50146" y="144.91057"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Chen" stroke="#ffffff"
+              font-family="Dialog" class="id_Tune" stroke="#ffffff"
               stroke-opacity="0.8" stroke-width="3.0px">
-            Chen
+            Tune
         </text>
-        <text stroke-linecap="round" font-size="24" x="-458.4356" y="348.59024"
+        <text stroke-linecap="round" font-size="24" x="141.7427" y="539.89343"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Svr" stroke="#ffffff"
+              font-family="Dialog" class="id_Erro_Absoluto_Médio"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
+            Erro Absoluto Médio
+        </text>
+        <text stroke-linecap="round" font-size="24" x="105.31556" y="-560.8948"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Vagas" stroke="#ffffff"
               stroke-opacity="0.8" stroke-width="3.0px">
-            Svr
+            Vagas
         </text>
-        <text stroke-linecap="round" font-size="24" x="260.34558" y="203.2323"
+        <text stroke-linecap="round" font-size="24" x="-159.69023" y="298.11688"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Mean_Absolute
-Error" stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
-            Mean Absolute Error
+              font-family="Dialog" class="id_Boosting" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Boosting
         </text>
     </g>
     <g id="node-labels">
-        <text font-size="24" x="-351.70438" y="-108.364975" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Raíz_Do_Erro_Quadrático_Médio">
-            Raíz Do Erro Quadrático Médio
-        </text>
-        <text font-size="24" x="521.3878" y="240.57707" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Mape">
-            Mape
-        </text>
-        <text font-size="24" x="287.77652" y="-267.90878" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Vagas">
-            Vagas
-        </text>
-        <text font-size="24" x="-580.4283" y="-75.930916" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Coeficiente_De_Determinação">
-            Coeficiente De Determinação
-        </text>
-        <text font-size="24" x="-168.24127" y="319.3436" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Cubist">
-            Cubist
-        </text>
-        <text font-size="24" x="3.7943745" y="141.18347" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Erro_Percentual_Absoluto
-Médio">
-            Erro Percentual Absoluto Médio
-        </text>
-        <text font-size="24" x="-197.43353" y="-310.0904" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Rmse">
-            Rmse
-        </text>
-        <text font-size="24" x="85.116554" y="382.91333" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Banheiro">
-            Banheiro
-        </text>
-        <text font-size="24" x="611.0465" y="17.689396" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Área">
-            Área
-        </text>
-        <text font-size="24" x="542.89343" y="-229.05313" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Mean_Absolute_Percentage_Error">
-            Mean Absolute Percentage Error
-        </text>
-        <text font-size="24" x="400.79037" y="-463.60657" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Figura">
-            Figura
-        </text>
-        <text font-size="24" x="-66.72042" y="598.46136" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Boosting">
-            Boosting
-        </text>
-        <text font-size="24" x="-306.46436" y="529.8582" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_L(Y">
-            L(Y
-        </text>
-        <text font-size="24" x="-284.31906" y="119.00293" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Xgboost">
-            Xgboost
-        </text>
-        <text font-size="24" x="386.1019" y="427.02325" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Svm">
-            Svm
-        </text>
-        <text font-size="24" x="-99.96324" y="-85.619354" fill="#000000"
+        <text font-size="24" x="-96.9543" y="555.41486" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Coefficient_Of_Determination">
             Coefficient Of Determination
         </text>
-        <text font-size="24" x="162.26712" y="-555.3465" fill="#000000"
+        <text font-size="24" x="-479.5025" y="256.29047" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Mae">
-            Mae
+              font-family="Dialog" class="id_Raíz_Do_Erro_Quadrático_Médio">
+            Raíz Do Erro Quadrático Médio
         </text>
-        <text font-size="24" x="136.8275" y="-75.691055" fill="#000000"
+        <text font-size="24" x="5.969862" y="5.977873" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Root_Mean_Squared_Error">
-            Root Mean Squared Error
+              font-family="Dialog" class="id_Xgboost">
+            Xgboost
         </text>
-        <text font-size="24" x="-507.50214" y="-321.26892" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Apêndice_A.">
-            Apêndice A.
-        </text>
-        <text font-size="24" x="-83.464516" y="-575.0919" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Erro
-Absoluto_Médio">
-            Erro Absoluto Médio
-        </text>
-        <text font-size="24" x="366.65723" y="-12.630877" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Random_Forest">
-            Random Forest
-        </text>
-        <text font-size="24" x="-575.8725" y="157.28099" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Hiperparâmetros">
-            Hiperparâmetros
-        </text>
-        <text font-size="24" x="-329.27573" y="-508.21716" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Tune">
-            Tune
-        </text>
-        <text font-size="24" x="201.54881" y="588.0178" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Pela_Tabela_7">
-            Pela Tabela 7
-        </text>
-        <text font-size="24" x="43.27101" y="-344.85132" fill="#000000"
+        <text font-size="24" x="-535.99805" y="-219.90466" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Chen">
             Chen
         </text>
-        <text font-size="24" x="-458.4356" y="348.59024" fill="#000000"
+        <text font-size="24" x="-84.04328" y="-253.95251" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_L(Y">
+            L(Y
+        </text>
+        <text font-size="24" x="540.4382" y="-0.17243433" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Cubist">
+            Cubist
+        </text>
+        <text font-size="24" x="-136.57198" y="-515.81213" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Erro_Percentual_Absoluto_Médio">
+            Erro Percentual Absoluto Médio
+        </text>
+        <text font-size="24" x="362.1662" y="-443.09555" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Área">
+            Área
+        </text>
+        <text font-size="24" x="-351.17307" y="466.8134" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Hiperparâmetros">
+            Hiperparâmetros
+        </text>
+        <text font-size="24" x="-296.39526" y="-155.78041" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Svr">
             Svr
         </text>
-        <text font-size="24" x="260.34558" y="203.2323" fill="#000000"
+        <text font-size="24" x="523.8435" y="247.17961" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Mean_Absolute
-Error">
+              font-family="Dialog" class="id_Root_Mean_Squared_Error">
+            Root Mean Squared Error
+        </text>
+        <text font-size="24" x="-540.0529" y="32.367386" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Svm">
+            Svm
+        </text>
+        <text font-size="24" x="-361.75897" y="-430.23682" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Banheiro">
+            Banheiro
+        </text>
+        <text font-size="24" x="-248.09285" y="79.25832" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Mean_Absolute_Error">
             Mean Absolute Error
+        </text>
+        <text font-size="24" x="82.00071" y="275.26242" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Mean_Absolute_Percentage_Error">
+            Mean Absolute Percentage Error
+        </text>
+        <text font-size="24" x="349.2121" y="427.7099" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Coeficiente_De_Determinação">
+            Coeficiente De Determinação
+        </text>
+        <text font-size="24" x="147.78806" y="-306.59293" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Apêndice_A">
+            Apêndice A
+        </text>
+        <text font-size="24" x="489.25305" y="-228.41751" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Random_Forest">
+            Random Forest
+        </text>
+        <text font-size="24" x="258.00217" y="-95.18493" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Pela_Tabela_7">
+            Pela Tabela 7
+        </text>
+        <text font-size="24" x="284.50146" y="144.91057" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Tune">
+            Tune
+        </text>
+        <text font-size="24" x="141.7427" y="539.89343" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Erro_Absoluto_Médio">
+            Erro Absoluto Médio
+        </text>
+        <text font-size="24" x="105.31556" y="-560.8948" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Vagas">
+            Vagas
+        </text>
+        <text font-size="24" x="-159.69023" y="298.11688" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Boosting">
+            Boosting
         </text>
     </g>
 </svg>

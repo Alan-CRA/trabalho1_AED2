@@ -1,260 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
-<svg contentScriptType="text/ecmascript" width="942.2587"
+<svg contentScriptType="text/ecmascript" width="1082.7083"
      xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
      contentStyleType="text/css"
-     viewBox="-463.114410 -459.530273 942.258728 883.948975" height="883.949"
+     viewBox="-515.291138 -454.137115 1082.708252 873.720093" height="873.7201"
      preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
      version="1.1">
     <g id="edges">
-        <path stroke-linecap="round" fill="none" class="id_Vagas id_Área"
-              d="M -193.196732,403.601959 A 472.607251,472.607251 0,0 1,-411.042664,-102.507782"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Vagas id_Xgboost"
-              d="M -188.383209,399.422638 A 489.079977,489.079977 0,0 1,-51.222469,-154.626099"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Hiperparâmetros id_Xgboost"
-              d="M 100.960236,404.185425 A 492.852967,492.852967 0,0 1,-47.184204,-151.716003"
-              stroke="#d27cce" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Boosting id_Xgboost"
-              d="M -408.769623,168.855682 A 416.825113,416.825113 0,0 1,-53.474739,-159.880386"
-              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Cubist id_Xgboost"
-              d="M 351.678436,261.161743 A 488.617687,488.617687 0,0 1,-42.250702,-151.112274"
-              stroke="#e87886" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Cubist id_Svm"
-              d="M 352.123077,266.305603 A 417.952457,417.952457 0,0 1,-113.805962,130.203339"
-              stroke="#b3903a" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
               class="id_Cubist id_Random_Forest"
-              d="M 354.744415,255.552444 A 471.037884,471.037884 0,0 1,293.175812,-290.104065"
+              d="M 161.620285,50.058372 A 494.860464,494.860464 0,0 1,-415.756683,69.734642"
+              stroke="#e87886" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Cubist id_Svm"
+              d="M 179.136658,46.444798 A 238.552338,238.552338 0,0 1,350.527863,255.090576"
+              stroke="#b3903a" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Cubist id_Xgboost"
+              d="M 173.030487,53.214722 A 312.265867,312.265867 0,0 1,79.507179,399.330902"
               stroke="#e87886" stroke-width="2.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_Cubist id_Svr"
-              d="M 351.641327,261.386841 A 734.368969,734.368969 0,0 1,-258.057312,-352.430664"
+              d="M 160.594070,39.270336 A 450.294578,450.294578 0,0 1,-72.423103,-430.315552"
               stroke="#e87886" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Svm"
-              d="M -40.020195,-151.668961 A 244.509675,244.509675 0,0 1,-112.150497,115.950539"
+        <path stroke-linecap="round" fill="none" class="id_Random_Forest id_Svm"
+              d="M -414.735870,60.362865 A 667.351099,667.351099 0,0 1,344.882233,257.300659"
               stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none"
-              class="id_Xgboost id_Random_Forest"
-              d="M -38.225925,-169.499313 A 307.010028,307.010028 0,0 1,288.445404,-301.195496"
+              class="id_Random_Forest id_Xgboost"
+              d="M -414.018402,63.790886 A 501.661001,501.661001 0,0 1,68.449265,396.166870"
               stroke="#d27cce" stroke-width="4.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Rmse"
-              d="M -34.352432,-164.974869 A 418.142328,418.142328 0,0 1,438.938416,-56.205475"
-              stroke="#9d9482" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Xgboost id_Apêndice_B_--_Código_R"
-              d="M -33.663944,-159.464767 A 244.841960,244.841960 0,0 1,163.640564,35.766575"
+        <path stroke-linecap="round" fill="none" class="id_Random_Forest id_Svr"
+              d="M -424.239899,54.096291 A 513.093241,513.093241 0,0 1,-80.187401,-436.966827"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Apêndice_B_--_Código_R id_Xgboost"
+              d="M 429.572174,-73.535767 A 505.047994,505.047994 0,0 1,81.264282,402.605316"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Área id_Xgboost"
+              d="M -342.794952,-235.207840 A 642.690252,642.690252 0,0 1,72.265198,395.628662"
+              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Área id_Vagas"
+              d="M -342.889313,-234.961868 A 352.677547,352.677547 0,0 1,-125.985268,109.476677"
+              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Hiperparâmetros id_Xgboost"
+              d="M 249.984634,-329.459076 A 637.001572,637.001572 0,0 1,79.343262,399.133209"
+              stroke="#d27cce" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Svm"
+              d="M 76.349808,396.746490 A 260.669240,260.669240 0,0 1,341.303925,263.492676"
+              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_Xgboost id_Svr"
-              d="M -53.460247,-162.296112 A 246.025381,246.025381 0,0 1,-257.544769,-352.519348"
+              d="M 64.530792,398.671234 A 714.744387,714.744387 0,0 1,-75.239555,-431.251129"
+              stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Boosting"
+              d="M 63.020874,410.532654 A 269.088048,269.088048 0,0 1,-241.787033,376.648895"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_Xgboost id_Tabela_7"
-              d="M -46.618626,-170.543304 A 249.024114,249.024114 0,0 1,39.741600,-439.615234"
+              d="M 64.316948,398.899963 A 487.042878,487.042878 0,0 1,-49.392117,-157.937775"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Área"
-              d="M -50.789440,-154.139694 A 307.082406,307.082406 0,0 1,-399.995148,-107.506859"
-              stroke="#6999d4" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Svm id_Random_Forest"
-              d="M -118.419174,112.383156 A 494.447612,494.447612 0,0 1,288.269989,-297.229980"
-              stroke="#9d9482" stroke-width="1.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none"
-              class="id_Rmse id_Random_Forest"
-              d="M 436.333710,-52.681774 A 241.917893,241.917893 0,0 1,297.245117,-288.820587"
-              stroke="#9d9482" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Rmse id_Svr"
-              d="M 435.716919,-46.489986 A 643.020096,643.020096 0,0 1,-254.567810,-353.629333"
-              stroke="#9d9482" stroke-width="2.0" stroke-opacity="1.0"/>
-        <path stroke-linecap="round" fill="none" class="id_Svr id_Random_Forest"
-              d="M -250.824158,-367.288361 A 467.719708,467.719708 0,0 1,290.806946,-305.568695"
+        <path stroke-linecap="round" fill="none" class="id_Xgboost id_Vagas"
+              d="M 62.294601,402.295044 A 290.168242,290.168242 0,0 1,-126.858780,129.451996"
               stroke="#d27cce" stroke-width="1.0" stroke-opacity="1.0"/>
     </g>
     <g id="nodes">
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-184.5758"
-                class="id_Vagas" cy="408.66946" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="169.47424"
+                class="id_Cubist" cy="43.868435" stroke="#b2512b"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="108.75481"
-                class="id_Hiperparâmetros" cy="410.44998" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-424.01382"
+                class="id_Random_Forest" cy="64.093735" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-410.68472"
-                class="id_Boosting" cy="178.6706" stroke="#935690"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#ff743e" r="9.2" cx="361.5259"
-                class="id_Cubist" cy="262.90167" stroke="#b2512b"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-43.54089"
-                class="id_Xgboost" cy="-161.0287" stroke="#935690"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="-119.898"
-                class="id_Svm" cy="122.27321" stroke="#487925"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="445.4822"
-                class="id_Rmse" cy="-48.643803" stroke="#487925"
-                stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="165.30875"
-                class="id_Apêndice_B_--_Código_R" cy="45.626453"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="429.55188"
+                class="id_Apêndice_B_--_Código_R" cy="-83.53574"
                 stroke="#935690" stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="47.781597"
-                class="id_Tabela_7" cy="-445.56152" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#00b7da" r="9.2" cx="-352.1779"
+                class="id_Área" cy="-238.66623" stroke="#008098"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-259.50558"
-                class="id_Svr" cy="-362.32523" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="246.03902"
+                class="id_Hiperparâmetros" cy="-338.64777" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#00b7da" r="9.2" cx="-408.7974"
-                class="id_Área" cy="-112.25246" stroke="#008098"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="71.72769"
+                class="id_Xgboost" cy="405.6142" stroke="#935690"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
-        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="298.1492"
-                class="id_Random_Forest" cy="-298.77963" stroke="#935690"
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-126.65804"
+                class="id_Vagas" cy="119.45402" stroke="#935690"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-45.207058"
+                class="id_Tabela_7" cy="-167.01991" stroke="#935690"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-70.713745"
+                class="id_Svr" cy="-440.16837" stroke="#935690"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d27cce" r="9.2" cx="-249.20113"
+                class="id_Boosting" cy="369.93835" stroke="#935690"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#68ad36" r="9.2" cx="351.17883"
+                class="id_Svm" cy="265.06937" stroke="#487925"
                 stroke-opacity="1.0" stroke-width="1.5999999"/>
     </g>
     <g id="node-labels-outline">
-        <text stroke-linecap="round" font-size="24" x="-184.5758" y="414.2925"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Vagas" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Vagas
-        </text>
-        <text stroke-linecap="round" font-size="24" x="108.75481" y="416.49686"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Hiperparâmetros" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Hiperparâmetros
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-410.68472" y="184.47723"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Boosting" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Boosting
-        </text>
-        <text stroke-linecap="round" font-size="24" x="361.5259" y="267.5462"
+        <text stroke-linecap="round" font-size="24" x="169.47424" y="48.512966"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Cubist" stroke="#ffffff"
               stroke-opacity="0.8" stroke-width="3.0px">
             Cubist
         </text>
-        <text stroke-linecap="round" font-size="24" x="-43.54089" y="-155.22206"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Xgboost" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Xgboost
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-119.898" y="126.81227"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Svm" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Svm
-        </text>
-        <text stroke-linecap="round" font-size="24" x="445.4822" y="-44.182865"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Rmse" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Rmse
-        </text>
-        <text stroke-linecap="round" font-size="24" x="165.30875" y="51.67333"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Apêndice_B_--_Código_R"
-              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
-            Apêndice B -- Código R
-        </text>
-        <text stroke-linecap="round" font-size="24" x="47.781597" y="-440.917"
-              fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Tabela_7" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Tabela 7
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-259.50558"
-              y="-357.78616" fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Svr" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Svr
-        </text>
-        <text stroke-linecap="round" font-size="24" x="-408.7974"
-              y="-106.602066" fill="#000000" stroke-linejoin="round"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Área" stroke="#ffffff"
-              stroke-opacity="0.8" stroke-width="3.0px">
-            Área
-        </text>
-        <text stroke-linecap="round" font-size="24" x="298.1492" y="-294.1351"
+        <text stroke-linecap="round" font-size="24" x="-424.01382" y="68.738266"
               fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Random_Forest" stroke="#ffffff"
               stroke-opacity="0.8" stroke-width="3.0px">
             Random Forest
         </text>
-    </g>
-    <g id="node-labels">
-        <text font-size="24" x="-184.5758" y="414.2925" fill="#000000"
+        <text stroke-linecap="round" font-size="24" x="429.55188" y="-77.48887"
+              fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Vagas">
-            Vagas
+              font-family="Dialog" class="id_Apêndice_B_--_Código_R"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="3.0px">
+            Apêndice B -- Código R
         </text>
-        <text font-size="24" x="108.75481" y="416.49686" fill="#000000"
+        <text stroke-linecap="round" font-size="24" x="-352.1779" y="-233.01584"
+              fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Hiperparâmetros">
+              font-family="Dialog" class="id_Área" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Área
+        </text>
+        <text stroke-linecap="round" font-size="24" x="246.03902" y="-332.6009"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Hiperparâmetros" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
             Hiperparâmetros
         </text>
-        <text font-size="24" x="-410.68472" y="184.47723" fill="#000000"
+        <text stroke-linecap="round" font-size="24" x="71.72769" y="411.42084"
+              fill="#000000" stroke-linejoin="round"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Boosting">
+              font-family="Dialog" class="id_Xgboost" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Xgboost
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-126.65804"
+              y="125.077065" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Vagas" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Vagas
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-45.207058"
+              y="-162.37538" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Tabela_7" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Tabela 7
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-70.713745" y="-435.6293"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Svr" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Svr
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-249.20113" y="375.745"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Boosting" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
             Boosting
         </text>
-        <text font-size="24" x="361.5259" y="267.5462" fill="#000000"
+        <text stroke-linecap="round" font-size="24" x="351.17883" y="269.60843"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Svm" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            Svm
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="24" x="169.47424" y="48.512966" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Cubist">
             Cubist
         </text>
-        <text font-size="24" x="-43.54089" y="-155.22206" fill="#000000"
+        <text font-size="24" x="-424.01382" y="68.738266" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Xgboost">
-            Xgboost
+              font-family="Dialog" class="id_Random_Forest">
+            Random Forest
         </text>
-        <text font-size="24" x="-119.898" y="126.81227" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Svm">
-            Svm
-        </text>
-        <text font-size="24" x="445.4822" y="-44.182865" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Rmse">
-            Rmse
-        </text>
-        <text font-size="24" x="165.30875" y="51.67333" fill="#000000"
+        <text font-size="24" x="429.55188" y="-77.48887" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Apêndice_B_--_Código_R">
             Apêndice B -- Código R
         </text>
-        <text font-size="24" x="47.781597" y="-440.917" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Tabela_7">
-            Tabela 7
-        </text>
-        <text font-size="24" x="-259.50558" y="-357.78616" fill="#000000"
-              style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Svr">
-            Svr
-        </text>
-        <text font-size="24" x="-408.7974" y="-106.602066" fill="#000000"
+        <text font-size="24" x="-352.1779" y="-233.01584" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Dialog" class="id_Área">
             Área
         </text>
-        <text font-size="24" x="298.1492" y="-294.1351" fill="#000000"
+        <text font-size="24" x="246.03902" y="-332.6009" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
-              font-family="Dialog" class="id_Random_Forest">
-            Random Forest
+              font-family="Dialog" class="id_Hiperparâmetros">
+            Hiperparâmetros
+        </text>
+        <text font-size="24" x="71.72769" y="411.42084" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Xgboost">
+            Xgboost
+        </text>
+        <text font-size="24" x="-126.65804" y="125.077065" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Vagas">
+            Vagas
+        </text>
+        <text font-size="24" x="-45.207058" y="-162.37538" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Tabela_7">
+            Tabela 7
+        </text>
+        <text font-size="24" x="-70.713745" y="-435.6293" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Svr">
+            Svr
+        </text>
+        <text font-size="24" x="-249.20113" y="375.745" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Boosting">
+            Boosting
+        </text>
+        <text font-size="24" x="351.17883" y="269.60843" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_Svm">
+            Svm
         </text>
     </g>
 </svg>

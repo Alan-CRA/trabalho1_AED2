@@ -194,7 +194,8 @@ if arquivo and st.button("▶ Analisar"):
                     st.dataframe(pd.DataFrame(vizinhos, columns=["Vizinho", "Peso"]))
 
                     with open(nome_ego, "rb") as f:
-                        st.download_button("⬇ GraphML Ego Network", f, nome_ego)
+                        dados_ego = f.read()
+                    st.download_button("⬇ GraphML Ego Network", dados_ego, nome_ego)
                 else:
                     st.warning(f"'{entidade_ego}' não encontrada no grafo.")
 
@@ -220,5 +221,7 @@ if arquivo and st.button("▶ Analisar"):
             st.subheader("Downloads")
             st.download_button("⬇ CSV", df.to_csv(index=False, encoding='utf-8-sig'),
                                f"entidades_{label.lower()}.csv", "text/csv")
-            with open(f"grafo_final{'_paragrafo' if label == 'Parágrafo' else ''}.graphml", "rb") as f:
-                st.download_button("⬇ GraphML", f, f"grafo_{label.lower()}.graphml")
+            nome_grafo = f"grafo_final{'_paragrafo' if label == 'Parágrafo' else ''}.graphml"
+            with open(nome_grafo, "rb") as f:
+                dados_grafo = f.read()
+            st.download_button("⬇ GraphML", dados_grafo, nome_grafo)
