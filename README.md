@@ -1,6 +1,7 @@
 # 📊 Análise de Entidades — TCC
 
 Ferramenta para análise de entidades nomeadas (NER) em documentos PDF acadêmicos, com construção de grafos de co-ocorrência por frase e por parágrafo. Possui interface gráfica via Streamlit e exportação para o Gephi.
+Nesse trabalho foi utilizado um TCC sobre Predição de preços de imóveis em Natal/RN usando aprendizado de máquina, escrito por Makson Pedro Rodrigues
 
 ### Alunos:
 - Alan César Rebouças de Araújo Carvalho
