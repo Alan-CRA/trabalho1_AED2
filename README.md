@@ -163,3 +163,6 @@ O grafo por parágrafo captura mais entidades e conexões únicas, pois a janela
 2. Abra o Gephi
 3. **File → Open** → selecione o arquivo `.graphml`
 4. O grafo será carregado com os pesos das arestas e os tipos das entidades como atributos
+
+## Link para o video no loom
+https://www.loom.com/share/5fb6a2236c974e23862b25c768458c9b
